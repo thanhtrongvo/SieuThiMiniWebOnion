@@ -1,0 +1,20 @@
+﻿@model Domain.Entities.KhachHang
+
+@{
+    ViewData["Title"] = "Xóa Khách Hàng";
+}
+
+<h2>Xóa Khách Hàng</h2>
+
+<h3>Bạn có chắc chắn muốn xóa khách hàng này?</h3>
+<div>
+    <h4>@Model.HoTen</h4>
+    <p>Email: @Model.Email</p>
+    <p>Ngày Sinh: @Model.NgaySinh.ToShortDateString()</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="MaKH" />
+    <input type="submit" value="Xóa" class="btn btn-danger" /> |
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

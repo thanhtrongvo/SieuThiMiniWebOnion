@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Domain.Entities.KhuyenMai>
+
+@{
+    ViewData["Title"] = "Danh Sách Khuyến Mãi";
+}
+
+<h2>Danh Sách Khuyến Mãi</h2>
+
+<a asp-action="Create" class="btn btn-primary">Thêm Khuyến Mãi</a>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Tên Chương Trình</th>
+            <th>Ngày Bắt Đầu</th>
+            <th>Ngày Kết Thúc</th>
+            <th>Giảm Giá (%)</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var km in Model)
+        {
+            <tr>
+                <td>@km.TenChuongTrinh</td>
+                <td>@km.NgayBatDau.ToShortDateString()</td>
+                <td>@km.NgayKetThuc.ToShortDateString()</td>
+                <td>@km.GiamGia</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@km.MaKM" class="btn btn-warning btn-sm">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@km.MaKM" class="btn btn-danger btn-sm">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

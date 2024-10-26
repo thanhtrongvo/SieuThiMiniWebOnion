@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Domain.Entities.TrangThai>
+
+@{
+    ViewData["Title"] = "Danh Sách Trạng Thái";
+}
+
+<h2>Danh Sách Trạng Thái</h2>
+
+<a href="@Url.Action("Create", "TrangThai")" class="btn btn-primary">Thêm Trạng Thái</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Mã Trạng Thái</th>
+            <th>Tên Trạng Thái</th>
+            <th>Mô Tả</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaTrangThai</td>
+                <td>@item.TenTrangThai</td>
+                <td>@item.MoTa</td>
+                <td>
+                    <a href="@Url.Action("Edit", "TrangThai", new { id = item.MaTrangThai })" class="btn btn-warning">Sửa</a>
+                    <a href="@Url.Action("Delete", "TrangThai", new { id = item.MaTrangThai })" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

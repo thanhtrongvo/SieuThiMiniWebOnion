@@ -1,0 +1,20 @@
+﻿@model Domain.Entities.User
+
+@{
+    ViewData["Title"] = "Xóa Người Dùng";
+}
+
+<h2>Xóa Người Dùng</h2>
+
+<h3>Bạn có chắc chắn muốn xóa người dùng này?</h3>
+<div>
+    <h4>@Model.HoTen</h4>
+    <p>Email: @Model.Email</p>
+    <p>Ngày Sinh: @Model.NgaySinh?.ToShortDateString()</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="MaUser" />
+    <input type="submit" value="Xóa" class="btn btn-danger" /> |
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

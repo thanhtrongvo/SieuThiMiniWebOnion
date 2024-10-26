@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Domain.Entities.User>
+
+@{
+    ViewData["Title"] = "Danh Sách Người Dùng";
+}
+
+<h2>Danh Sách Người Dùng</h2>
+
+<!-- Nút Thêm Người Dùng -->
+<a asp-action="Create" class="btn btn-primary">Thêm Người Dùng</a>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Tên Người Dùng</th>
+            <th>Email</th>
+            <th>Ngày Sinh</th>
+            <th>Địa Chỉ</th>
+            <th>Số Điện Thoại</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.HoTen</td>
+                <td>@user.Email</td>
+                <td>@user.NgaySinh?.ToShortDateString()</td>
+                <td>@user.DiaChi</td>
+                <td>@user.DienThoai</td>
+                <td>
+                    <!-- Nút Sửa Người Dùng -->
+                    <a asp-action="Edit" asp-route-id="@user.MaUser" class="btn btn-warning btn-sm">Sửa</a>
+
+                    <!-- Nút Xóa Người Dùng -->
+                    <a asp-action="Delete" asp-route-id="@user.MaUser" class="btn btn-danger btn-sm">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

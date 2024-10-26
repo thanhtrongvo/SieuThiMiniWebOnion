@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Domain.Entities.LichSuGiaoDich>
+
+@{
+    ViewData["Title"] = "Lịch Sử Giao Dịch";
+}
+
+<h2>Lịch Sử Giao Dịch</h2>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Thêm Giao Dịch</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Mã Giao Dịch</th>
+            <th>Người Dùng</th>
+            <th>Hóa Đơn</th>
+            <th>Ngày Giao Dịch</th>
+            <th>Tổng Tiền</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaGiaoDich</td>
+                <td>@item.User?.HoTen</td>
+                <td>@item.HoaDon?.MaHD</td>
+                <td>@item.NgayGiaoDich.ToString("dd/MM/yyyy")</td>
+                <td>@item.TongTien</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.MaGiaoDich })" class="btn btn-warning">Sửa</a>
+                    <a href="@Url.Action("Delete", new { id = item.MaGiaoDich })" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

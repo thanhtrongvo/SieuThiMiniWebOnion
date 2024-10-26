@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Domain.Entities.KhachHang>
+
+@{
+    ViewData["Title"] = "Danh Sách Khách Hàng";
+}
+
+<h2>Danh Sách Khách Hàng</h2>
+
+<!-- Nút Thêm Khách Hàng -->
+<a asp-action="Create" class="btn btn-primary">Thêm Khách Hàng</a>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Tên Khách Hàng</th>
+            <th>Email</th>
+            <th>Ngày Sinh</th>
+            <th>Địa Chỉ</th>
+            <th>Số Điện Thoại</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var khachHang in Model)
+        {
+            <tr>
+                <td>@khachHang.HoTen</td>
+                <td>@khachHang.Email</td>
+                <td>@khachHang.NgaySinh.ToShortDateString()</td>
+                <td>@khachHang.DiaChi</td>
+                <td>@khachHang.DienThoai</td>
+                <td>
+                    <!-- Nút Sửa Khách Hàng -->
+                    <a asp-action="Edit" asp-route-id="@khachHang.MaKH" class="btn btn-warning btn-sm">Sửa</a>
+
+                    <!-- Nút Xóa Khách Hàng -->
+                    <a asp-action="Delete" asp-route-id="@khachHang.MaKH" class="btn btn-danger btn-sm">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

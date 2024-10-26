@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Domain.Entities.NhapKho>
+
+@{
+    ViewData["Title"] = "Danh Sách Nhập Kho";
+}
+
+<h2>Danh Sách Nhập Kho</h2>
+
+<a href="@Url.Action("Create", "NhapKho")" class="btn btn-primary">Thêm Nhập Kho</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Mã Nhập Kho</th>
+            <th>Nhà Cung Cấp</th>
+            <th>Hàng Hóa</th>
+            <th>Ngày Nhập</th>
+            <th>Số Lượng</th>
+            <th>Giá Nhập</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaNK</td>
+                <td>@item.NhaCungCap?.TenNCC</td> <!-- Hiển thị thông tin nhà cung cấp -->
+                <td>@item.HangHoa?.TenHH</td> <!-- Hiển thị thông tin hàng hóa -->
+                <td>@item.NgayNhap.ToShortDateString()</td>
+                <td>@item.SoLuong</td>
+                <td>@item.GiaNhap</td>
+                <td>
+                    <a href="@Url.Action("Edit", "NhapKho", new { id = item.MaNK })" class="btn btn-warning">Sửa</a>
+                    <a href="@Url.Action("Delete", "NhapKho", new { id = item.MaNK })" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

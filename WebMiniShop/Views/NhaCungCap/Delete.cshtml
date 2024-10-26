@@ -1,0 +1,20 @@
+﻿@model Domain.Entities.NhaCungCap
+
+@{
+    ViewData["Title"] = "Xóa Nhà Cung Cấp";
+}
+
+<h2>Xóa Nhà Cung Cấp</h2>
+
+<h3>Bạn có chắc chắn muốn xóa nhà cung cấp này không?</h3>
+<div>
+    <h4>@Model.TenNCC</h4>
+    <p>Địa Chỉ: @Model.DiaChi</p>
+    <p>Điện Thoại: @Model.DienThoai</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="MaNCC" />
+    <button type="submit" class="btn btn-danger">Xác Nhận Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

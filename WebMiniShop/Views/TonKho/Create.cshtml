@@ -1,0 +1,31 @@
+﻿@model Domain.Entities.TonKho
+
+@{
+    ViewData["Title"] = "Thêm Tồn Kho";
+}
+
+<h2>Thêm Tồn Kho</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="MaHH" class="control-label">Mã Hàng Hóa</label>
+        <input asp-for="MaHH" class="form-control" />
+        <span asp-validation-for="MaHH" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SoLuongTon" class="control-label"></label>
+        <input asp-for="SoLuongTon" class="form-control" />
+        <span asp-validation-for="SoLuongTon" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NgayCapNhat" class="control-label"></label>
+        <input asp-for="NgayCapNhat" type="date" class="form-control" />
+        <span asp-validation-for="NgayCapNhat" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Thêm Tồn Kho" class="btn btn-primary" />
+    </div>
+</form>

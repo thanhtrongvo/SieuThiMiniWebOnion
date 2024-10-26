@@ -1,0 +1,82 @@
+﻿@model Domain.Entities.KhachHang
+
+@{
+    ViewData["Title"] = "Chỉnh Sửa Khách Hàng";
+}
+
+<h2>Chỉnh Sửa Khách Hàng</h2>
+
+<!-- Hiển thị lỗi tổng quát của form -->
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label asp-for="HoTen" class="control-label"></label>
+        <input asp-for="HoTen" class="form-control" />
+        <span asp-validation-for="HoTen" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MatKhau" class="control-label"></label>
+        <input asp-for="MatKhau" type="password" class="form-control" />
+        <span asp-validation-for="MatKhau" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GioiTinh" class="control-label"></label>
+        <input asp-for="GioiTinh" type="checkbox" class="form-check-input" />
+        <span asp-validation-for="GioiTinh" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NgaySinh" class="control-label"></label>
+        <input asp-for="NgaySinh" type="date" class="form-control" />
+        <span asp-validation-for="NgaySinh" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DiaChi" class="control-label"></label>
+        <input asp-for="DiaChi" class="form-control" />
+        <span asp-validation-for="DiaChi" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DienThoai" class="control-label"></label>
+        <input asp-for="DienThoai" class="form-control" />
+        <span asp-validation-for="DienThoai" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HieuLuc" class="control-label"></label>
+        <input asp-for="HieuLuc" type="checkbox" class="form-check-input" />
+        <span asp-validation-for="HieuLuc" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="VaiTro" class="control-label"></label>
+        <input asp-for="VaiTro" class="form-control" />
+        <span asp-validation-for="VaiTro" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MaNV" class="control-label"></label>
+        <input asp-for="MaNV" class="form-control" />
+        <span asp-validation-for="MaNV" class="text-danger"></span>
+    </div>
+
+    <input type="hidden" asp-for="MaKH" />
+
+    <div class="form-group">
+        <input type="submit" value="Lưu Thay Đổi" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,20 @@
+﻿@model Domain.Entities.LichSuGiaoDich
+
+@{
+    ViewData["Title"] = "Xóa Giao Dịch";
+}
+
+<h2>Xóa Giao Dịch</h2>
+
+<h3>Bạn có chắc chắn muốn xóa giao dịch này không?</h3>
+<div>
+    <h4>@Model.User?.HoTen</h4>
+    <p>Ngày Giao Dịch: @Model.NgayGiaoDich.ToString("dd/MM/yyyy")</p>
+    <p>Tổng Tiền: @Model.TongTien</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="MaGiaoDich" />
+    <input type="submit" value="Xóa" class="btn btn-danger" /> |
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

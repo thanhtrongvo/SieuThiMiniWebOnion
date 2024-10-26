@@ -1,0 +1,19 @@
+﻿@model Domain.Entities.TrangThai
+
+@{
+    ViewData["Title"] = "Xóa Trạng Thái";
+}
+
+<h2>Xóa Trạng Thái</h2>
+
+<h3>Bạn có chắc chắn muốn xóa trạng thái này?</h3>
+<div>
+    <h4>@Model.TenTrangThai</h4>
+    <p>Mô Tả: @Model.MoTa</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="MaTrangThai" />
+    <input type="submit" value="Xóa" class="btn btn-danger" /> |
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

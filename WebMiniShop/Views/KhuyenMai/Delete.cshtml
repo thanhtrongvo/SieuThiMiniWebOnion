@@ -1,0 +1,20 @@
+﻿@model Domain.Entities.KhuyenMai
+
+@{
+    ViewData["Title"] = "Xóa Khuyến Mãi";
+}
+
+<h2>Xóa Khuyến Mãi</h2>
+
+<h3>Bạn có chắc chắn muốn xóa khuyến mãi này?</h3>
+<div>
+    <h4>@Model.TenChuongTrinh</h4>
+    <p>Ngày Bắt Đầu: @Model.NgayBatDau.ToShortDateString()</p>
+    <p>Ngày Kết Thúc: @Model.NgayKetThuc.ToShortDateString()</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="MaKM" />
+    <input type="submit" value="Xóa" class="btn btn-danger" /> |
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

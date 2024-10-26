@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Domain.Entities.HoaDon>
+
+@{
+    ViewData["Title"] = "Danh Sách Hóa Đơn";
+}
+
+<h2>Danh Sách Hóa Đơn</h2>
+
+<a href="@Url.Action("Create", "HoaDon")" class="btn btn-primary">Thêm Hóa Đơn</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Mã Hóa Đơn</th>
+            <th>Người Dùng</th>
+            <th>Ngày Đặt</th>
+            <th>Ngày Giao</th>
+            <th>Trạng Thái</th>
+            <th>Địa Chỉ Giao</th>
+            <th>Phí Vận Chuyển</th>
+            <th>Ghi Chú</th>
+            <th>Chi Tiết</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var hoaDon in Model)
+        {
+            <tr>
+                <td>@hoaDon.MaHD</td>
+                <td>@hoaDon.User?.HoTen</td>
+                <td>@hoaDon.NgayDat.ToShortDateString()</td>
+                <td>@hoaDon.NgayGiao?.ToShortDateString()</td>
+                <td>@hoaDon.TrangThai?.TenTrangThai</td>
+                <td>@hoaDon.DiaChiGiao</td>
+                <td>@hoaDon.PhiVanChuyen</td>
+                <td>@hoaDon.GhiChu</td>
+                <td>
+                    <a href="@Url.Action("Details", "ChiTietHD", new { id = hoaDon.MaHD })" class="btn btn-info">Xem Chi Tiết</a>
+                </td>
+                <td>
+                    <a href="@Url.Action("Edit", "HoaDon", new { id = hoaDon.MaHD })" class="btn btn-warning">Sửa</a>
+                    <a href="@Url.Action("Delete", "HoaDon", new { id = hoaDon.MaHD })" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

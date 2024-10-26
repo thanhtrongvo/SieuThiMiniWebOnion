@@ -1,0 +1,20 @@
+﻿@model Domain.Entities.TonKho
+
+@{
+    ViewData["Title"] = "Xóa Tồn Kho";
+}
+
+<h2>Xóa Tồn Kho</h2>
+
+<h3>Bạn có chắc chắn muốn xóa hàng tồn này?</h3>
+<div>
+    <h4>@Model.HangHoa?.TenHH</h4>
+    <p>Số Lượng Tồn: @Model.SoLuongTon</p>
+    <p>Ngày Cập Nhật: @Model.NgayCapNhat?.ToShortDateString()</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="MaHH" />
+    <input type="submit" value="Xóa" class="btn btn-danger" /> |
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Domain.Entities.ChiTietHD>
+
+@{
+    ViewData["Title"] = "Chi Tiết Hóa Đơn";
+}
+
+<h2>Chi Tiết Hóa Đơn</h2>
+
+<a href="@Url.Action("Create", "ChiTietHD")" class="btn btn-primary">Thêm Chi Tiết</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Mã Chi Tiết</th>
+            <th>Mã Hóa Đơn</th>
+            <th>Tên Hàng Hóa</th>
+            <th>Đơn Giá</th>
+            <th>Số Lượng</th>
+            <th>Giảm Giá</th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaCT</td>
+                <td>@item.MaHD</td>
+                <td>@item.HangHoa.TenHH</td>
+                <td>@item.DonGia</td>
+                <td>@item.SoLuong</td>
+                <td>@item.GiamGia</td>
+                <td>
+                    <a href="@Url.Action("Edit", "ChiTietHD", new { id = item.MaCT })" class="btn btn-warning">Sửa</a>
+                    <a href="@Url.Action("Delete", "ChiTietHD", new { id = item.MaCT })" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

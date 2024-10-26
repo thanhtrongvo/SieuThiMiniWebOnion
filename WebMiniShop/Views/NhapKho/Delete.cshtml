@@ -1,0 +1,19 @@
+﻿@model Domain.Entities.NhapKho
+
+@{
+    ViewData["Title"] = "Xóa Nhập Kho";
+}
+
+<h2>Xóa Nhập Kho</h2>
+
+<h3>Bạn có chắc chắn muốn xóa bản ghi Nhập Kho này?</h3>
+<div>
+    <h4>@Model.HangHoa?.TenHH</h4>
+    <h4>@Model.NhaCungCap?.TenNCC</h4>
+</div>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="MaNK" />
+    <input type="submit" value="Xóa" class="btn btn-danger" /> |
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

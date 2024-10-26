@@ -1,0 +1,19 @@
+﻿@model Domain.Entities.Loai
+
+@{
+    ViewData["Title"] = "Xóa Loại Hàng Hóa";
+}
+
+<h2>Xóa Loại Hàng Hóa</h2>
+
+<h3>Bạn có chắc chắn muốn xóa loại hàng hóa này?</h3>
+<div>
+    <h4>@Model.TenLoai</h4>
+    <p>Mô Tả: @Model.MoTa</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="MaLoai" />
+    <input type="submit" value="Xóa" class="btn btn-danger" /> |
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - WebMiniShop</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Navbar for Dashboard -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">WebMiniShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="TrangThai" asp-action="Index">Quản lý Trạng Thái</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Loai" asp-action="Index">Quản lý Loại</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="NhaCungCap" asp-action="Index">Quản lý Nhà Cung Cấp</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="KhuyenMai" asp-action="Index">Quản lý Khuyến Mãi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="HangHoa" asp-action="Index">Quản lý Hàng Hóa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="HoaDon" asp-action="Index">Quản lý Hóa Đơn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="NhapKho" asp-action="Index">Quản lý Nhập Kho</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="TonKho" asp-action="Index">Quản lý Tồn Kho</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="LichSuGiaoDich" asp-action="Index">Quản lý Lịch Sử Giao Dịch</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2>Dashboard - Quản lý hệ thống</h2>
+        <p>Chọn một trong các mục trong thanh điều hướng để bắt đầu quản lý dữ liệu.</p>
+    </div>
+
+    <!-- Thêm Popper.js và Bootstrap script -->
+  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
