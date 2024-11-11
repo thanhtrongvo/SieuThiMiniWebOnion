@@ -15,3 +15,57 @@ C:\Users\dangk\source\repos\Solution1\Application\obj\Debug\net8.0\Application.p
 C:\Users\dangk\source\repos\Solution1\Application\obj\Debug\net8.0\ref\Application.dll
 C:\Users\dangk\source\repos\Solution1\Application\bin\Debug\net8.0\Application.runtimeconfig.json
 C:\Users\dangk\source\repos\Solution1\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.runtimeconfig.json
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.dll
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.dll
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.runtimeconfig.json
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\ref\Application.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.deps.json
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.runtimeconfig.json
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Application.pdb
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Domain.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\bin\Debug\net8.0\Domain.pdb
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\refint\Application.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.pdb
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
+C:\xampp\htdocs\SieuThiMiniWebOnion\Application\obj\Debug\net8.0\ref\Application.dll

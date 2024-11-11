@@ -17,3 +17,63 @@ C:\Users\dangk\source\repos\Solution1\Persistence\obj\Debug\net8.0\Persistence.p
 C:\Users\dangk\source\repos\Solution1\Persistence\obj\Debug\net8.0\ref\Persistence.dll
 C:\Users\dangk\source\repos\Solution1\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
 C:\Users\dangk\source\repos\Solution1\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\dangk\Source\Repos\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Application.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - lv5f\Desktop\SieuThiMiniWebOnion\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Application.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Domain.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Application.pdb
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+C:\xampp\htdocs\SieuThiMiniWebOnion\Persistence\obj\Debug\net8.0\ref\Persistence.dll

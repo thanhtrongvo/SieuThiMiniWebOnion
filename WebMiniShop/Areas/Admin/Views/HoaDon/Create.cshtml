@@ -1,0 +1,110 @@
+﻿@model Domain.Entities.HoaDon
+
+@{
+    ViewData["Title"] = "Thêm Hóa Đơn";
+    Layout = null;
+}
+
+<div style="display: flex; justify-content: center;">
+    <form asp-action="Create" method="post" style="border: 1px solid #ddd; padding: 20px; width: 60%; background-color: #fff;">
+<h2>Thêm Hóa Đơn</h2>
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="MaUser" class="control-label">Người Dùng</label>
+        <select asp-for="MaUser" class="form-control">
+            @foreach (var user in ViewBag.Users as List<Domain.Entities.User>)
+            {
+                <option value="@user.MaUser">@user.HoTen</option>
+            }
+        </select>
+        <span asp-validation-for="MaUser" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NgayDat" class="control-label">Ngày đặt hàng</label>
+        <input asp-for="NgayDat" type="date" class="form-control" />
+        <span asp-validation-for="NgayDat" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DiaChiGiao" class="control-label">Địa chỉ giao</label>
+        <input asp-for="DiaChiGiao" class="form-control" />
+        <span asp-validation-for="DiaChiGiao" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PhiVanChuyen" class="control-label">Phí vận chuyển</label>
+        <input asp-for="PhiVanChuyen" class="form-control" />
+        <span asp-validation-for="PhiVanChuyen" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MaTrangThai" class="control-label">Trạng Thái</label>
+        <select asp-for="MaTrangThai" class="form-control">
+            @foreach (var trangThai in ViewBag.TrangThais as List<Domain.Entities.TrangThai>)
+            {
+                <option value="@trangThai.MaTrangThai">@trangThai.TenTrangThai</option>
+            }
+        </select>
+        <span asp-validation-for="MaTrangThai" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GhiChu" class="control-label">Ghi chú</label>
+        <textarea asp-for="GhiChu" class="form-control"></textarea>
+        <span asp-validation-for="GhiChu" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Thêm Hóa Đơn" class="btn btn-primary" />
+    </div>
+</form>
+</div>
+<style>
+    .btn-primary {
+        width: 100%;
+    }
+
+    body {
+        background-color: #f2f2f2;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="date"],
+        .form-group input[type="number"],
+        .form-group input[type="email"],
+        .form-group input[type="password"],
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form-group input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+            .form-group input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
+    .text-danger {
+        color: red;
+    }
+</style>

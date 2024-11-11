@@ -1,0 +1,96 @@
+﻿@model Domain.Entities.LichSuGiaoDich
+
+@{
+    ViewData["Title"] = "Thêm Giao Dịch";
+    Layout = null;
+}
+
+<div style="display: flex; justify-content: center;">
+<form asp-action="Create" method="post" style="border: 1px solid #ddd; padding: 20px; width: 60%; background-color: #fff;">
+
+<h2>Thêm Giao Dịch</h2>
+    <div class="form-group">
+        <label asp-for="MaUser" class="control-label">Người Dùng</label>
+        <select asp-for="MaUser" class="form-control">
+            @foreach (var user in ViewBag.Users)
+            {
+                <option value="@user.MaUser">@user.HoTen</option>
+            }
+        </select>
+        <span asp-validation-for="MaUser" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MaHD" class="control-label">Hóa Đơn</label>
+        <select asp-for="MaHD" class="form-control">
+            @foreach (var hd in ViewBag.HoaDons)
+            {
+                <option value="@hd.MaHD">@hd.MaHD</option>
+            }
+        </select>
+        <span asp-validation-for="MaHD" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NgayGiaoDich" class="control-label">Ngày giao dịch</label>
+        <input asp-for="NgayGiaoDich" class="form-control" type="date" />
+        <span asp-validation-for="NgayGiaoDich" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TongTien" class="control-label">Tổng tiền</label>
+        <input asp-for="TongTien" class="form-control" />
+        <span asp-validation-for="TongTien" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Thêm Giao Dịch" class="btn btn-primary" />
+    </div>
+    </form>
+    </div>
+    <style>
+        .btn-primary {
+            width: 100%;
+        }
+
+            body {
+                background-color: #f2f2f2;
+            }
+
+
+            .form-group {
+                margin-bottom: 20px;
+            }
+            .form-group label {
+                font-weight: bold;
+            }
+            .form-group input[type="text"],
+            .form-group input[type="date"],
+            .form-group input[type="number"],
+            .form-group input[type="email"],
+            .form-group input[type="password"],
+
+            .form-group select,
+            .form-group textarea {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+            .form-group input[type="submit"] {
+
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            }
+            .form-group input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+            .text-danger {
+                color: red;
+            }
+    </style>
