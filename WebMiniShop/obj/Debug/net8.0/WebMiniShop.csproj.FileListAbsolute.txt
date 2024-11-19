@@ -781,3 +781,15 @@ C:/Users/dangk/Downloads/SieuThiMiniWebOnion/SieuThiMiniWebOnion/WebMiniShop/bin
 /Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/obj/Debug/net8.0/WebMiniShop.genruntimeconfig.cache
 /Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/obj/Debug/net8.0/ref/WebMiniShop.dll
 /Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/obj/Debug/net8.0/scopedcss/Areas/Client/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.AssemblyReference.cache
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.AssemblyInfoInputs.cache
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.AssemblyInfo.cs
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.CoreCompileInputs.cache
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.MvcApplicationPartsAssemblyInfo.cache
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.RazorAssemblyInfo.cache
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.RazorAssemblyInfo.cs
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.sourcelink.json
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.dll
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/refint/WebMiniShop.dll
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/obj/Debug/net8.0/WebMiniShop.pdb

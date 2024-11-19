@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RavZIjkI1sc=",
+  "dgSpecHash": "RSGqq2Qus04=",
   "success": true,
-  "projectFilePath": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/WebMiniShop.csproj",
+  "projectFilePath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/WebMiniShop.csproj",
   "expectedPackageFiles": [
     "/Users/thanhtrongvo/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/thanhtrongvo/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

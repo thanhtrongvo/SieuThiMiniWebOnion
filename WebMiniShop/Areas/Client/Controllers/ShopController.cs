@@ -28,7 +28,7 @@ namespace FoodShop.Controllers
                 GiamGia = p.GiamGia,
                 SoLanXem = p.SoLanXem,
                 MaLoai = p.MaLoai,
-                Loai = p.MaLoaiNavigation.Loai
+                
             });
             return View();
             

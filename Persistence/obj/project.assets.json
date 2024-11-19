@@ -4554,11 +4554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/Persistence/Persistence.csproj",
+      "projectUniqueName": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Persistence/Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/Persistence/Persistence.csproj",
+      "projectPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Persistence/Persistence.csproj",
       "packagesPath": "/Users/thanhtrongvo/.nuget/packages/",
-      "outputPath": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/Persistence/obj/",
+      "outputPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/thanhtrongvo/.nuget/NuGet/NuGet.Config"
@@ -4573,11 +4573,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/Application/Application.csproj": {
-              "projectPath": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/Application/Application.csproj"
+            "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Application/Application.csproj": {
+              "projectPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Application/Application.csproj"
             },
-            "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/Domain/Domain.csproj": {
-              "projectPath": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/Domain/Domain.csproj"
+            "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj": {
+              "projectPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj"
             }
           }
         }

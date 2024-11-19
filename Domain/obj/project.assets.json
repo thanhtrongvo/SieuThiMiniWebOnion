@@ -4382,11 +4382,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/Domain/Domain.csproj",
+      "projectPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj",
       "packagesPath": "/Users/thanhtrongvo/.nuget/packages/",
-      "outputPath": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/Domain/obj/",
+      "outputPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/thanhtrongvo/.nuget/NuGet/NuGet.Config"
