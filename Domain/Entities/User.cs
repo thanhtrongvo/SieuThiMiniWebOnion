@@ -19,11 +19,15 @@ namespace Domain.Entities
 
         [Required]
         [StringLength(255)]
-        public string? Email { get; set; }
+        public required string Email { get; set; }
+
+
 
         [Required]
         [StringLength(255)]
-        public string? MatKhau { get; set; }
+        public required string MatKhau { get; set; }
+
+
 
         [StringLength(50)]
         [Display(Name = "Điện Thoại")]

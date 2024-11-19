@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Domain.Entities.TrangThai>
+
+@{
+    ViewData["Title"] = "Danh Sách Trạng Thái";
+    Layout = null;
+
+}
+
+<a href="@Url.Action("Create", "TrangThai")" class="btn btn-primary">Thêm Trạng Thái</a>
+<div class="container-fluid px-4">
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i>
+        Danh sách trạng thái
+    </div>
+    <div class="card-body">
+        <table id="datatablesSimple">
+            <thead>
+                <tr>
+                    <th>Mã Trạng Thái</th>
+                    <th>Tên Trạng Thái</th>
+                    <th>Mô Tả</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.MaTrangThai</td>
+                        <td>@item.TenTrangThai</td>
+                        <td>@item.MoTa</td>
+                        <td>
+                            <a href="@Url.Action("Edit", "TrangThai", new { id = item.MaTrangThai })" class="btn btn-warning">Sửa</a>
+                            <a href="@Url.Action("Delete", "TrangThai", new { id = item.MaTrangThai })" class="btn btn-danger">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+
+<style>
+    .btn btn-primary {
+        padding-top: 20px;
+    }
+</style>
+<link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css"
+      rel="stylesheet" />
+<link href="~/css/Dashboard.css" rel="stylesheet" />
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"
+        crossorigin="anonymous"></script>
+<script src="~/js/Dashboard.js"></script>

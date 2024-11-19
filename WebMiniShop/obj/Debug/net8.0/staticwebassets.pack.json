@@ -1,263 +1,607 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebMiniShop.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebMiniShop.bundle.scp.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/obj/Debug/net8.0/scopedcss/projectbundle/WebMiniShop.bundle.scp.css",
+      "PackagePath": "staticwebassets/WebMiniShop.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/css/Dashboard.css",
+      "PackagePath": "staticwebassets/css/Dashboard.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/css/login.css",
+      "PackagePath": "staticwebassets/css/login.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/css/util.css",
+      "PackagePath": "staticwebassets/css/util.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/avatar.jpg",
+      "PackagePath": "staticwebassets/image/avatar.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/baner-1.png",
+      "PackagePath": "staticwebassets/image/baner-1.png"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/banner-fruits.jpg",
+      "PackagePath": "staticwebassets/image/banner-fruits.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/best-product-1.jpg",
+      "PackagePath": "staticwebassets/image/best-product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/best-product-2.jpg",
+      "PackagePath": "staticwebassets/image/best-product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/best-product-3.jpg",
+      "PackagePath": "staticwebassets/image/best-product-3.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/best-product-4.jpg",
+      "PackagePath": "staticwebassets/image/best-product-4.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/best-product-5.jpg",
+      "PackagePath": "staticwebassets/image/best-product-5.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/best-product-6.jpg",
+      "PackagePath": "staticwebassets/image/best-product-6.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/cart-page-header-img.jpg",
+      "PackagePath": "staticwebassets/image/cart-page-header-img.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/featur-1.jpg",
+      "PackagePath": "staticwebassets/image/featur-1.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/featur-2.jpg",
+      "PackagePath": "staticwebassets/image/featur-2.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/featur-3.jpg",
+      "PackagePath": "staticwebassets/image/featur-3.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/fruite-item-1.jpg",
+      "PackagePath": "staticwebassets/image/fruite-item-1.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/fruite-item-2.jpg",
+      "PackagePath": "staticwebassets/image/fruite-item-2.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/fruite-item-3.jpg",
+      "PackagePath": "staticwebassets/image/fruite-item-3.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/fruite-item-4.jpg",
+      "PackagePath": "staticwebassets/image/fruite-item-4.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/fruite-item-5.jpg",
+      "PackagePath": "staticwebassets/image/fruite-item-5.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/fruite-item-6.jpg",
+      "PackagePath": "staticwebassets/image/fruite-item-6.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/hero-img-1.png",
+      "PackagePath": "staticwebassets/image/hero-img-1.png"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/hero-img-2.jpg",
+      "PackagePath": "staticwebassets/image/hero-img-2.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/hero-img.jpg",
+      "PackagePath": "staticwebassets/image/hero-img.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/login-img.png",
+      "PackagePath": "staticwebassets/image/login-img.png"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/payment.png",
+      "PackagePath": "staticwebassets/image/payment.png"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/single-item.jpg",
+      "PackagePath": "staticwebassets/image/single-item.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/testimonial-1.jpg",
+      "PackagePath": "staticwebassets/image/testimonial-1.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/vegetable-item-1.jpg",
+      "PackagePath": "staticwebassets/image/vegetable-item-1.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/vegetable-item-2.jpg",
+      "PackagePath": "staticwebassets/image/vegetable-item-2.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/vegetable-item-3.png",
+      "PackagePath": "staticwebassets/image/vegetable-item-3.png"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/vegetable-item-4.jpg",
+      "PackagePath": "staticwebassets/image/vegetable-item-4.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/vegetable-item-5.jpg",
+      "PackagePath": "staticwebassets/image/vegetable-item-5.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/image/vegetable-item-6.jpg",
+      "PackagePath": "staticwebassets/image/vegetable-item-6.jpg"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/js/Dashboard.js",
+      "PackagePath": "staticwebassets/js/Dashboard.js"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\dangk\\source\\repos\\Solution1\\WebMiniShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebMiniShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/easing/easing.js",
+      "PackagePath": "staticwebassets/lib/easing/easing.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/easing/easing.min.js",
+      "PackagePath": "staticwebassets/lib/easing/easing.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/lightbox/css/lightbox.min.css",
+      "PackagePath": "staticwebassets/lib/lightbox/css/lightbox.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/lightbox/images/close.png",
+      "PackagePath": "staticwebassets/lib/lightbox/images/close.png"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/lightbox/images/loading.gif",
+      "PackagePath": "staticwebassets/lib/lightbox/images/loading.gif"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/lightbox/images/next.png",
+      "PackagePath": "staticwebassets/lib/lightbox/images/next.png"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/lightbox/images/prev.png",
+      "PackagePath": "staticwebassets/lib/lightbox/images/prev.png"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/lightbox/js/lightbox.min.js",
+      "PackagePath": "staticwebassets/lib/lightbox/js/lightbox.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/LICENSE",
+      "PackagePath": "staticwebassets/lib/owlcarousel"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/lib/owlcarousel/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/owl.carousel.js",
+      "PackagePath": "staticwebassets/lib/owlcarousel/owl.carousel.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/lib/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/waypoints/links.php",
+      "PackagePath": "staticwebassets/lib/waypoints/links.php"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/lib/waypoints/waypoints.min.js",
+      "PackagePath": "staticwebassets/lib/waypoints/waypoints.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/animate/animate.css",
+      "PackagePath": "staticwebassets/vendor/animate/animate.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/vendor/bootstrap/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/js/bootstrap.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/js/popper.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/popper.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/js/popper.min.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/popper.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/bootstrap/js/tooltip.js",
+      "PackagePath": "staticwebassets/vendor/bootstrap/js/tooltip.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/css-hamburgers/hamburgers.css",
+      "PackagePath": "staticwebassets/vendor/css-hamburgers/hamburgers.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/css-hamburgers/hamburgers.min.css",
+      "PackagePath": "staticwebassets/vendor/css-hamburgers/hamburgers.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/jquery/jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets/vendor/jquery/jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/select2/select2.css",
+      "PackagePath": "staticwebassets/vendor/select2/select2.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/select2/select2.js",
+      "PackagePath": "staticwebassets/vendor/select2/select2.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/select2/select2.min.css",
+      "PackagePath": "staticwebassets/vendor/select2/select2.min.css"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/select2/select2.min.js",
+      "PackagePath": "staticwebassets/vendor/select2/select2.min.js"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Downloads/SieuThiMiniWebOnion/WebMiniShop/wwwroot/vendor/tilt/tilt.jquery.min.js",
+      "PackagePath": "staticwebassets/vendor/tilt/tilt.jquery.min.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.WebMiniShop.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebMiniShop.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.WebMiniShop.props",
       "PackagePath": "build\\WebMiniShop.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebMiniShop.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebMiniShop.props",
       "PackagePath": "buildMultiTargeting\\WebMiniShop.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebMiniShop.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebMiniShop.props",
       "PackagePath": "buildTransitive\\WebMiniShop.props"
     }
   ],

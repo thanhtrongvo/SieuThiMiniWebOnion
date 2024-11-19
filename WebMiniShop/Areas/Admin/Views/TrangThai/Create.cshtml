@@ -1,0 +1,73 @@
+﻿@model Domain.Entities.TrangThai
+
+@{
+    ViewData["Title"] = "Thêm Trạng Thái";
+    Layout = null;
+}
+
+<div style="display: flex; justify-content: center;">
+<form asp-action="Create" method="post" style="border: 1px solid #ddd; padding: 20px; width: 60%; background-color: #fff;">
+<h2>Thêm Trạng Thái</h2>
+    <div class="form-group">
+        <label asp-for="TenTrangThai" class="control-label">Trạng thái</label>
+        <input asp-for="TenTrangThai" class="form-control" />
+        <span asp-validation-for="TenTrangThai" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MoTa" class="control-label">Mô tả</label>
+        <textarea asp-for="MoTa" class="form-control"></textarea>
+        <span asp-validation-for="MoTa" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Thêm Trạng Thái" class="btn btn-primary" />
+    </div>
+</form></div>
+<style>
+    .btn-primary {
+        width: 100%;
+    }
+
+    body {
+        background-color: #f2f2f2;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="date"],
+        .form-group input[type="number"],
+        .form-group input[type="email"],
+        .form-group input[type="password"],
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form-group input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+            .form-group input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
+    .text-danger {
+        color: red;
+    }
+</style>

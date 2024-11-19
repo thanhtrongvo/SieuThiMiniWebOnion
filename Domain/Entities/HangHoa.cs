@@ -43,5 +43,7 @@ namespace Domain.Entities
 
         // Navigation Properties
         public  ICollection<ChiTietHD>? ChiTietHDs { get; set; }
+        
+      
     }
 }

@@ -1,0 +1,50 @@
+﻿@model WebMiniShop.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h4>Login</h4>
+                </div>
+                <div class="card-body">
+                    <!-- Form Login -->
+                    <form asp-action="Login" method="post" >
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input asp-for="Email" class="form-control" placeholder="Enter your email" />
+                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="MatKhau" class="form-label">Password</label>
+                            <input asp-for="MatKhau" type="password" class="form-control" placeholder="Enter your password" />
+                            @Html.ValidationMessageFor(model => model.MatKhau, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+
+                        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-action="RequestOtp" asp-controller="Account" class="link-primary">Forgot Password?</a>
+                    <br />
+                    <a asp-action="Register" asp-controller="Account" class="link-primary">Create an Account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

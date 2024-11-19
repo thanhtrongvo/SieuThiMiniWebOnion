@@ -12,5 +12,9 @@ namespace Application.Features.Interface
         Task Add(User user);
         Task Update(User user);
         Task Delete(int id);
+        Task<User> AuthenticateUser(string email, string matKhau);
+        Task<User?> GetUserByEmail(string email);
+        Task UpdatePassword(User user, string newPassword);
+        Task SendOtpToEmail(string email, string otp);
     }
 }
