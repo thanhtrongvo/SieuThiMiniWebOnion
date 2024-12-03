@@ -112,7 +112,7 @@
 }
 
 .topbar .top-link a small:hover i {
-    color: var(--bs-primary) !important;
+    color: var(--bs-green) !important;
 }
 /*** Topbar End ***/
 
@@ -132,7 +132,7 @@
 .navbar .navbar-nav .nav-link.active,
 .fixed-top.bg-white .navbar .navbar-nav .nav-link:hover,
 .fixed-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: var(--bs-green);
 }
 
 .navbar .dropdown-toggle::after {
@@ -159,7 +159,7 @@
 
 .dropdown .dropdown-menu a:hover {
     background: var(--bs-secondary);
-    color: var(--bs-primary);
+    color: var(--bs-green);
 }
 
 .navbar .nav-item:hover .dropdown-menu {
@@ -203,7 +203,7 @@
     height: 48px;
     border-radius: 48px;
     border: 1px solid var(--bs-white);
-    background: var(--bs-primary);
+    background: var(--bs-green);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -278,7 +278,7 @@
 
 /*** Fruits Start ***/
 .fruite .tab-class .nav-item a.active {
-    background: var(--bs-secondary) !important;
+    background: var(--bs-green) !important;
 }
 
 .fruite .tab-class .nav-item a.active span {
@@ -294,7 +294,7 @@
 }
 
 .fruite .fruite-categorie .fruite-name a:hover {
-    color: var(--bs-secondary);
+    color: var(--bs-green);
 }
 
 .fruite .fruite-item {
@@ -354,7 +354,7 @@
     position: absolute;
     top: -8px;
     right: 0;
-    color: var(--bs-primary);
+    color: var(--bs-green);
     padding: 5px 25px;
     border: 1px solid var(--bs-secondary);
     border-radius: 20px;
@@ -371,7 +371,7 @@
     position: absolute;
     top: -8px;
     right: 88px;
-    color: var(--bs-primary);
+    color: var(--bs-green);
     padding: 5px 25px;
     border: 1px solid var(--bs-secondary);
     border-radius: 20px;
@@ -387,7 +387,7 @@
 
 /*** Banner Section Start ***/
 .banner .banner-btn:hover {
-    background: var(--bs-primary);
+    background: var(--bs-green);
 }
 /*** Banner Section End ***/
 
@@ -405,7 +405,7 @@
 }
 
 .counter h4 {
-    color: var(--bs-primary);
+    color: var(--bs-green);
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -421,7 +421,7 @@
     position: absolute;
     top: -58px;
     right: 0;
-    color: var(--bs-primary);
+    color: var(--bs-green);
     padding: 5px 25px;
     border: 1px solid var(--bs-secondary);
     border-radius: 20px;
@@ -437,7 +437,7 @@
     position: absolute;
     top: -58px;
     right: 88px;
-    color: var(--bs-primary);
+    color: var(--bs-green);
     padding: 5px 25px;
     border: 1px solid var(--bs-secondary);
     border-radius: 20px;
@@ -466,12 +466,12 @@
 }
   
 .pagination a.active {
-    background-color: var(--bs-primary);
+    background-color: var(--bs-green);
     color: var(--bs-light);
     border: 1px solid var(--bs-secondary);
 }
   
-.pagination a:hover:not(.active) {background-color: var(--bs-primary)}
+.pagination a:hover:not(.active) {background-color: var(--bs-green)}
 
 .nav.nav-tabs .nav-link.active {
     border-bottom: 2px solid var(--bs-secondary) !important;

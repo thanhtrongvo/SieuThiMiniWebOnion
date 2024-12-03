@@ -41,6 +41,11 @@ namespace Persistence
             // Định nghĩa khóa chính tổng hợp cho thực thể ChiTietKhuyenMai
             modelBuilder.Entity<ChiTietKhuyenMai>()
                 .HasKey(ct => new { ct.MaKM, ct.MaHH });
+
+            modelBuilder.Entity<HangHoa>()
+            .HasOne(h => h.Loai)
+            .WithMany(l => l.HangHoas)
+            .HasForeignKey(h => h.MaLoai);
         }
     }
 }

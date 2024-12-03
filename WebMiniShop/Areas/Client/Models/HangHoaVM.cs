@@ -11,7 +11,7 @@ public class HangHoaVM
     public float GiamGia { get; set; }
     public int SoLanXem { get; set; }
     public int MaLoai { get; set; }
-    public string Loai { get; set; }
+    public string TenLoai { get; set; }
 
 
 }

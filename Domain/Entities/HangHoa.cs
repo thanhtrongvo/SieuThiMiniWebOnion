@@ -42,7 +42,10 @@ namespace Domain.Entities
         public  string? MoTa { get; set; }
 
         // Navigation Properties
-        public  ICollection<ChiTietHD>? ChiTietHDs { get; set; }
+        public virtual  ICollection<ChiTietHD>? ChiTietHDs { get; set; }
+        
+        public virtual Loai MaLoaiNavigation { get; set; } = null!;
+        
         
       
     }
