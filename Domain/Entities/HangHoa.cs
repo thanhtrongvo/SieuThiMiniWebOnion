@@ -44,7 +44,6 @@ namespace Domain.Entities
         // Navigation Properties
         public virtual  ICollection<ChiTietHD>? ChiTietHDs { get; set; }
         
-        public virtual Loai MaLoaiNavigation { get; set; } = null!;
         
         
       
