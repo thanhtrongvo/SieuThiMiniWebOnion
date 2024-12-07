@@ -2,7 +2,7 @@
 
 @{
     ViewData["Title"] = "Danh Sách Tồn Kho";
-    Layout = null;
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
 <a href="@Url.Action("Create", "TonKho")" class="btn btn-primary">Thêm Tồn Kho</a>
@@ -17,7 +17,7 @@
                 <thead>
                     <tr>
                         <th>Mã Hàng Hóa</th>
-                        <th>Tên Hàng Hóa</th>
+                    
                         <th>Số Lượng Tồn</th>
                         <th>Ngày Cập Nhật</th>
                         <th>Hành Động</th>
@@ -28,7 +28,7 @@
                     {
                         <tr>
                             <td>@item.MaHH</td>
-                            <td>@item.HangHoa?.TenHH</td> <!-- Hiển thị tên hàng hóa -->
+                         
                             <td>@item.SoLuongTon</td>
                             <td>@item.NgayCapNhat?.ToShortDateString()</td>
                             <td>

@@ -2,7 +2,7 @@
 
 @{
     ViewData["Title"] = "Danh Sách Nhập Kho";
-    Layout = null;
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
 <a href="@Url.Action("Create", "NhapKho")" class="btn btn-primary">Thêm Nhập Kho</a>
@@ -30,15 +30,19 @@
                     {
                         <tr>
                             <td>@item.MaNK</td>
-                            <td>@item.NhaCungCap?.TenNCC</td> <!-- Hiển thị thông tin nhà cung cấp -->
-                            <td>@item.HangHoa?.TenHH</td> <!-- Hiển thị thông tin hàng hóa -->
+                            <td>@(item.NhaCungCap != null ? item.NhaCungCap.TenNCC : "Nhà cung cấp ABC")</td>
+
+
+                             
+                            <td>@item.MaHH</td> <!-- Hiển thị thông tin hàng hóa -->
                             <td>@item.NgayNhap.ToShortDateString()</td>
                             <td>@item.SoLuong</td>
                             <td>@item.GiaNhap</td>
                             <td>
-                                <a href="@Url.Action("Edit", "NhapKho", new { id = item.MaNK })" class="btn btn-warning">Sửa</a>
-                                <a href="@Url.Action("Delete", "NhapKho", new { id = item.MaNK })" class="btn btn-danger">Xóa</a>
+                                <button class="btn btn-warning" onclick="editNhapKho(@item.MaNK)">Sửa</button>
+                                <button class="btn btn-danger" onclick="deleteNhapKho(@item.MaNK)">Xóa</button>
                             </td>
+
                         </tr>
                     }
                 </tbody>
@@ -52,6 +56,8 @@
         padding-top: 20px;
     }
 </style>
+
+
 <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css"
       rel="stylesheet" />
 <link href="~/css/Dashboard.css" rel="stylesheet" />

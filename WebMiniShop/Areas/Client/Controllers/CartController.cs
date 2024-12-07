@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using Domain.Entities;
 using FoodShop.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -75,9 +76,40 @@ public class CartController : Controller
     [Authorize]
     public IActionResult ThanhToan(CheckOutVM model)
     {
-        if (ModelState.IsValid)
-            var customerId = HttpContext.User.Claims.SingleOrDefault(c => c.Type == Setting.CUSTOMERID)?.Value;
-    }
-}
+        if (!ModelState.IsValid) return View(model);
 
+        var cartItem = Cart;
+        if (cartItem.Count == 0) return RedirectToAction("Index");
+
+        var user = db.Users.Find(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+        if (user == null) return RedirectToAction("Index");
+
+        var hoaDon = new HoaDon
+        {
+            MaUser = user.MaUser,
+            NgayDat = DateTime.Now,
+            DiaChiGiao = model.DiaChi,
+            PhiVanChuyen = 15000,
+            MaTrangThai = 1
+        };
+
+        db.HoaDons.Add(hoaDon);
+        db.SaveChanges();
+
+        foreach (var item in cartItem)
+        {
+            var chiTietHD = new ChiTietHD
+            {
+                MaHD = hoaDon.MaHD,
+                MaHH = item.MaHH,
+                SoLuong = item.SoLuong,
+                DonGia = item.DonGia
+            };
+            db.ChiTietHDs.Add(chiTietHD);
+        }
+
+        db.SaveChanges();
+        HttpContext.Session.Remove(Setting.CARTKEY);
+        return RedirectToAction("Index");
+    }
 }

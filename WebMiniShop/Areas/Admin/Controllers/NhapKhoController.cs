@@ -11,12 +11,14 @@ namespace WebMiniShop.Controllers
         private readonly INhapKhoService _nhapKhoService;
         private readonly IHangHoaService _hangHoaService;
         private readonly INhaCungCapService _nhaCungCapService;
+        private readonly ITonKhoService _tonKhoService;
 
-        public NhapKhoController(INhapKhoService nhapKhoService, IHangHoaService hangHoaService, INhaCungCapService nhaCungCapService)
+        public NhapKhoController(INhapKhoService nhapKhoService, IHangHoaService hangHoaService, INhaCungCapService nhaCungCapService, ITonKhoService tonKhoService)
         {
             _nhapKhoService = nhapKhoService;
             _hangHoaService = hangHoaService;
             _nhaCungCapService = nhaCungCapService;
+            _tonKhoService = tonKhoService;
         }
 
         // Hiển thị danh sách Nhập Kho
@@ -36,18 +38,46 @@ namespace WebMiniShop.Controllers
         }
 
         // Xử lý tạo mới Nhập Kho
+        // Xử lý tạo mới Nhập Kho
         [HttpPost]
         public async Task<IActionResult> Create(NhapKho nhapKho)
         {
             if (ModelState.IsValid)
             {
+                // Thêm phiếu nhập kho vào cơ sở dữ liệu
                 await _nhapKhoService.Add(nhapKho);
+
+                // Kiểm tra tồn kho cho sản phẩm
+                var tonKho = await _tonKhoService.GetTonKhoByMaHHAsync(nhapKho.MaHH); // Lấy thông tin tồn kho
+
+                if (tonKho != null)
+                {
+                    // Nếu tồn kho đã có, cộng số lượng nhập vào
+                    tonKho.SoLuongTon += nhapKho.SoLuong;
+                    tonKho.NgayCapNhat = DateTime.Now; // Cập nhật ngày giờ cập nhật tồn kho
+                    await _tonKhoService.UpdateTonKhoAsync(tonKho); // Lưu thay đổi tồn kho
+                }
+                else
+                {
+                    // Nếu chưa có tồn kho cho sản phẩm này, tạo mới tồn kho
+                    var newTonKho = new TonKho
+                    {
+                        MaHH = nhapKho.MaHH,
+                        SoLuongTon = nhapKho.SoLuong, // Số lượng nhập kho là số lượng tồn kho ban đầu
+                        NgayCapNhat = DateTime.Now
+                    };
+                    await _tonKhoService.CreateTonKhoAsync(newTonKho); // Thêm mới tồn kho
+                }
+
                 return RedirectToAction(nameof(Index));
             }
+
+            // Nếu có lỗi, truyền lại dữ liệu cho form
             ViewBag.HangHoas = await _hangHoaService.GetAll();
             ViewBag.NhaCungCaps = await _nhaCungCapService.GetAllAsync();
             return View(nhapKho);
         }
+
 
         // Hiển thị form chỉnh sửa
         [HttpGet]

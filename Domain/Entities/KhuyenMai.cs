@@ -29,7 +29,9 @@ namespace Domain.Entities
 
         [Required]
         [Display(Name = "Giảm Giá (%)")]
+        [Range(0, 100, ErrorMessage = "Giảm giá phải nằm trong khoảng từ 0 đến 100.")]
         public float GiamGia { get; set; }
+
 
         [StringLength(255)]
         [Display(Name = "Điều Kiện")]

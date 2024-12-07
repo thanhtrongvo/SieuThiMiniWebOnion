@@ -27,9 +27,12 @@ namespace Domain.Entities
       
         [StringLength(50)]
         [Display(Name = "Điện Thoại")]
+        [RegularExpression(@"^\d{10}$", ErrorMessage = "Số điện thoại phải gồm 10 chữ số.")]
         public  string? DienThoai { get; set; }
 
         [StringLength(255)]
+        [EmailAddress(ErrorMessage = "Email không hợp lệ.")]
+        [Display(Name = "Email")]
         public  string? Email { get; set; }
 
         [StringLength(255)]

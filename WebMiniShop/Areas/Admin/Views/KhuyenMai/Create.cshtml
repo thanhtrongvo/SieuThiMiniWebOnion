@@ -2,65 +2,76 @@
 
 @{
     ViewData["Title"] = "Thêm Khuyến Mãi";
-    Layout = null;
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
 
 <div style="display: flex; justify-content: center;">
     <form asp-action="Create" method="post" style="border: 1px solid #ddd; padding: 20px; width: 60%; background-color: #fff;">
-<h2>Thêm Khuyến Mãi</h2>
-    <div class="form-group">
-        <label asp-for="TenChuongTrinh" class="control-label">Tên chương trình</label>
-        <input asp-for="TenChuongTrinh" class="form-control" />
-        <span asp-validation-for="TenChuongTrinh" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="NgayBatDau" class="control-label">Ngày bắt đầu</label>
-        <input asp-for="NgayBatDau" type="date" class="form-control" />
-        <span asp-validation-for="NgayBatDau" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="NgayKetThuc" class="control-label">Ngày kết thúc</label>
-        <input asp-for="NgayKetThuc" type="date" class="form-control" />
-        <span asp-validation-for="NgayKetThuc" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="GiamGia" class="control-label">Giảm giá</label>
-        <input asp-for="GiamGia" class="form-control" />
-        <span asp-validation-for="GiamGia" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="DieuKien" class="control-label"Điều kiện></label>
-        <input asp-for="DieuKien" class="form-control" />
-        <span asp-validation-for="DieuKien" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <input type="submit" value="Thêm Khuyến Mãi" class="btn btn-primary" />
-    </div>
-</form>
+        <h2>Thêm Khuyến Mãi</h2>
+        <div class="form-group">
+            <label asp-for="TenChuongTrinh" class="control-label">Tên chương trình</label>
+            <input asp-for="TenChuongTrinh" class="form-control" />
+            <span asp-validation-for="TenChuongTrinh" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="NgayBatDau" class="control-label">Ngày bắt đầu</label>
+            <input asp-for="NgayBatDau" type="date" class="form-control" />
+            <span asp-validation-for="NgayBatDau" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="NgayKetThuc" class="control-label">Ngày kết thúc</label>
+            <input asp-for="NgayKetThuc" type="date" class="form-control" />
+            <span asp-validation-for="NgayKetThuc" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="GiamGia" class="control-label">Giảm giá (%)</label>
+            <input asp-for="GiamGia" class="form-control" />
+            <span asp-validation-for="GiamGia" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="DieuKien" class="control-label">Điều kiện</label>
+            <input asp-for="DieuKien" class="form-control" />
+            <span asp-validation-for="DieuKien" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Thêm Khuyến Mãi" class="btn btn-primary" />
+        </div>
+    </form>
 </div>
+
 <style>
     .btn-primary {
         width: 100%;
     }
 
-        body {
-            background-color: #f2f2f2;
-        }
+    body {
+        background-color: #f2f2f2;
+    }
 
+    .form-group {
+        margin-bottom: 20px;
+    }
 
-        .form-group {
-            margin-bottom: 20px;
-        }
         .form-group label {
             font-weight: bold;
         }
+
         .form-group input[type="text"],
         .form-group input[type="date"],
         .form-group input[type="number"],
         .form-group input[type="email"],
         .form-group input[type="password"],
-
         .form-group select,
         .form-group textarea {
             width: 100%;
@@ -68,20 +79,21 @@
             border: 1px solid #ddd;
             border-radius: 5px;
         }
+
         .form-group input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
 
-                padding: 10px 20px;
-                border: none;
-                border-radius: 5px;
+            .form-group input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
 
-        background-color: #007bff;
-        color: white;
-        cursor: pointer;
-        }
-        .form-group input[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-        .text-danger {
-            color: red;
-        }
+    .text-danger {
+        color: red;
+    }
 </style>

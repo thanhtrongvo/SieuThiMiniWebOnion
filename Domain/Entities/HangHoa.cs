@@ -42,10 +42,6 @@ namespace Domain.Entities
         public  string? MoTa { get; set; }
 
         // Navigation Properties
-        public virtual  ICollection<ChiTietHD>? ChiTietHDs { get; set; }
-        
-        
-        
-      
+        public  ICollection<ChiTietHD>? ChiTietHDs { get; set; }
     }
 }
