@@ -23,7 +23,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Client\Controllers" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\ForgotPassword.cshtml" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\Login.cshtml" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\Register.cshtml" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\RequestOtp.cshtml" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\ResetPasswordForm.cshtml" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\VerifyOtpForm.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Client\Views\Checkout" />
   </ItemGroup>
 
 </Project>

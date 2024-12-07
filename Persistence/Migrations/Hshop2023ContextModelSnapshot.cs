@@ -101,9 +101,6 @@ namespace Persistence.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<int?>("LoaiMaLoai")
-                        .HasColumnType("int");
-
                     b.Property<int>("MaLoai")
                         .HasColumnType("int");
 
@@ -123,7 +120,7 @@ namespace Persistence.Migrations
 
                     b.HasKey("MaHH");
 
-                    b.HasIndex("LoaiMaLoai");
+                    b.HasIndex("MaLoai");
 
                     b.ToTable("HangHoa");
                 });
@@ -164,6 +161,9 @@ namespace Persistence.Migrations
 
                     b.Property<float>("PhiVanChuyen")
                         .HasColumnType("real");
+
+                    b.Property<string>("SoDienThoai")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("TrangThaiMaTrangThai")
                         .HasColumnType("int");
@@ -559,7 +559,9 @@ namespace Persistence.Migrations
                 {
                     b.HasOne("Domain.Entities.Loai", "Loai")
                         .WithMany("HangHoas")
-                        .HasForeignKey("LoaiMaLoai");
+                        .HasForeignKey("MaLoai")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Loai");
                 });

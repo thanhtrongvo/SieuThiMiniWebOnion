@@ -12,8 +12,8 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(Hshop2023Context))]
-    [Migration("20241025063858_dbase4")]
-    partial class dbase4
+    [Migration("20241207062230_AddSDT")]
+    partial class AddSDT
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -104,9 +104,6 @@ namespace Persistence.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<int?>("LoaiMaLoai")
-                        .HasColumnType("int");
-
                     b.Property<int>("MaLoai")
                         .HasColumnType("int");
 
@@ -126,7 +123,7 @@ namespace Persistence.Migrations
 
                     b.HasKey("MaHH");
 
-                    b.HasIndex("LoaiMaLoai");
+                    b.HasIndex("MaLoai");
 
                     b.ToTable("HangHoa");
                 });
@@ -167,6 +164,9 @@ namespace Persistence.Migrations
 
                     b.Property<float>("PhiVanChuyen")
                         .HasColumnType("real");
+
+                    b.Property<string>("SoDienThoai")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("TrangThaiMaTrangThai")
                         .HasColumnType("int");
@@ -562,7 +562,9 @@ namespace Persistence.Migrations
                 {
                     b.HasOne("Domain.Entities.Loai", "Loai")
                         .WithMany("HangHoas")
-                        .HasForeignKey("LoaiMaLoai");
+                        .HasForeignKey("MaLoai")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Loai");
                 });

@@ -5,7 +5,6 @@ using Persistence.Repositories;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Domain.Entities;
-
 using Application.Features.Configuration; // Đảm bảo namespace chứa User
 
 var builder = WebApplication.CreateBuilder(args);
@@ -36,9 +35,10 @@ builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/Admin/Account/Login"; // Đường dẫn đến trang đăng nhập
-        options.LogoutPath = "/Admin/Account/Logout";
+        options.LoginPath = "/Client/Account/Login"; // Đường dẫn đến trang đăng nhập
+        options.LogoutPath = "/Client/Account/Logout";
     });
+
 
 // Cấu hình Session
 builder.Services.AddDistributedMemoryCache(); // Cần thiết để lưu trữ Session trong bộ nhớ
@@ -46,7 +46,8 @@ builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(10); // Thời gian hết hạn của Session (10 phút)
     options.Cookie.HttpOnly = true; // Bảo mật cookie của Session
-    options.Cookie.IsEssential = true; // Đảm bảo Session được sử dụng ngay cả khi không có sự đồng ý của người dùng (GDPR)
+    options.Cookie.IsEssential =
+        true; // Đảm bảo Session được sử dụng ngay cả khi không có sự đồng ý của người dùng (GDPR)
 });
 
 // Thêm các dịch vụ khác
@@ -71,20 +72,19 @@ app.UseStaticFiles();
 app.UseRouting();
 
 
-
 app.UseAuthentication(); // Thêm middleware xác thực
 app.UseAuthorization();
 
 app.UseSession(); // Thêm middleware cho Session
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{area=Client}/{controller=Home}/{action=Index}/{id?}"
+    "default",
+    "{area=Client}/{controller=Home}/{action=Index}/{id?}"
 );
 
 app.MapControllerRoute(
-    name: "areas",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    "areas",
+    "{area:exists}/{controller=Home}/{action=Index}/{id?}"
 );
 
 
