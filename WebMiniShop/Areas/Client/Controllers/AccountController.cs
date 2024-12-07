@@ -131,7 +131,7 @@ public class AccountController : Controller
             return View("RequestOtp");
         }
 
-        var otp = GenerateOtp();
+        string otp = GenerateOtp();
 
         HttpContext.Session.SetString("OTP", otp);
         HttpContext.Session.SetString("OTPEmail", email);

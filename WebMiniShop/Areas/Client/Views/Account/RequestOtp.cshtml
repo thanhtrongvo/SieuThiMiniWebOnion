@@ -3,8 +3,27 @@
 @{
     ViewData["Title"] = "Yêu Cầu OTP";
 }
+<link rel="stylesheet" href="~/css/login.css" />
+<link rel="stylesheet" href="~/css/style.css" />
+<style>
+    .container {
+        display: flex;
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        align-items: flex-end; /* Căn dưới theo chiều dọc */
+        height: 100%;
+        padding-bottom: 50px; /* Để có khoảng cách phía dưới */
+    }
 
-
+    form {
+        background: #fff; /* Màu nền cho form */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px; /* Đặt chiều rộng tối đa của form */
+    }
+</style>
+<div class="container">
             <form asp-action="SendOtp" method="post">
                 <span class="login100-form-title">Forgot Password</span>
 
@@ -22,4 +41,4 @@
                     <a href="@Url.Action("Login", "Account")" class="txt2">Cancel</a>
                 </div>
             </form>
-     
+     </div>
