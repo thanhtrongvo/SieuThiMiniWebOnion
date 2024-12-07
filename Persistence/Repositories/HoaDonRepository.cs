@@ -18,7 +18,7 @@ namespace Persistence.Repositories
         // Lấy danh sách tất cả hóa đơn
         public async Task<IEnumerable<HoaDon>> GetAll()
         {
-            return await _context.HoaDons.ToListAsync();
+            return _context.HoaDons.Include(h => h.User).Include(h => h.TrangThai);
         }
 
         // Lấy hóa đơn theo ID

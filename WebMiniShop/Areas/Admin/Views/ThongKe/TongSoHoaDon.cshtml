@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Tổng Số Hóa Đơn";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Biểu đồ sẽ hiển thị ở đây -->
+<canvas id="invoiceChart" width="400" height="200"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    fetch('/Admin/ThongKe/TongSoHoaDon?startDate=2023-01-01&endDate=2023-12-31')
+        .then(response => response.json())
+        .then(data => {
+            const dates = data.map(item => item.Date);
+            const invoiceCounts = data.map(item => item.InvoiceCount);
+
+            var ctx = document.getElementById('invoiceChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'line', // Loại biểu đồ (Line chart)
+                data: {
+                    labels: dates, // Các nhãn (ngày)
+                    datasets: [{
+                        label: 'Số Lượng Hóa Đơn',
+                        data: invoiceCounts, // Dữ liệu số hóa đơn
+                        borderColor: 'rgba(153, 102, 255, 1)', // Màu đường line
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true // Đảm bảo trục y bắt đầu từ 0
+                        }
+                    }
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching data: ', error));
+</script>

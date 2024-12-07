@@ -8,6 +8,7 @@ namespace Application.Features.Interface
     {
         Task<IEnumerable<TonKho>> GetAllTonKhoAsync();
         Task<TonKho> GetTonKhoByIdAsync(int id);
+        Task<TonKho> GetTonKhoByMaHHAsync(int maHH); 
         Task CreateTonKhoAsync(TonKho tonKho);
         Task UpdateTonKhoAsync(TonKho tonKho);
         Task DeleteTonKhoAsync(int id);

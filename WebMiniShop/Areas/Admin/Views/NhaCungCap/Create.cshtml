@@ -2,60 +2,61 @@
 
 @{
     ViewData["Title"] = "Thêm Nhà Cung Cấp";
-    Layout = null;
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
-
 
 <div style="display: flex; justify-content: center;">
     <form asp-action="Create" method="post" style="border: 1px solid #ddd; padding: 20px; width: 60%; background-color: #fff;">
-<h2>Thêm Nhà Cung Cấp</h2>
-    @Html.AntiForgeryToken()
+        <h2>Thêm Nhà Cung Cấp</h2>
+        @Html.AntiForgeryToken()
 
-    <div class="form-group">
-        <label asp-for="TenNCC" class="control-label"Nhà cung cấp></label>
-        <input asp-for="TenNCC" class="form-control" />
-        <span asp-validation-for="TenNCC" class="text-danger"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="TenNCC" class="control-label">Nhà cung cấp</label>
+            <input asp-for="TenNCC" class="form-control" />
+            <span asp-validation-for="TenNCC" class="text-danger"></span>
+        </div>
 
-    <div class="form-group">
-        <label asp-for="DiaChi" class="control-label">Địa chỉ</label>
-        <input asp-for="DiaChi" class="form-control" />
-        <span asp-validation-for="DiaChi" class="text-danger"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="DiaChi" class="control-label">Địa chỉ</label>
+            <input asp-for="DiaChi" class="form-control" />
+            <span asp-validation-for="DiaChi" class="text-danger"></span>
+        </div>
 
-    <div class="form-group">
-        <label asp-for="DienThoai" class="control-label">Số điện thoại</label>
-        <input asp-for="DienThoai" class="form-control" />
-        <span asp-validation-for="DienThoai" class="text-danger"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="DienThoai" class="control-label">Số điện thoại</label>
+            <input asp-for="DienThoai" class="form-control" />
+            <span asp-validation-for="DienThoai" class="text-danger"></span>
+        </div>
 
-    <div class="form-group">
-        <label asp-for="Email" class="control-label">Email</label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Email" class="control-label">Email</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
 
-    <div class="form-group">
-        <label asp-for="Website" class="control-label">Website</label>
-        <input asp-for="Website" class="form-control" />
-        <span asp-validation-for="Website" class="text-danger"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Website" class="control-label">Website</label>
+            <input asp-for="Website" class="form-control" />
+            <span asp-validation-for="Website" class="text-danger"></span>
+        </div>
 
-    <div class="form-group">
-        <label asp-for="GhiChu" class="control-label">Ghi chú</label>
-        <textarea asp-for="GhiChu" class="form-control"></textarea>
-        <span asp-validation-for="GhiChu" class="text-danger"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="GhiChu" class="control-label">Ghi chú</label>
+            <textarea asp-for="GhiChu" class="form-control"></textarea>
+            <span asp-validation-for="GhiChu" class="text-danger"></span>
+        </div>
 
-    <div class="form-group">
-        <input type="submit" value="Thêm Nhà Cung Cấp" class="btn btn-primary" />
-    </div>
-</form>
+        <div class="form-group">
+            <input type="submit" value="Thêm Nhà Cung Cấp" class="btn btn-primary" />
+        </div>
+    </form>
 </div>
+
 <style>
     .btn-primary {
         width: 100%;
     }
+
     body {
         background-color: #f2f2f2;
     }
@@ -63,33 +64,45 @@
     .form-group {
         margin-bottom: 20px;
     }
-    .form-group label {
-        font-weight: bold;
-    }
-    .form-group input[type="text"],
-    .form-group input[type="date"],
-    .form-group input[type="number"],
-    .form-group input[type="email"],
-    .form-group input[type="password"],
-    .form-group select,
-    .form-group textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-    }
-    .form-group input[type="submit"] {
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        background-color: #007bff;
-        color: white;
-        cursor: pointer;
-    }
-    .form-group input[type="submit"]:hover {
-        background-color: #0056b3;
-    }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="password"],
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form-group input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+            .form-group input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
     .text-danger {
         color: red;
     }
 </style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

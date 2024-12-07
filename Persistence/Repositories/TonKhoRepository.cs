@@ -45,6 +45,12 @@ namespace Persistence.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+        public async Task<TonKho> GetTonKhoByMaHHAsync(int maHH)
+        {
+            return await _context.TonKhos
+                .Include(t => t.HangHoa)
+                .FirstOrDefaultAsync(t => t.MaHH == maHH); // Lọc theo mã hàng hóa
+        }
 
         public async Task DeleteTonKhoAsync(int id)
         {
