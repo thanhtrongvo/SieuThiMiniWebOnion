@@ -80,6 +80,7 @@
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.dll" afterDir="false" />
@@ -98,6 +99,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/product-detail" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -109,29 +113,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "NewWatcherDialog.advanced.open": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rider.code.cleanup.on.save": "true",
-    "rider.code.cleanup.on.save.profile": "Built-in: Reformat & Apply Syntax Style",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;NewWatcherDialog.advanced.open&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;rider.code.cleanup.on.save.profile&quot;: &quot;Built-in: Reformat &amp; Apply Syntax Style&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/thanhtrongvo/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
-      "/Users/thanhtrongvo/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache",
-      "/Users/thanhtrongvo/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/thanhtrongvo/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/thanhtrongvo/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/thanhtrongvo/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebMiniShop: http">
     <configuration name="WebMiniShop: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebMiniShop/WebMiniShop.csproj" />
