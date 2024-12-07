@@ -162,6 +162,9 @@ namespace Persistence.Migrations
                     b.Property<float>("PhiVanChuyen")
                         .HasColumnType("real");
 
+                    b.Property<string>("SoDienThoai")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("TrangThaiMaTrangThai")
                         .HasColumnType("int");
 

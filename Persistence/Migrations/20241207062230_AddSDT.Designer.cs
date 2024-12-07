@@ -12,8 +12,8 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(Hshop2023Context))]
-    [Migration("20241203170101_initDB")]
-    partial class initDB
+    [Migration("20241207062230_AddSDT")]
+    partial class AddSDT
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -107,9 +107,6 @@ namespace Persistence.Migrations
                     b.Property<int>("MaLoai")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaLoaiNavigationMaLoai")
-                        .HasColumnType("int");
-
                     b.Property<string>("MoTa")
                         .HasColumnType("nvarchar(max)");
 
@@ -127,8 +124,6 @@ namespace Persistence.Migrations
                     b.HasKey("MaHH");
 
                     b.HasIndex("MaLoai");
-
-                    b.HasIndex("MaLoaiNavigationMaLoai");
 
                     b.ToTable("HangHoa");
                 });
@@ -169,6 +164,9 @@ namespace Persistence.Migrations
 
                     b.Property<float>("PhiVanChuyen")
                         .HasColumnType("real");
+
+                    b.Property<string>("SoDienThoai")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("TrangThaiMaTrangThai")
                         .HasColumnType("int");
@@ -568,15 +566,7 @@ namespace Persistence.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Entities.Loai", "MaLoaiNavigation")
-                        .WithMany()
-                        .HasForeignKey("MaLoaiNavigationMaLoai")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Loai");
-
-                    b.Navigation("MaLoaiNavigation");
                 });
 
             modelBuilder.Entity("Domain.Entities.HoaDon", b =>

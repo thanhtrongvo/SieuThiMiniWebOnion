@@ -18,6 +18,42 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/RequestOtp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvUmVxdWVzdE90cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/ResetPasswordForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvUmVzZXRQYXNzd29yZEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/VerifyOtpForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvVmVyaWZ5T3RwRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/Component.razor]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9Db21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -266,8 +302,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0NhcnQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Checkout/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0NoZWNrb3V0L0luZGV4LmNzaHRtbA==
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Cart/ThanhToan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0NhcnQvVGhhbmhUb2FuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Contact/Index.cshtml]
@@ -296,6 +332,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0xvZ2luL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/Components/Cart/_CartPannel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9Db21wb25lbnRzL0NhcnQvX0NhcnRQYW5uZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/Components/Loai/Default.cshtml]

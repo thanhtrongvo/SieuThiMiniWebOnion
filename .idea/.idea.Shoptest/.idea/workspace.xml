@@ -6,6 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75ecdf46-8a17-4faa-93d3-cd6e2bbaac49" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shoptest/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shoptest/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shoptest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shoptest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.pdb" afterDir="false" />
@@ -19,7 +20,8 @@
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/ref/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/refint/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/refint/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/HangHoa.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/HangHoa.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/HoaDon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/HoaDon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs" afterDir="false" />
@@ -29,26 +31,11 @@
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/ref/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/refint/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/refint/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241018072530_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241018072530_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241018075434_UpdateForeignKeyConstraints.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241018075434_UpdateForeignKeyConstraints.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241022103654_dbaseupdate2.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241022103654_dbaseupdate2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241025063858_dbase4.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241025063858_dbase4.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241025065531_dbase5.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241025065531_dbase5.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241025070248_RemoveIdentityFromColumn.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241025070248_RemoveIdentityFromColumn.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241025071001_RemoveIdentity.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241025071001_RemoveIdentity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241025072518_ahe.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241025072518_ahe.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241104084043_b.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241104084043_b.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241118055010_init db.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241118055010_init db.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241203170101_initDB.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241203170101_initDB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241203171121_changeHangHoas.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241203171121_changeHangHoas.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/Migrations/Hshop2023ContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/Hshop2023ContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Application.pdb" afterDir="false" />
@@ -65,14 +52,26 @@
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/ref/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/ref/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/refint/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/refint/Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Controllers/ShopController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Controllers/HangHoaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Models/HangHoaVM.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Models/HangHoaVM.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Persistence.csproj.EntityFrameworkCore.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Persistence.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Admin/Controllers/AccountController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Controllers/CartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Controllers/CartController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Cart/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Cart/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Checkout/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Cart/ThanhToan.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/HangHoa/Detail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/HangHoa/Detail.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/HangHoa/_HangHoaItem.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/HangHoa/_HangHoaItem.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Shared/_Header.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Shared/_Header.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Shop/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/HangHoa/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/WebMiniShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/WebMiniShop.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Microsoft.AspNet.Identity.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Microsoft.AspNet.Identity.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/WebMiniShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/WebMiniShop.dll" afterDir="false" />
@@ -92,6 +91,7 @@
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets/msbuild.WebMiniShop.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets/msbuild.WebMiniShop.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +111,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "NewWatcherDialog.advanced.open": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -176,6 +177,8 @@
       <workItem from="1733291549127" duration="4124000" />
       <workItem from="1733398678300" duration="2270000" />
       <workItem from="1733413751588" duration="3882000" />
+      <workItem from="1733463326200" duration="5171000" />
+      <workItem from="1733551764773" duration="4005000" />
     </task>
     <servers />
   </component>
