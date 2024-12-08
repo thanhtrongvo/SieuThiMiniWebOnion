@@ -3,6 +3,106 @@
   "WorkspaceRootPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\account\\requestotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\account\\requestotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\account\\verifyotpform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\account\\verifyotpform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\account\\resetpasswordform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\account\\resetpasswordform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\client\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\chitiethdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\chitiethdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\khuyenmaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\khuyenmaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\lichsugiaodichcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\lichsugiaodichcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\loaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\loaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\nhacungcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\nhacungcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\nhapkhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\nhapkhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\tonkhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\tonkhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\trangthaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\trangthaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -13,14 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\hee\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,45 +175,253 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\appsettings.json",
-              "RelativeDocumentMoniker": "WebMiniShop\\appsettings.json",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\appsettings.json",
-              "RelativeToolTip": "WebMiniShop\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-07T08:54:24.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Program.cs",
-              "RelativeDocumentMoniker": "WebMiniShop\\Program.cs",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Program.cs",
-              "RelativeToolTip": "WebMiniShop\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T08:54:10.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WebMiniShop\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\appsettings.Development.json",
-              "RelativeToolTip": "WebMiniShop\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-07T08:54:08.698Z",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T11:08:51.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "VerifyOtpForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\VerifyOtpForm.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\VerifyOtpForm.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\VerifyOtpForm.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\Account\\VerifyOtpForm.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T15:08:29.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResetPasswordForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\ResetPasswordForm.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\ResetPasswordForm.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\ResetPasswordForm.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\Account\\ResetPasswordForm.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T15:08:25.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RequestOtp.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\RequestOtp.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\RequestOtp.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\RequestOtp.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\Account\\RequestOtp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T14:06:20.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T11:08:53.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswJYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:15.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:14:05.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HoaDonController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HoaDonController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\HoaDonController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HoaDonController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\HoaDonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:14:04.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T11:08:55.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "WebMiniShop\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "WebMiniShop\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAKkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-07T14:01:48.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "WebMiniShop\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "WebMiniShop\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAMEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-07T14:02:00.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "KhuyenMaiController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\KhuyenMaiController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\KhuyenMaiController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\KhuyenMaiController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\KhuyenMaiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:57.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T13:55:32.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChiTietHDController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\ChiTietHDController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\ChiTietHDController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\ChiTietHDController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\ChiTietHDController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:14:06.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LichSuGiaoDichController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\LichSuGiaoDichController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\LichSuGiaoDichController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\LichSuGiaoDichController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\LichSuGiaoDichController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:55.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoaiController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\LoaiController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\LoaiController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\LoaiController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\LoaiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:54.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:41.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NhaCungCapController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\NhaCungCapController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\NhaCungCapController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\NhaCungCapController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\NhaCungCapController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:52.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:42:36.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "KhachHangController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\KhachHangController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\KhachHangController.cs",
@@ -134,15 +434,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "DocumentIndex": 20,
+              "Title": "NhapKhoController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\NhapKhoController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\NhapKhoController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\NhapKhoController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\NhapKhoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T08:42:36.824Z"
+              "WhenOpened": "2024-12-07T11:13:50.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TonKhoController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:49.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ThongKeController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\ThongKeController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\ThongKeController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\ThongKeController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\ThongKeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:47.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TrangThaiController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\TrangThaiController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\TrangThaiController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\TrangThaiController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\TrangThaiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:46.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:43.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebMiniShop\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\appsettings.Development.json",
+              "RelativeToolTip": "WebMiniShop\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T08:54:08.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Program.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Program.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\Program.cs",
+              "RelativeToolTip": "WebMiniShop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:54:10.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\appsettings.json",
+              "RelativeDocumentMoniker": "WebMiniShop\\appsettings.json",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\HEE\\SieuThiMiniWebOnion\\WebMiniShop\\appsettings.json",
+              "RelativeToolTip": "WebMiniShop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T08:54:24.174Z",
+              "EditorCaption": ""
             }
           ]
         },
