@@ -12,8 +12,8 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(Hshop2023Context))]
-    [Migration("20241207062230_AddSDT")]
-    partial class AddSDT
+    [Migration("20241208075305_CheckNotNullUser")]
+    partial class CheckNotNullUser
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

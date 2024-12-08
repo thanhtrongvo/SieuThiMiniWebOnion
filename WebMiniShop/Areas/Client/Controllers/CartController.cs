@@ -76,40 +76,59 @@ public class CartController : Controller
     [Authorize]
     public IActionResult ThanhToan(CheckOutVM model)
     {
-        if (!ModelState.IsValid) return View(model);
-
-        var cartItem = Cart;
-        if (cartItem.Count == 0) return RedirectToAction("Index");
-
-        var user = db.Users.Find(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
-        if (user == null) return RedirectToAction("Index");
-
-        var hoaDon = new HoaDon
+        if (ModelState.IsValid)
         {
-            MaUser = user.MaUser,
-            NgayDat = DateTime.Now,
-            DiaChiGiao = model.DiaChi,
-            PhiVanChuyen = 15000,
-            MaTrangThai = 1
-        };
+            var userId = int.Parse(HttpContext.User.Claims.SingleOrDefault(p => p.Type == ClaimTypes.NameIdentifier)
+                .Value);
+            var user = new User();
+            if (model.SameInfo) user = db.Users.Find(userId);
 
-        db.HoaDons.Add(hoaDon);
-        db.SaveChanges();
-
-        foreach (var item in cartItem)
-        {
-            var chiTietHD = new ChiTietHD
+            var hoadon = new HoaDon()
             {
-                MaHD = hoaDon.MaHD,
-                MaHH = item.MaHH,
-                SoLuong = item.SoLuong,
-                DonGia = item.DonGia
+                MaUser = userId,
+
+                NgayDat = DateTime.Now,
+                DiaChiGiao = model.DiaChi,
+                PhiVanChuyen = 15000,
+                MaTrangThai = 1,
+                GhiChu = model.GhiChu,
+                SoDienThoai = model.SoDienThoai
             };
-            db.ChiTietHDs.Add(chiTietHD);
+
+            using (var transaction = db.Database.BeginTransaction())
+            {
+                try
+                {
+                    db.Add(hoadon);
+                    db.SaveChanges();
+
+                    var cthd = new List<ChiTietHD>();
+                    foreach (var item in Cart)
+                    {
+                        cthd.Add(new ChiTietHD()
+                        {
+                            MaHD = hoadon.MaHD,
+                            MaHH = item.MaHH,
+                            SoLuong = item.SoLuong,
+                            DonGia = item.DonGia,
+                            GiamGia = 0
+                        });
+                        db.AddRange(cthd);
+                        db.SaveChanges();
+                    }
+
+
+                    transaction.Commit();
+                    HttpContext.Session.Set<List<CartItem>>(Setting.CARTKEY, new List<CartItem>());
+                    return View("Success");
+                }
+                catch
+                {
+                    transaction.Rollback();
+                }
+            }
         }
 
-        db.SaveChanges();
-        HttpContext.Session.Remove(Setting.CARTKEY);
-        return RedirectToAction("Index");
+        return View(Cart);
     }
 }

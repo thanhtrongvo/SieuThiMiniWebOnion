@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistence;
 
@@ -11,9 +12,11 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(Hshop2023Context))]
-    partial class Hshop2023ContextModelSnapshot : ModelSnapshot
+    [Migration("20241208082810_CheckNotNull")]
+    partial class CheckNotNull
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -37,6 +40,9 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("real");
 
+                    b.Property<int>("HoaDonMaHD")
+                        .HasColumnType("int");
+
                     b.Property<int>("MaHD")
                         .HasColumnType("int");
 
@@ -49,7 +55,7 @@ namespace Persistence.Migrations
 
                     b.HasKey("MaCT");
 
-                    b.HasIndex("MaHD");
+                    b.HasIndex("HoaDonMaHD");
 
                     b.HasIndex("MaHH");
 
@@ -521,8 +527,8 @@ namespace Persistence.Migrations
                 {
                     b.HasOne("Domain.Entities.HoaDon", "HoaDon")
                         .WithMany("ChiTietHDs")
-                        .HasForeignKey("MaHD")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasForeignKey("HoaDonMaHD")
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Domain.Entities.HangHoa", "HangHoa")

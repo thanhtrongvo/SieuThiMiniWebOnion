@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using WebMiniShop.Areas.Client.Helper;
 
 
 namespace WebMiniShop.Areas.Admin.Controllers;
@@ -79,7 +80,7 @@ public class AccountController : Controller
                 {
                     new(ClaimTypes.Name, user.Email),
                     new(ClaimTypes.NameIdentifier, user.MaUser.ToString()),
-                    new("CustomerId" , user.MaUser.ToString()),
+                    new(Setting.CLAIM_CUSTOMERID, user.MaUser.ToString()),
                     new(ClaimTypes.Role, user.VaiTro == 1 ? "Admin" : "User")
                 };
 

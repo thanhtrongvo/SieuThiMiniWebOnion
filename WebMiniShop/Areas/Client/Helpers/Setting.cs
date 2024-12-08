@@ -3,5 +3,5 @@ namespace WebMiniShop.Areas.Client.Helper;
 public class Setting
 {
     public static string CARTKEY = "cart";
-    public static string CUSTOMERID = "customer";
+    public static string CLAIM_CUSTOMERID = "CustomerID";
 }
