@@ -8,11 +8,14 @@ public class HangHoaController : Controller
 {
     private readonly IHangHoaService _hangHoaService;
     private readonly ILoaiService _loaiService; // Thêm service cho loại hàng hóa
+    private readonly IKhuyenMaiService _khuyenMaiService;
 
-    public HangHoaController(IHangHoaService hangHoaService, ILoaiService loaiService)
+
+    public HangHoaController(IHangHoaService hangHoaService, ILoaiService loaiService, IKhuyenMaiService khuyenMaiService)
     {
         _hangHoaService = hangHoaService;
         _loaiService = loaiService;
+        _khuyenMaiService = khuyenMaiService;  // Khởi tạo service khuyến mãi
     }
 
     // Hiển thị danh sách hàng hóa
@@ -27,6 +30,7 @@ public class HangHoaController : Controller
     public async Task<IActionResult> Create()
     {
         ViewBag.Loai = await _loaiService.GetAll(); // Lấy danh sách loại hàng hóa
+        ViewBag.KhuyenMai = await _khuyenMaiService.GetAll();
         return View();
     }
 
@@ -41,11 +45,13 @@ public class HangHoaController : Controller
                 hangHoa.Hinh = fileName;
             }
 
+
             await _hangHoaService.Add(hangHoa);
             return RedirectToAction("Index");
         }
 
         ViewBag.Loai = await _loaiService.GetAll();
+        ViewBag.KhuyenMai = await _khuyenMaiService.GetAll(); // Trả lại danh sách khuyến mãi nếu thêm thất bại
         return View(hangHoa);
     }
 

@@ -47,11 +47,14 @@
         <span asp-validation-for="NgaySX" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="GiamGia" class="control-label">Khuyến mãi</label>
-        <input asp-for="GiamGia" class="form-control" />
-        <span asp-validation-for="GiamGia" class="text-danger"></span>
-    </div>
+        <!-- Combo Box cho Khuyến Mãi -->
+        <div class="form-group">
+            <label asp-for="MaKM" class="control-label"></label>
+            <select asp-for="MaKM" class="form-control" asp-items="@(new SelectList(ViewBag.KhuyenMai, "MaKM", "GiamGia"))">
+                <option value="">Chọn khuyến mãi</option>
+            </select>
+            <span asp-validation-for="MaKM" class="text-danger"></span>
+        </div>
 
     <div class="form-group">
         <label asp-for="SoLanXem" class="control-label">Số lần xem</label>

@@ -38,7 +38,7 @@ namespace Domain.Entities
 
         [Required]
         public int SoLanXem { get; set; }
-
+        public int MaKM { get; set; }
         public  string? MoTa { get; set; }
 
         // Navigation Properties
