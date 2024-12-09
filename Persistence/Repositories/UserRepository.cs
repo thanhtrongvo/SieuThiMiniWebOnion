@@ -102,10 +102,8 @@
             }
             public async Task<User?> GetUserByEmail(string email)
             {
-                return await _context.Users
-                                     .AsNoTracking() // Tùy chọn để tăng hiệu suất khi không cần theo dõi các thay đổi
-                                     .SingleOrDefaultAsync(u => u.Email == email);
-            }
+            return await _context.Users.SingleOrDefaultAsync(u => u.Email == email);
+        }
         public async Task SendOtpToEmail(string email, string otp)
         {
             try

@@ -1,33 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Persistence/Persistence.csproj": {}
+    "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Application/Application.csproj": {
+    "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Application/Application.csproj",
+        "projectUniqueName": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Application/Application.csproj",
-        "packagesPath": "/Users/thanhtrongvo/.nuget/packages/",
-        "outputPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Application/obj/",
+        "projectPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\dangk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/thanhtrongvo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dangk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj": {
-                "projectPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj"
+              "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Domain.csproj"
               }
             }
           }
@@ -86,26 +89,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj": {
+    "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj",
-        "packagesPath": "/Users/thanhtrongvo/.nuget/packages/",
-        "outputPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/obj/",
+        "projectPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\dangk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/thanhtrongvo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dangk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -172,37 +178,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Persistence/Persistence.csproj": {
+    "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Persistence/Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Persistence/Persistence.csproj",
-        "packagesPath": "/Users/thanhtrongvo/.nuget/packages/",
-        "outputPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Persistence/obj/",
+        "projectPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\dangk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/thanhtrongvo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dangk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Application/Application.csproj": {
-                "projectPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Application/Application.csproj"
+              "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Application\\Application.csproj"
               },
-              "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj": {
-                "projectPath": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/Domain/Domain.csproj"
+              "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Domain.csproj"
               }
             }
           }
@@ -273,7 +282,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
