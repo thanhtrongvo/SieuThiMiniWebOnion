@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\domain\\entities\\chitietkhuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\chitietkhuyenmai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\domain\\entities\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\chitiethd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\webminishop\\areas\\admin\\views\\hoadon\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\views\\hoadon\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -154,11 +162,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Delete.cshtml",
@@ -168,6 +176,32 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-10T04:04:32.665Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChiTietKhuyenMai.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\Domain\\Entities\\ChiTietKhuyenMai.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ChiTietKhuyenMai.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\Domain\\Entities\\ChiTietKhuyenMai.cs",
+              "RelativeToolTip": "Domain\\Entities\\ChiTietKhuyenMai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T07:56:37.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChiTietHD.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\Domain\\Entities\\ChiTietHD.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ChiTietHD.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\Domain\\Entities\\ChiTietHD.cs",
+              "RelativeToolTip": "Domain\\Entities\\ChiTietHD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T07:56:34.885Z",
               "EditorCaption": ""
             },
             {
@@ -199,12 +233,8 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
@@ -216,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\HangHoa\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\HangHoa\\Create.cshtml",
@@ -228,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TrangThai\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\TrangThai\\Create.cshtml",
@@ -240,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\KhuyenMai\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\KhuyenMai\\Delete.cshtml",
@@ -252,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\KhuyenMai\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\KhuyenMai\\Edit.cshtml",
@@ -264,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\HangHoa\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\HangHoa\\Delete.cshtml",
@@ -276,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\HangHoa\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\HangHoa\\Edit.cshtml",
@@ -288,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\LichSuGiaoDich\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\LichSuGiaoDich\\Delete.cshtml",
@@ -300,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\LichSuGiaoDich\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\LichSuGiaoDich\\Edit.cshtml",
@@ -312,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Loai\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\Loai\\Delete.cshtml",
@@ -324,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Loai\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\Loai\\Edit.cshtml",
@@ -336,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhaCungCap\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\NhaCungCap\\Delete.cshtml",
@@ -348,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhaCungCap\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\NhaCungCap\\Edit.cshtml",
@@ -360,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Delete.cshtml",
@@ -372,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Edit.cshtml",
@@ -384,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Delete.cshtml",
@@ -396,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Edit.cshtml",
@@ -408,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TrangThai\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\TrangThai\\Edit.cshtml",
@@ -420,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TrangThai\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\TrangThai\\Delete.cshtml",
@@ -432,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\User\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\User\\Edit.cshtml",
@@ -444,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\User\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\User\\Delete.cshtml",
@@ -456,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Loai\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\Loai\\Create.cshtml",
@@ -468,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Create.cshtml",
@@ -480,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Index.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Index.cshtml",
@@ -492,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Create.cshtml",
@@ -504,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "TrangThaiController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\TrangThaiController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\TrangThaiController.cs",
@@ -516,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TrangThai\\Index.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\TrangThai\\Index.cshtml",
@@ -528,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Dashboard.js",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\js\\Dashboard.js",
               "RelativeDocumentMoniker": "WebMiniShop\\wwwroot\\js\\Dashboard.js",
@@ -540,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\User\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\User\\Create.cshtml",
@@ -552,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhaCungCap\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\NhaCungCap\\Create.cshtml",
@@ -564,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\LichSuGiaoDich\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\LichSuGiaoDich\\Create.cshtml",
@@ -576,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\KhuyenMai\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\KhuyenMai\\Create.cshtml",
@@ -588,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Create.cshtml",
@@ -600,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Dashboard.css",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\Dashboard.css",
               "RelativeDocumentMoniker": "WebMiniShop\\wwwroot\\css\\Dashboard.css",
@@ -612,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "NhaCungCapController.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\NhaCungCapController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\NhaCungCapController.cs",
@@ -621,6 +651,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T18:33:44.922Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
