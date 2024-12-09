@@ -5,7 +5,8 @@ using Persistence.Repositories;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Domain.Entities;
-using Application.Features.Configuration; // Đảm bảo namespace chứa User
+using Application.Features.Configuration;
+using WebMiniShop.Areas.Client.Services; 
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,13 +36,13 @@ builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/Client/Account/Login"; // Đường dẫn đến trang đăng nhập
-        options.LogoutPath = "/Client/Account/Logout";
+        options.LoginPath = "/Client/Account/Login"; 
+        options.LogoutPath = "/Client/Account/Logout"; 
     });
 
-
+builder.Services.AddSingleton<IVnPayService, VnPayService>();
 // Cấu hình Session
-builder.Services.AddDistributedMemoryCache(); // Cần thiết để lưu trữ Session trong bộ nhớ
+builder.Services.AddDistributedMemoryCache(); 
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(10); // Thời gian hết hạn của Session (10 phút)

@@ -15,25 +15,88 @@ public class HangHoaController : Controller
         db = context;
     }
 
-    public IActionResult Index(int? loai)
+    public async Task<IActionResult> Index(
+        string sortOrder,
+        string currentFilter,
+        string searchString,
+        int? pageNumber,
+        int? loai)
     {
-        var hanghoas = db.HangHoas.Include(h => h.Loai).AsQueryable();
-        if (loai.HasValue) hanghoas = hanghoas.Where(p => p.MaLoai == loai);
-        var result = hanghoas.Select(p => new HangHoaVM
+        ViewData["CurrentSort"] = sortOrder;
+        ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+        ViewData["DateSortParm"] = sortOrder == "Date" ? "date_desc" : "Date";
+        ViewData["PriceAscSortParm"] = sortOrder == "price_asc" ? "price_desc" : "price_asc";
+        ViewData["DiscountSortParm"] = sortOrder == "discount" ? "discount_desc" : "discount";
+
+        if (searchString != null)
         {
-            MaHH = p.MaHH,
-            TenHH = p.TenHH,
-            Hinh = p.Hinh ?? "",
-            NgaySX = p.NgaySX,
-            DonGia = p.DonGia ?? 0,
-            MoTa = p.MoTa,
-            GiamGia = p.GiamGia,
-            SoLanXem = p.SoLanXem,
-            MaLoai = p.MaLoai,
-            TenLoai = p.Loai.TenLoai
-        }).ToList();
-        return View(result);
+            pageNumber = 1;
+        }
+        else
+        {
+            searchString = currentFilter;
+        }
+
+        ViewData["CurrentFilter"] = searchString;
+
+        var hanghoas = from h in db.HangHoas.Include(h => h.Loai)
+                       select h;
+
+        if (loai.HasValue)
+        {
+            hanghoas = hanghoas.Where(h => h.MaLoai == loai.Value);
+        }
+
+        if (!String.IsNullOrEmpty(searchString))
+        {
+            hanghoas = hanghoas.Where(h => h.TenHH.Contains(searchString));
+        }
+
+        switch (sortOrder)
+        {
+            case "name_desc":
+                hanghoas = hanghoas.OrderByDescending(h => h.TenHH);
+                break;
+            case "Date":
+                hanghoas = hanghoas.OrderBy(h => h.NgaySX);
+                break;
+            case "date_desc":
+                hanghoas = hanghoas.OrderByDescending(h => h.NgaySX);
+                break;
+            case "price_asc":
+                hanghoas = hanghoas.OrderBy(h => h.DonGia);
+                break;
+            case "price_desc":
+                hanghoas = hanghoas.OrderByDescending(h => h.DonGia);
+                break;
+            case "discount":
+                hanghoas = hanghoas.OrderByDescending(h => h.GiamGia);
+                break;
+            default:
+                hanghoas = hanghoas.OrderBy(h => h.TenHH);
+                break;
+        }
+
+        int pageSize = 10;
+        var paginatedList = await PaginatedList<HangHoaVM>.CreateAsync(
+            hanghoas.Select(p => new HangHoaVM
+            {
+                MaHH = p.MaHH,
+                TenHH = p.TenHH,
+                Hinh = p.Hinh ?? "",
+                NgaySX = p.NgaySX,
+                DonGia = p.DonGia.HasValue ? p.DonGia.Value * (1 - p.GiamGia / 100) : 0,
+                MoTa = p.MoTa,
+                GiamGia = p.GiamGia,
+                SoLanXem = p.SoLanXem,
+                MaLoai = p.MaLoai,
+                TenLoai = p.Loai.TenLoai,
+                DonGiaChuaGiam = p.DonGia ?? 0
+            }).AsNoTracking(), pageNumber ?? 1, pageSize);
+
+        return View(paginatedList);
     }
+  
 
     public IActionResult Search(string? keyword)
     {

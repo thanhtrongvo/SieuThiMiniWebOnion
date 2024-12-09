@@ -300,17 +300,21 @@
 .fruite .fruite-item {
     height: 100%;
     transition: 0.5s;
+    overflow: hidden;
 }
 .fruite .fruite-item:hover {
     box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
 }
 
 .fruite .fruite-item .fruite-img {
+    height: 350px;
     overflow: hidden;
     transition: 0.5s;
     border-radius: 10px 10px 0 0;
 }
-
+.fruite-item .p-4 {
+    height: 200px; /* Adjust the height as needed */
+}
 .fruite .fruite-item .fruite-img img {
     transition: 0.5s;
 }
@@ -495,3 +499,21 @@
 }
 /*** Footer End ***/
 
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.pagination .page-link {
+    color: #007bff;
+}
+
+.pagination .page-link:hover {
+    color: #0056b3;
+}

@@ -7,7 +7,7 @@
 
 <h2>Chỉnh Sửa Hàng Hóa</h2>
 
-<form asp-action="Edit" method="post">
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="MaHH" />
     
     <div class="form-group">
@@ -37,7 +37,9 @@
 
     <div class="form-group">
         <label asp-for="Hinh" class="control-label"></label>
-        <input asp-for="Hinh" class="form-control" />
+        <input asp-for="Hinh" type="hidden" />
+        <img src="~/image/HangHoa/@Model.Hinh" alt="Current Image" class="img-thumbnail" style="max-width: 200px; margin-bottom: 10px;" />
+        <input name="NewHinh" type="file" class="form-control" />
         <span asp-validation-for="Hinh" class="text-danger"></span>
     </div>
 
