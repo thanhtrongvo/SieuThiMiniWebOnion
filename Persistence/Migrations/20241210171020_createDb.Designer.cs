@@ -12,13 +12,13 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(Hshop2023Context))]
-    [Migration("20241208075305_CheckNotNullUser")]
-    partial class CheckNotNullUser
+    [Migration("20241210171020_createDb")]
+    partial class createDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
-#pragma warning disable 612, 618
+
             modelBuilder
                 .HasAnnotation("ProductVersion", "8.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
@@ -36,19 +36,15 @@ namespace Persistence.Migrations
                     b.Property<float>("DonGia")
                         .HasColumnType("real");
 
-                    b.Property<float>("GiamGia")
+                    b.Property<float?>("GiamGia")
+                        .IsRequired()
                         .HasColumnType("real");
-
-                    b.Property<int>("HangHoaMaHH")
-                        .HasColumnType("int");
-
-                    b.Property<int>("HoaDonMaHD")
-                        .HasColumnType("int");
 
                     b.Property<int>("MaHD")
                         .HasColumnType("int");
 
-                    b.Property<int>("MaHH")
+                    b.Property<int?>("MaHH")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int>("SoLuong")
@@ -56,9 +52,9 @@ namespace Persistence.Migrations
 
                     b.HasKey("MaCT");
 
-                    b.HasIndex("HangHoaMaHH");
+                    b.HasIndex("MaHD");
 
-                    b.HasIndex("HoaDonMaHD");
+                    b.HasIndex("MaHH");
 
                     b.ToTable("ChiTietHD");
                 });
@@ -447,7 +443,7 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("SoLuongTon")
+                    b.Property<int?>("SoLuongTon")
                         .HasColumnType("int");
 
                     b.HasKey("MaHH");
@@ -526,16 +522,16 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Domain.Entities.ChiTietHD", b =>
                 {
-                    b.HasOne("Domain.Entities.HangHoa", "HangHoa")
-                        .WithMany("ChiTietHDs")
-                        .HasForeignKey("HangHoaMaHH")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Domain.Entities.HoaDon", "HoaDon")
                         .WithMany("ChiTietHDs")
-                        .HasForeignKey("HoaDonMaHD")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("MaHD")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.HangHoa", "HangHoa")
+                        .WithMany("ChiTietHDs")
+                        .HasForeignKey("MaHH")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("HangHoa");
@@ -628,7 +624,7 @@ namespace Persistence.Migrations
             modelBuilder.Entity("Domain.Entities.TonKho", b =>
                 {
                     b.HasOne("Domain.Entities.HangHoa", "HangHoa")
-                        .WithMany()
+                        .WithMany("TonKhos")
                         .HasForeignKey("HangHoaMaHH");
 
                     b.Navigation("HangHoa");
@@ -637,6 +633,8 @@ namespace Persistence.Migrations
             modelBuilder.Entity("Domain.Entities.HangHoa", b =>
                 {
                     b.Navigation("ChiTietHDs");
+
+                    b.Navigation("TonKhos");
                 });
 
             modelBuilder.Entity("Domain.Entities.HoaDon", b =>
@@ -675,7 +673,7 @@ namespace Persistence.Migrations
 
                     b.Navigation("PhanQuyens");
                 });
-#pragma warning restore 612, 618
+
         }
     }
 }

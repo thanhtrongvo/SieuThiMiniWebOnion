@@ -13,9 +13,8 @@ namespace Domain.Entities
     {
         [Key]
         public int MaHH { get; set; }
-        public  HangHoa? HangHoa { get; set; }
+        public HangHoa? HangHoa { get; set; }
 
-    
         public int? SoLuongTon { get; set; }
 
         [Required]

@@ -11,16 +11,19 @@
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Application.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/ref/Application.dll" afterDir="false" />
@@ -30,25 +33,38 @@
       <change beforePath="$PROJECT_DIR$/Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/TonKho.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/TonKho.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net8.0/Domain.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/Domain.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/ref/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/refint/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net8.0/refint/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Hshop2023Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Hshop2023Context.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241208075305_CheckNotNullUser.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241208075305_CheckNotNullUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241208082810_CheckNotNull.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241208082810_CheckNotNull.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241208083336_CheckNotNullChitietHD.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241208083336_CheckNotNullChitietHD.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241209081010_UpdateHoaDonSchema.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/20241209081010_UpdateHoaDonSchema.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/Hshop2023ContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/Hshop2023ContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Persistence.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Application.pdb" afterDir="false" />
@@ -57,34 +73,26 @@
       <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Persistence.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Persistence.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Persistence.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/bin/Debug/net8.0/Persistence.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/Persistence.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/ref/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/ref/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/refint/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Debug/net8.0/refint/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Persistence.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Persistence.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Persistence.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/obj/Persistence.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/Persistence.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Admin/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Admin/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Controllers/CartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Controllers/CartController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Controllers/HangHoaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Controllers/HangHoaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Account/Login.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Cart/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Cart/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Cart/ThanhToan.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Cart/ThanhToan.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/HangHoa/Detail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/HangHoa/Detail.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/HangHoa/_HangHoaItem.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/HangHoa/_HangHoaItem.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Areas/Client/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/WebMiniShop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/WebMiniShop.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/Application.dll" afterDir="false" />
@@ -100,11 +108,13 @@
       <change beforePath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/WebMiniShop.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/ref/WebMiniShop.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/ref/WebMiniShop.dll" afterDir="false" />
@@ -113,12 +123,15 @@
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets/msbuild.WebMiniShop.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets/msbuild.WebMiniShop.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebMiniShop.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebMiniShop.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebMiniShop.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebMiniShop.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/WebMiniShop.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/WebMiniShop.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/WebMiniShop.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/WebMiniShop.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/WebMiniShop.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/WebMiniShop.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebMiniShop/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebMiniShop/wwwroot/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebMiniShop/wwwroot/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +227,7 @@
       <workItem from="1733551764773" duration="4005000" />
       <workItem from="1733817786475" duration="217000" />
       <workItem from="1733820476085" duration="364000" />
+      <workItem from="1733847757772" duration="2958000" />
     </task>
     <servers />
   </component>

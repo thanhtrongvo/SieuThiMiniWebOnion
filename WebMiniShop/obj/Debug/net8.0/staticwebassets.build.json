@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "670q99ah7vT8sgCc7Rli9LrspBujyIFIYMLCZqdItAc=",
+  "Hash": "AuFldSNBLqBSOCtK0wTPCp08U4joFgerdY08MGJyd1o=",
   "Source": "WebMiniShop",
   "BasePath": "_content/WebMiniShop",
   "Mode": "Default",
@@ -948,6 +948,25 @@
       "OriginalItemSpec": "wwwroot/image/group-cate/sua-tuoi-202210311320147075.v202303060950.png"
     },
     {
+      "Identity": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/1.jpg",
+      "SourceId": "WebMiniShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/",
+      "BasePath": "_content/WebMiniShop",
+      "RelativePath": "image/HangHoa/1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/image/HangHoa/1.jpg"
+    },
+    {
       "Identity": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/6-lon-bia-sai-gon-chill-330ml-202201211121225228.jpg",
       "SourceId": "WebMiniShop",
       "SourceType": "Discovered",
@@ -1024,6 +1043,25 @@
       "OriginalItemSpec": "wwwroot/image/HangHoa/bia-2.jpg"
     },
     {
+      "Identity": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/INDOOR-ANHTHU5329.jpg",
+      "SourceId": "WebMiniShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/",
+      "BasePath": "_content/WebMiniShop",
+      "RelativePath": "image/HangHoa/INDOOR-ANHTHU5329.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/image/HangHoa/INDOOR-ANHTHU5329.jpg"
+    },
+    {
       "Identity": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/nuoc-giat-izi-home-trang-sach-ngat-huong-can-346-lit-202304211127275293.jpg",
       "SourceId": "WebMiniShop",
       "SourceType": "Discovered",
@@ -1041,6 +1079,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/image/HangHoa/nuoc-giat-izi-home-trang-sach-ngat-huong-can-346-lit-202304211127275293.jpg"
+    },
+    {
+      "Identity": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/program_1.jpg",
+      "SourceId": "WebMiniShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/",
+      "BasePath": "_content/WebMiniShop",
+      "RelativePath": "image/HangHoa/program_1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/image/HangHoa/program_1.jpg"
     },
     {
       "Identity": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/sua-1.jpg",

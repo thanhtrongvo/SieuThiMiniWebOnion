@@ -440,7 +440,7 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("SoLuongTon")
+                    b.Property<int?>("SoLuongTon")
                         .HasColumnType("int");
 
                     b.HasKey("MaHH");
@@ -621,7 +621,7 @@ namespace Persistence.Migrations
             modelBuilder.Entity("Domain.Entities.TonKho", b =>
                 {
                     b.HasOne("Domain.Entities.HangHoa", "HangHoa")
-                        .WithMany()
+                        .WithMany("TonKhos")
                         .HasForeignKey("HangHoaMaHH");
 
                     b.Navigation("HangHoa");
@@ -630,6 +630,8 @@ namespace Persistence.Migrations
             modelBuilder.Entity("Domain.Entities.HangHoa", b =>
                 {
                     b.Navigation("ChiTietHDs");
+
+                    b.Navigation("TonKhos");
                 });
 
             modelBuilder.Entity("Domain.Entities.HoaDon", b =>
