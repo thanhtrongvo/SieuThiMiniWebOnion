@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\views\\tonkho\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\views\\tonkho\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\tonkhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\tonkhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA4AA630-0392-430F-B55B-33411815EDCE}|Persistence\\Persistence.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\persistence\\repositories\\tonkhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA4AA630-0392-430F-B55B-33411815EDCE}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\tonkhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\domain\\entities\\tonkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\tonkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA4AA630-0392-430F-B55B-33411815EDCE}|Persistence\\Persistence.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\persistence\\repositories\\hanghoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA4AA630-0392-430F-B55B-33411815EDCE}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\hanghoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\domain\\entities\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\domain\\entities\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\views\\nhapkho\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\views\\nhapkho\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\views\\tonkho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\views\\tonkho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\models\\tonkhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\models\\tonkhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\models\\nhapkhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\models\\nhapkhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\views\\nhapkho\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\views\\nhapkho\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\views\\nhapkho\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\views\\nhapkho\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\views\\nhapkho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\views\\nhapkho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\views\\chitiethd\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\views\\chitiethd\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -25,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FA4AA630-0392-430F-B55B-33411815EDCE}|Persistence\\Persistence.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\persistence\\repositories\\hoadonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA4AA630-0392-430F-B55B-33411815EDCE}|Persistence\\Persistence.csproj|solutionrelative:persistence\\repositories\\hoadonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\domain\\entities\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,10 +139,6 @@
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\account\\requestotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -101,10 +157,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\domain\\entities\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28810441-6645-440A-BD33-1CDD758057C7}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -131,10 +183,6 @@
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -159,10 +207,6 @@
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\nhapkhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\tonkhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\tonkhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\users\\dangk\\onedrive\\desktop\\cm\\sieuthiminiwebonion\\webminishop\\areas\\admin\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\admin\\controllers\\thongkecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -178,7 +222,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 20,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -230,24 +274,215 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\ChiTietHD\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\ChiTietHD\\Create.cshtml",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\ChiTietHD\\Create.cshtml",
-              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\ChiTietHD\\Create.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Create.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T08:59:34.124Z",
+              "WhenOpened": "2024-12-10T09:34:42.978Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TonKhoController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:13:49.178Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "TonKho.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\TonKho.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\TonKho.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\TonKho.cs",
+              "RelativeToolTip": "Domain\\Entities\\TonKho.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:21:59.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HangHoa.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\HangHoa.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\HangHoa.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\HangHoa.cs",
+              "RelativeToolTip": "Domain\\Entities\\HangHoa.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:07:28.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HangHoaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Repositories\\HangHoaRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\HangHoaRepository.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Repositories\\HangHoaRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\HangHoaRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAywDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:20:38.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAcwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T11:14:05.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TonKhoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Repositories\\TonKhoRepository.cs",
+              "RelativeDocumentMoniker": "Persistence\\Repositories\\TonKhoRepository.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Repositories\\TonKhoRepository.cs",
+              "RelativeToolTip": "Persistence\\Repositories\\TonKhoRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:24:16.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\HoaDon.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\HoaDon.cs",
+              "RelativeToolTip": "Domain\\Entities\\HoaDon.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T08:52:06.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Create.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Create.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwGUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T09:41:33.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Index.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\TonKho\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T09:40:27.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NhapKhoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Models\\NhapKhoViewModel.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Models\\NhapKhoViewModel.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Models\\NhapKhoViewModel.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Models\\NhapKhoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:41:29.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TonKhoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Models\\TonKhoViewModel.cs",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Models\\TonKhoViewModel.cs",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Models\\TonKhoViewModel.cs",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Models\\TonKhoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:38:29.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:08:44.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Delete.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T09:41:40.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Edit.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T09:41:37.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Index.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\NhapKho\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T09:41:36.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\ChiTietHD\\Details.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\ChiTietHD\\Details.cshtml",
@@ -260,20 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
-              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
-              "ViewState": "AgIAACAAAAAAAAAAAAAqwEYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T08:52:32.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 21,
               "Title": "HoaDonRepository.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Repositories\\HoaDonRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\HoaDonRepository.cs",
@@ -281,25 +503,23 @@
               "RelativeToolTip": "Persistence\\Repositories\\HoaDonRepository.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAUwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T08:52:18.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T08:52:18.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\HoaDon.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\HoaDon.cs",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\HoaDon.cs",
-              "RelativeToolTip": "Domain\\Entities\\HoaDon.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T08:52:06.289Z",
-              "EditorCaption": ""
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\HoaDon\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwEYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T08:52:32.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "ChiTietHD.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\ChiTietHD.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ChiTietHD.cs",
@@ -307,12 +527,23 @@
               "RelativeToolTip": "Domain\\Entities\\ChiTietHD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T08:47:45.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T08:47:45.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\ChiTietHD\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\ChiTietHD\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\ChiTietHD\\Create.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\ChiTietHD\\Create.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T08:59:34.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Controllers\\AccountController.cs",
@@ -320,12 +551,11 @@
               "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAHAAAAAAAAAAAAAAAFMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T11:13:15.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T11:13:15.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "ChiTietHDController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\ChiTietHDController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\ChiTietHDController.cs",
@@ -333,12 +563,11 @@
               "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\ChiTietHDController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T11:14:06.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T11:14:06.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "ChiTietHDRepository.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Repositories\\ChiTietHDRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\ChiTietHDRepository.cs",
@@ -346,12 +575,11 @@
               "RelativeToolTip": "Persistence\\Repositories\\ChiTietHDRepository.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T08:47:53.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T08:47:53.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "ResetPasswordForm.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Account\\ResetPasswordForm.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\Account\\ResetPasswordForm.cshtml",
@@ -363,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "HoaDonController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HoaDonController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\HoaDonController.cs",
@@ -371,12 +599,11 @@
               "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\HoaDonController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAcwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T11:14:04.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T11:14:04.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
               "Title": "VerifyOtpForm.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\VerifyOtpForm.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\VerifyOtpForm.cshtml",
@@ -388,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 25,
               "Title": "ResetPasswordForm.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\ResetPasswordForm.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\ResetPasswordForm.cshtml",
@@ -400,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\Account\\Register.cshtml",
@@ -412,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Program.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Program.cs",
@@ -424,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 30,
               "Title": "RequestOtp.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Account\\RequestOtp.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\Account\\RequestOtp.cshtml",
@@ -436,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "VerifyOtpForm.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Account\\VerifyOtpForm.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\Account\\VerifyOtpForm.cshtml",
@@ -448,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 32,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Persistence\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\Repositories\\UserRepository.cs",
@@ -460,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 33,
               "Title": "RequestOtp.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\RequestOtp.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\RequestOtp.cshtml",
@@ -472,19 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T15:08:44.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 35,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebMiniShop\\appsettings.Development.json",
@@ -496,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 36,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\UserController.cs",
@@ -508,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -520,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 34,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\appsettings.json",
               "RelativeDocumentMoniker": "WebMiniShop\\appsettings.json",
@@ -532,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 38,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -544,19 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "HangHoa.cs",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\HangHoa.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\HangHoa.cs",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\Domain\\Entities\\HangHoa.cs",
-              "RelativeToolTip": "Domain\\Entities\\HangHoa.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T08:07:28.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\Login.cshtml",
@@ -568,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 40,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\Register.cshtml",
@@ -580,19 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "HangHoaController.cs",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
-              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
-              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\HangHoaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T11:14:05.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 41,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Account\\ForgotPassword.cshtml",
@@ -604,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 43,
               "Title": "login.css",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "WebMiniShop\\wwwroot\\css\\login.css",
@@ -616,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 42,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "WebMiniShop\\wwwroot\\css\\style.css",
@@ -628,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 46,
               "Title": "KhuyenMaiController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\KhuyenMaiController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\KhuyenMaiController.cs",
@@ -640,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 44,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Shared\\_Layout.cshtml",
@@ -652,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 47,
               "Title": "LichSuGiaoDichController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\LichSuGiaoDichController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\LichSuGiaoDichController.cs",
@@ -664,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 48,
               "Title": "LoaiController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\LoaiController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\LoaiController.cs",
@@ -676,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 49,
               "Title": "NhaCungCapController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\NhaCungCapController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\NhaCungCapController.cs",
@@ -688,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 45,
               "Title": "KhachHangController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\KhachHangController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\KhachHangController.cs",
@@ -700,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 50,
               "Title": "NhapKhoController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\NhapKhoController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\NhapKhoController.cs",
@@ -712,19 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "TonKhoController.cs",
-              "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
-              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
-              "ToolTip": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
-              "RelativeToolTip": "WebMiniShop\\Areas\\Admin\\Controllers\\TonKhoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T11:13:49.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 51,
               "Title": "ThongKeController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\ThongKeController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\ThongKeController.cs",
@@ -736,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 52,
               "Title": "TrangThaiController.cs",
               "DocumentMoniker": "C:\\Users\\dangk\\OneDrive\\Desktop\\cm\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Admin\\Controllers\\TrangThaiController.cs",
               "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Admin\\Controllers\\TrangThaiController.cs",
@@ -745,6 +924,16 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T11:13:46.365Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 453,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
