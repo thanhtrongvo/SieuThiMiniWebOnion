@@ -45,14 +45,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto">
-                    <a href="/" class="nav-item nav-link active">Trang chủ</a>
+                    <a href="/" class="nav-item nav-link">Trang chủ</a>
                     <a asp-controller="HangHoa" class="nav-item nav-link">Sản phẩm</a>
                     <a asp-controller="Contact" class="nav-item nav-link">Liên hệ</a>
                 </div>
                 <div class="d-flex m-3 me-0">
-                    <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4"
+                    <button class="btn-search btn btn-md-square rounded-circle bg-green me-4"
                         data-bs-toggle="modal" data-bs-target="#searchModal">
-                        <i class="fas fa-search text-warning" title="Search"></i>
+                        <i class="fas fa-search text-light" title="Search"></i>
                     </button>
                     @await Component.InvokeAsync("Cart")
                     @if (isLoggedIn)
