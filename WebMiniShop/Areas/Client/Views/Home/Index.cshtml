@@ -138,10 +138,9 @@
                                                 <img src="~/image/HangHoa/@hangHoa.Hinh" class="card-img-top" alt="@hangHoa.TenHH">
                                                 <div class="card-body">
                                                     <h5 class="card-title">@hangHoa.TenHH</h5>
-                                                    <p class="card-text">@hangHoa.MoTa</p>
                                                     <div class="d-flex justify-content-between align-items-center">
-                                                        <p class="text-dark fs-5 fw-bold mb-0">@hangHoa.DonGia.ToString("N0").Replace(",", ".") VND</p>
-                                                        <a href="#" class="btn btn-primary"><i class="fa fa-shopping-bag me-2"></i> Add to cart</a>
+                                                        <p class="text-dark fs-5 fw-bold mb-0">@hangHoa.DonGia.ToString("N0").Replace(",", ".")đ</p>
+                                                        <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@hangHoa.MaHH" class="btn btn-primary"><i class="fa fa-shopping-bag me-2"></i> Thêm vào giỏ</a>
                                                     </div>
                                                 </div>
                                                 <div class="card-footer text-muted">

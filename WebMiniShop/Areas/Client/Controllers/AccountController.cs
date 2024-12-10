@@ -1,16 +1,17 @@
-using WebMiniShop.Models;
-using Application.Features.Interface;
-using Domain.Entities;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Application.Features.Interface;
+using Domain.Entities;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using WebMiniShop.Areas.Client.Helper;
-
+using WebMiniShop.Models;
 
 namespace WebMiniShop.Areas.Admin.Controllers;
 
@@ -18,10 +19,12 @@ namespace WebMiniShop.Areas.Admin.Controllers;
 public class AccountController : Controller
 {
     private readonly IUserService _userService;
+    private readonly IPasswordHasher<User> _passwordHasher;
 
-    public AccountController(IUserService userService)
+    public AccountController(IUserService userService, IPasswordHasher<User> passwordHasher)
     {
         _userService = userService;
+        _passwordHasher = passwordHasher;
     }
 
     // Hiển thị trang đăng ký
@@ -35,8 +38,9 @@ public class AccountController : Controller
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Register(
-        [Bind("HoTen,Email,MatKhau,DienThoai,VaiTro,GioiTinh,NgaySinh,DiaChi")]
-        User user, string ConfirmMatKhau)
+        [Bind("HoTen,Email,MatKhau,DienThoai,VaiTro,GioiTinh,NgaySinh,DiaChi")] User user,
+        string ConfirmMatKhau
+    )
     {
         if (ModelState.IsValid)
         {
@@ -81,14 +85,20 @@ public class AccountController : Controller
                     new(ClaimTypes.Name, user.Email),
                     new(ClaimTypes.NameIdentifier, user.MaUser.ToString()),
                     new(Setting.CLAIM_CUSTOMERID, user.MaUser.ToString()),
-                    new(ClaimTypes.Role, user.VaiTro == 1 ? "Admin" : "User")
+                    new(ClaimTypes.Role, user.VaiTro == 1 ? "Admin" : "User"),
                 };
 
-                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var claimsIdentity = new ClaimsIdentity(
+                    claims,
+                    CookieAuthenticationDefaults.AuthenticationScheme
+                );
                 var authProperties = new AuthenticationProperties { IsPersistent = true };
 
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                    new ClaimsPrincipal(claimsIdentity), authProperties);
+                await HttpContext.SignInAsync(
+                    CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(claimsIdentity),
+                    authProperties
+                );
 
                 // Điều hướng dựa trên vai trò của người dùng
                 if (user.VaiTro == 1) // Admin
@@ -223,5 +233,77 @@ public class AccountController : Controller
     {
         var random = new Random();
         return random.Next(100000, 999999).ToString();
+    }
+
+    [HttpGet]
+    public IActionResult GoogleLogin()
+    {
+        var properties = new AuthenticationProperties
+        {
+            RedirectUri = Url.Action("GoogleResponse"),
+        };
+        return Challenge(properties, GoogleDefaults.AuthenticationScheme);
+    }
+
+    public async Task<IActionResult> GoogleResponse()
+    {
+        var result = await HttpContext.AuthenticateAsync(
+            CookieAuthenticationDefaults.AuthenticationScheme
+        );
+        var claims = result
+            .Principal.Identities.FirstOrDefault()
+            ?.Claims.Select(claim => new
+            {
+                claim.Issuer,
+                claim.OriginalIssuer,
+                claim.Type,
+                claim.Value,
+            });
+
+        var email = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+        var name = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+
+        if (email != null)
+        {
+            var user = await _userService.GetUserByEmail(email);
+            if (user == null)
+            {
+                user = new User
+                {
+                    Email = email,
+                    HoTen = name,
+                    VaiTro = 2, // Default role for new users
+                    MatKhau = _passwordHasher.HashPassword(null, Guid.NewGuid().ToString()), // Generate a random password
+                };
+                await _userService.Add(user);
+            }
+
+            var userClaims = new List<Claim>
+            {
+                new(ClaimTypes.Name, user.Email),
+                new(ClaimTypes.NameIdentifier, user.MaUser.ToString()),
+                new(Setting.CLAIM_CUSTOMERID, user.MaUser.ToString()),
+                new(ClaimTypes.Role, user.VaiTro == 1 ? "Admin" : "User"),
+            };
+            var claimsIdentity = new ClaimsIdentity(
+                userClaims,
+                CookieAuthenticationDefaults.AuthenticationScheme
+            );
+            var authProperties = new AuthenticationProperties { IsPersistent = true };
+
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity),
+                authProperties
+            );
+
+            // Điều hướng dựa trên vai trò của người dùng
+            if (user.VaiTro == 1) // Admin
+                return RedirectToAction("Index", "Dashboard", new { area = "Admin" });
+            else // Khách hàng
+                return RedirectToAction("Index", "Home", new { area = "Client" });
+        }
+
+        return RedirectToAction("Login");
     }
 }

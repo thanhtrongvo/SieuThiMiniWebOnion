@@ -953,6 +953,7 @@ C:/Users/dangk/OneDrive/Desktop/HEE/SieuThiMiniWebOnion/WebMiniShop/obj/Debug/ne
 /Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/bin/Debug/net8.0/Azure.Identity.dll
 /Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/bin/Debug/net8.0/Humanizer.dll
 /Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/bin/Debug/net8.0/Microsoft.AspNet.Identity.Core.dll
+/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.Google.dll
 /Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
 /Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll

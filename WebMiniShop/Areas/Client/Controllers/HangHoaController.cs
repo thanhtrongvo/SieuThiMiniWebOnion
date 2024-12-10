@@ -98,25 +98,34 @@ public class HangHoaController : Controller
     }
   
 
-    public IActionResult Search(string? keyword)
+    public async Task<IActionResult> Search(string? keyword, int? pageNumber)
+{
+    var hanghoas = db.HangHoas.Include(h => h.Loai).AsQueryable();
+
+    if (!string.IsNullOrEmpty(keyword))
     {
-        var hanghoas = db.HangHoas.Include(h => h.Loai).AsQueryable();
-        if (!string.IsNullOrEmpty(keyword)) hanghoas = hanghoas.Where(p => p.TenHH.Contains(keyword));
-        var result = hanghoas.Select(p => new HangHoaVM
-        {
-            MaHH = p.MaHH,
-            TenHH = p.TenHH,
-            Hinh = p.Hinh ?? "",
-            NgaySX = p.NgaySX,
-            DonGia = p.DonGia ?? 0,
-            MoTa = p.MoTa,
-            GiamGia = p.GiamGia,
-            SoLanXem = p.SoLanXem,
-            MaLoai = p.MaLoai,
-            TenLoai = p.Loai.TenLoai
-        }).ToList();
-        return View("Index", result);
+        hanghoas = hanghoas.Where(p => p.TenHH.Contains(keyword));
     }
+
+    var hanghoaVMs = hanghoas.Select(p => new HangHoaVM
+    {
+        MaHH = p.MaHH,
+        TenHH = p.TenHH,
+        Hinh = p.Hinh ?? "",
+        NgaySX = p.NgaySX,
+        DonGia = p.DonGia ?? 0,
+        MoTa = p.MoTa,
+        GiamGia = p.GiamGia,
+        SoLanXem = p.SoLanXem,
+        MaLoai = p.MaLoai,
+        TenLoai = p.Loai.TenLoai
+    });
+
+    int pageSize = 10;
+    var paginatedList = await PaginatedList<HangHoaVM>.CreateAsync(hanghoaVMs.AsNoTracking(), pageNumber ?? 1, pageSize);
+
+    return View("Index", paginatedList);
+}
 
     public IActionResult Detail(int id)
     {

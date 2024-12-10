@@ -2,15 +2,15 @@
 
 <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
-
         <div class="modal-content rounded-0">
-            <div class="modal-header">
+            <div class="modal-header bg-primary text-white">
                 <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body d-flex align-items-center">
-                <div class="input-group w-75 mx-auto d-flex">
-                    <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                <div class="input-group w-75 mx-auto">
+                    <input type="search" class="form-control p-3" placeholder="keywords"
+                        aria-describedby="search-icon-1">
                     <span id="search-icon-1" class="input-group-text p-3">
                         <i class="fa fa-search"></i>
                     </span>
@@ -20,131 +20,121 @@
     </div>
 </div>
 <!-- Modal Search End -->
+
 <!-- Single Page Header start -->
-<div class="container-fluid page-header py-5 bg-primary">
-    <h1 class="text-center text-white display-6">Checkout</h1>
+<div class="container-fluid page-header py-5 bg-primary text-white text-center">
+    <h1 class="display-6">Checkout</h1>
     <ol class="breadcrumb justify-content-center mb-0">
         <li class="breadcrumb-item">
-            <a asp-controller="Home">Home</a>
+            <a asp-controller="Home" class="text-white">Home</a>
         </li>
         <li class="breadcrumb-item">
-            <a asp-controller="Pages">Pages</a>
+            <a asp-controller="Pages" class="text-white">Pages</a>
         </li>
         <li class="breadcrumb-item active text-white">Checkout</li>
     </ol>
 </div>
 <!-- Single Page Header End -->
+
 <!-- Checkout Page Start -->
-<div class="container-fluid py-5 bg-white">
+<div class="container-fluid py-5 bg-light">
     <div class="container py-5">
-        <h1 class="mb-4">Billing details</h1>
-
+        <h1 class="mb-4">Chi tiết hóa đơn</h1>
         <div class="row g-5">
-            <form asp-action="ThanhToan" asp-controller="Cart">
-                <div class="col-md-12 col-lg-6 col-xl-7">
+            <div class="col-md-12 col-lg-6 col-xl-7">
+                <form asp-action="ThanhToan" asp-controller="Cart">
                     <div class="row">
-
                         <div class="col-md-12 col-lg-6">
-                            <div class="form-item w-100">
-                                <label class="form-label my-3">Người nhận hàng<sup>*</sup></label>
+                            <div class="mb-3">
+                                <label class="form-label">Người nhận hàng<sup>*</sup></label>
                                 <input type="text" name="HoTen" class="form-control">
                             </div>
                         </div>
                     </div>
-                    <div class="form-item">
-                        <label class="form-label my-3">Địa chỉ nhận hàng<sup>*</sup></label>
+                    <div class="mb-3">
+                        <label class="form-label">Địa chỉ nhận hàng<sup>*</sup></label>
                         <input type="text" name="DiaChi" class="form-control">
                     </div>
-                    <div class="form-item">
-                        <label class="form-label my-3">Số điện thoại <sup>*</sup></label>
+                    <div class="mb-3">
+                        <label class="form-label">Số điện thoại <sup>*</sup></label>
                         <input type="text" name="SoDienThoai" class="form-control" placeholder="Number Phone">
                     </div>
-
-                    <div class="form-check my-3">
+                    <div class="form-check mb-3">
                         <input type="checkbox" class="form-check-input" id="sameinfo" name="sameinfo" value="0">
-                        <label class="form-check-label" for="SameInfo">Sử dụng thông tin người dùng</label>
+                        <label class="form-check-label" for="sameinfo">Sử dụng thông tin người dùng</label>
                     </div>
                     <hr>
-
-                    <div class="form-item">
-                        <textarea name="GhiChu" class="form-control" spellcheck="false" cols="30" rows="11" placeholder="Ghi chú (Optional)"></textarea>
+                    <div class="mb-3">
+                        <textarea name="GhiChu" class="form-control" spellcheck="false" cols="30" rows="5"
+                            placeholder="Ghi chú (Optional)"></textarea>
                     </div>
                     <div class="row g-4 text-center align-items-center justify-content-center pt-4">
-                        <input type="submit" name="payment" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary" value="Đặt hàng (COD)"></input>
+                        <input type="submit" name="payment" class="btn btn-primary py-3 px-4 text-uppercase w-100"
+                            value="Đặt hàng (COD)">
                     </div>
                     <div class="row g-4 text-center align-items-center justify-content-center pt-4">
-                        <input type="submit" value="Thanh Toán VNPay" name="payment" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary"></input>
+                        <input type="submit" value="Thanh Toán VNPay" name="payment"
+                            class="btn btn-primary py-3 px-4 text-uppercase w-100">
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
             <div class="col-md-12 col-lg-6 col-xl-5">
                 <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th scope="col">Products</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">Quantity</th>
-                            <th scope="col">Total</th>
-                        </tr>
+                    <table class="table table-bordered table-hover table-striped">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">Products</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total</th>
+                            </tr>
                         </thead>
                         <tbody>
-                        @foreach (var item in Model)
-                        {
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center mt-2">
+                                            <img src="~/image/HangHoa/@item.Hinh" class="img-fluid rounded-circle"
+                                                style="width: 90px; height: 90px;" alt="">
+                                        </div>
+                                    </th>
+                                    <td class="align-middle">@item.TenHH</td>
+                                    <td class="align-middle">@item.DonGia.ToString("N0").Replace(",", ".")đ</td>
+                                    <td class="align-middle">@item.SoLuong</td>
+                                    <td class="align-middle">@item.ThanhTien.ToString("N0").Replace(",", ".")đ</td>
+                                </tr>
+                            }
                             <tr>
-                                <th scope="row">
-                                    <div class="d-flex align-items-center mt-2">
-                                        <img src="~/image/vegetable-item-2.jpg" class="img-fluid rounded-circle" style="width: 90px; height: 90px;" alt="">
+                                <th scope="row"></th>
+                                <td></td>
+                                <td></td>
+                                <td class="align-middle">
+                                    <p class="mb-0">Tổng cộng</p>
+                                </td>
+                                <td class="align-middle">
+                                    <div class="py-3 border-bottom border-top">
+                                        <p class="mb-0">@Model.Sum(p => p.ThanhTien).ToString("N0").Replace(",", ".")đ</p>
                                     </div>
-                                </th>
-                                <td class="py-5">@item.TenHH</td>
-                                <td class="py-5">@item.DonGia VND</td>
-                                <td class="py-5">@item.SoLuong</td>
-                                <td class="py-5">@item.ThanhTien</td>
+                                </td>
                             </tr>
-                        }
-
-                        <tr>
-                            <th scope="row">
-                            </th>
-                            <td class="py-5"></td>
-                            <td class="py-5"></td>
-                            <td class="py-5">
-                                <p class="mb-0 text-dark py-3">Tổng cộng</p>
-                            </td>
-                            <td class="py-5">
-                                <div class="py-3 border-bottom border-top">
-                                    <p class="mb-0 text-dark">@Model.Sum(p => p.ThanhTien).ToString("#,##.000")</p>
-
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                            </th>
-
-
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                            </th>
-                            <td class="py-5">
-                                <p class="mb-0 text-dark text-uppercase py-3">TOTAL</p>
-                            </td>
-                            <td class="py-5"></td>
-                            <td class="py-5"></td>
-                            <td class="py-5">
-                                <div class="py-3 border-bottom border-top">
-                                    <p class="mb-0 text-dark">$135.00</p>
-                                </div>
-                            </td>
-                        </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td class="align-middle">
+                                    <p class="mb-0 text-uppercase">TOTAL</p>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td class="align-middle">
+                                    <div class="py-3 border-bottom border-top">
+                                        <p class="mb-0">@Model.Sum(p => p.ThanhTien).ToString("N0").Replace(",", ".")đ</p>
+                                    </div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
-
-
             </div>
         </div>
     </div>

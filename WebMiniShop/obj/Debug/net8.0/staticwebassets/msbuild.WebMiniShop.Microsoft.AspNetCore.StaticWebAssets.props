@@ -752,6 +752,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\group-cate\sua-tuoi-202210311320147075.v202303060950.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\HangHoa\6-lon-bia-sai-gon-chill-330ml-202201211121225228.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebMiniShop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebMiniShop</BasePath>
+      <RelativePath>image/HangHoa/6-lon-bia-sai-gon-chill-330ml-202201211121225228.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\HangHoa\6-lon-bia-sai-gon-chill-330ml-202201211121225228.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\image\HangHoa\banh-gao-cat-lat-tokpokki-matamun-goi-600g-202010311338517634.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebMiniShop</SourceId>

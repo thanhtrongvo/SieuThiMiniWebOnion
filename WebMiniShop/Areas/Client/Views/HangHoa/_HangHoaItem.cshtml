@@ -19,9 +19,9 @@
             </div>
             <div class="p-4 border border-secondary border-top-0 rounded-bottom bg-light">
                 <h4 class="text-primary">@item.TenHH</h4>
-                <p class="text-muted">@item.MoTa</p>
+                
                 <div class="d-flex justify-content-between align-items-center">
-                    <p class="text-dark fs-6 fw-bold mb-0">@item.DonGia.ToString("N0").Replace(",", ".") VND</p>
+                    <p class="text-dark fs-5 fw-bold mb-0">@item.DonGia.ToString("N0").Replace(",", ".")đ</p>
                     <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.MaHH" class="btn btn-outline-primary rounded-pill px-3">
                         <i
                             class="fa fa-shopping-bag me-2">

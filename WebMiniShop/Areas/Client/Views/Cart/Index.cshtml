@@ -43,30 +43,30 @@
                             <p class="mb-0 mt-4">@item.TenHH</p>
                         </td>
                         <td>
-                            <p class="mb-0 mt-4">@item.DonGia VND</p>
+                            <p class="mb-0 mt-4">@item.DonGia.ToString("N0").Replace(",", ".")đ</p>
                         </td>
                         <td>
                             <div class="input-group quantity mt-4" style="width: 100px;">
                                 <div class="input-group-btn">
-                                    <button type="button" class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                    <button  class="btn btn-sm btn-minus rounded-circle bg-light border">
                                         <i class="fa fa-minus"></i>
                                     </button>
                                 </div>
                                 <input type="text" class="form-control form-control-sm text-center border-0" value="@item.SoLuong">
                                 <div class="input-group-btn">
-                                    <button type="button" class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                    <button  class="btn btn-sm btn-plus rounded-circle bg-light border">
                                         <i class="fa fa-plus"></i>
                                     </button>
                                 </div>
                             </div>
                         </td>
                         <td>
-                            <p class="mb-0 mt-4">@item.ThanhTien VND</p>
+                            <p class="mb-0 mt-4">@item.ThanhTien.ToString("N0").Replace(",", ".")đ</p>
                         </td>
                         <td>
-                            <button type="button" asp-action="RemoveCart" asp-controller="Cart" asp-route-id="@item.MaHH" class="btn btn-md rounded-circle bg-light border mt-4">
+                            <a asp-action="RemoveCart" asp-controller="Cart" asp-route-id="@item.MaHH" class="btn btn-md rounded-circle bg-light border mt-4">
                                 <i class="fa fa-times text-danger"></i>
-                            </button>
+                            </a>
                         </td>
 
                     </tr>
@@ -85,13 +85,13 @@
                         <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
                         <div class="d-flex justify-content-between mb-4">
                             <h5 class="mb-0 me-4">Subtotal:</h5>
-                            <p class="mb-0">@Model.Sum(p => p.ThanhTien)</p>
+                            <p class="mb-0">@Model.Sum(p => p.ThanhTien).ToString("N0").Replace(",", ".")đ</p>
                         </div>
                         
                     </div>
                     <div class="py-4 mb-4 border-top border-bottom d-flex justify-content-between">
                         <h5 class="mb-0 ps-4 me-4">Total</h5>
-                        <p class="mb-0 pe-4">@Model.Sum(p => p.ThanhTien)</p>
+                        <p class="mb-0 pe-4">@Model.Sum(p => p.ThanhTien).ToString("N0").Replace(",", ".")đ</p>
                     </div>
                     <a asp-action="ThanhToan" asp-controller="Cart" class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4" type="button">Thanh Toán</a>
                 </div>
@@ -99,6 +99,3 @@
         </div>
     </div>
 </div>
-<!-- Cart Page End -->
-@{
-}

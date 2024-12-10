@@ -61,8 +61,10 @@ public class CartController : Controller
     {
         var cartItem = Cart;
         var item = cartItem.SingleOrDefault(p => p.MaHH == id);
-        if (item != null) cartItem.Remove(item);
-        HttpContext.Session.Set(Setting.CARTKEY, cartItem);
+        if (item != null) {
+            cartItem.Remove(item);
+            HttpContext.Session.Set(Setting.CARTKEY, cartItem);
+        } 
         return RedirectToAction("Index");
     }
 
@@ -71,9 +73,10 @@ public class CartController : Controller
     public IActionResult ThanhToan()
     {
         var cartItem = Cart;
-        if (cartItem.Count == 0) return RedirectToAction("Index");
-
-        return View(Cart);
+       if(cartItem.Count == 0) {
+         return Redirect("/");
+       }
+       return View(Cart);
     }
 
     [HttpPost]

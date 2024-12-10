@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AbXh16kyh3uCPzUaMBCeWaS1912ZD6VVrk/wl0VIlGI=",
+  "Hash": "670q99ah7vT8sgCc7Rli9LrspBujyIFIYMLCZqdItAc=",
   "Source": "WebMiniShop",
   "BasePath": "_content/WebMiniShop",
   "Mode": "Default",
@@ -946,6 +946,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/image/group-cate/sua-tuoi-202210311320147075.v202303060950.png"
+    },
+    {
+      "Identity": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/6-lon-bia-sai-gon-chill-330ml-202201211121225228.jpg",
+      "SourceId": "WebMiniShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/",
+      "BasePath": "_content/WebMiniShop",
+      "RelativePath": "image/HangHoa/6-lon-bia-sai-gon-chill-330ml-202201211121225228.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/image/HangHoa/6-lon-bia-sai-gon-chill-330ml-202201211121225228.jpg"
     },
     {
       "Identity": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/banh-gao-cat-lat-tokpokki-matamun-goi-600g-202010311338517634.jpg",
