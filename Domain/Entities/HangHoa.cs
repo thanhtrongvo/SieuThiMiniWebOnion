@@ -38,10 +38,12 @@ namespace Domain.Entities
 
         [Required]
         public int SoLanXem { get; set; }
-
+  
         public  string? MoTa { get; set; }
 
         // Navigation Properties
         public  ICollection<ChiTietHD>? ChiTietHDs { get; set; }
+        public ICollection<TonKho>? TonKhos { get; set; }
+
     }
 }

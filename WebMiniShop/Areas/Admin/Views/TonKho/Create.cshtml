@@ -5,77 +5,51 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-
 <div style="display: flex; justify-content: center;">
     <form asp-action="Create" method="post" style="border: 1px solid #ddd; padding: 20px; width: 60%; background-color: #fff;">
-<h2>Thêm Tồn Kho</h2>
-    <div class="form-group">
-        <label asp-for="MaHH" class="control-label">Mã Hàng Hóa</label>
-        <input asp-for="MaHH" class="form-control" />
-        <span asp-validation-for="MaHH" class="text-danger"></span>
-    </div>
+        <h2>Thêm Tồn Kho</h2>
 
-    <div class="form-group">
-        <label asp-for="SoLuongTon" class="control-label">Số lượng còn lại</label>
-        <input asp-for="SoLuongTon" class="form-control" />
-        <span asp-validation-for="SoLuongTon" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label asp-for="NgayCapNhat" class="control-label">Ngày cập nhật</label>
-        <input asp-for="NgayCapNhat" type="date" class="form-control" />
-        <span asp-validation-for="NgayCapNhat" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <input type="submit" value="Thêm Tồn Kho" class="btn btn-primary" />
-    </div>
-</form>
-</div>
-<style>
-    .btn-primary {
-        width: 100%;
-    }
-
-    body {
-        background-color: #f2f2f2;
-    }
-
-    .form-group {
-        margin-bottom: 20px;
-    }
-
-        .form-group label {
-            font-weight: bold;
-        }
-
-        .form-group input[type="text"],
-        .form-group input[type="date"],
-        .form-group input[type="number"],
-        .form-group input[type="email"],
-        .form-group input[type="password"],
-        .form-group select,
-        .form-group textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-
-        .form-group input[type="submit"] {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #007bff;
-            color: white;
-            cursor: pointer;
-        }
-
-            .form-group input[type="submit"]:hover {
-                background-color: #0056b3;
+       <div class="form-group">
+    <label asp-for="MaHH" class="control-label">Mã Hàng Hóa</label>
+    <select asp-for="MaHH" class="form-control">
+        <option value="">Chọn Mã Hàng Hóa</option>
+                @if (ViewBag.HangHoas != null)
+                {
+                    @foreach (var item in ViewBag.HangHoas as List<SelectListItem>)
+                    {
+                        <option value="@item.Value">@item.Text</option>
+                    }
+                }
+                else
+                {
+                <option value="">Không có hàng hóa</option>
+                }
+    </select>
+    <span asp-validation-for="MaHH" class="text-danger"></span>
+    <!-- Hiển thị thông báo lỗi nếu có -->
+            @if (ViewData.ModelState["MaHH"]?.Errors.Count > 0)
+            {
+            <div class="text-danger">
+                    @ViewData.ModelState["MaHH"]?.Errors[0].ErrorMessage
+            </div>
             }
+</div>
 
-    .text-danger {
-        color: red;
-    }
-</style>
+
+        <div class="form-group">
+            <label asp-for="SoLuongTon" class="control-label">Số lượng còn lại</label>
+            <input asp-for="SoLuongTon" value="0" class="form-control" readonly />
+            <span asp-validation-for="SoLuongTon" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="NgayCapNhat" class="control-label">Ngày cập nhật</label>
+            <input asp-for="NgayCapNhat" type="date" class="form-control" />
+            <span asp-validation-for="NgayCapNhat" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Thêm Tồn Kho" class="btn btn-primary" />
+        </div>
+    </form>
+</div>

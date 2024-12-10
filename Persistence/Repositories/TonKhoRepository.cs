@@ -40,11 +40,16 @@ namespace Persistence.Repositories
             var existingTonKho = await _context.TonKhos.FindAsync(tonKho.MaHH);
             if (existingTonKho != null)
             {
+                if (tonKho.SoLuongTon < 0)
+                {
+                    throw new InvalidOperationException("Số lượng tồn kho không thể nhỏ hơn 0.");
+                }
                 existingTonKho.SoLuongTon = tonKho.SoLuongTon;
                 existingTonKho.NgayCapNhat = tonKho.NgayCapNhat;
                 await _context.SaveChangesAsync();
             }
         }
+
         public async Task<TonKho> GetTonKhoByMaHHAsync(int maHH)
         {
             return await _context.TonKhos

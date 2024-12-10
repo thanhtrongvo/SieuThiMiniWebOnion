@@ -15,8 +15,8 @@ namespace Domain.Entities
         public int MaHH { get; set; }
         public  HangHoa? HangHoa { get; set; }
 
-        [Required]
-        public int SoLuongTon { get; set; }
+    
+        public int? SoLuongTon { get; set; }
 
         [Required]
         [Display(Name = "Ngày Cập Nhật")]

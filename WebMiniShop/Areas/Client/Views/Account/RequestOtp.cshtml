@@ -38,7 +38,16 @@
                 </div>
 
                 <div class="text-center p-t-136">
-                    <a href="@Url.Action("Login", "Account")" class="txt2">Cancel</a>
+                   <a href="@Url.Action("Login", "Account")" class="txt2">Back to Login</a>
+
                 </div>
+        @if (ViewBag.Message != null)
+        {
+            <div class="alert alert-danger">@ViewBag.Message</div>
+        }
             </form>
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Message</div>
+    }
      </div>
