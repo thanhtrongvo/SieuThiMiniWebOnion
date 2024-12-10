@@ -40,8 +40,7 @@
                     <div class="col-xl-3">
                         <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4">
                             <label for="fruits">Default Sorting:</label>
-                            <select id="fruits" name="fruitlist" class="border-0 form-select-sm bg-light me-3"
-                                    form="fruitform" onchange="location = this.value;">
+                            <select id="fruits" name="fruitlist" class="border-0 form-select-sm bg-light me-3" form="fruitform" onchange="location = this.value;" style="outline: none;">
                                 <option value="@Url.Action("Index", new { sortOrder = "" })">Nothing</option>
                                 <option value="@Url.Action("Index", new { sortOrder = "price_asc" })">Giá từ thấp tới cao</option>
                                 <option value="@Url.Action("Index", new { sortOrder = "price_desc" })">Giá từ cao tới thấp</option>

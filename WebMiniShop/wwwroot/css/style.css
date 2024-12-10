@@ -1,5 +1,5 @@
 
-/*** Spinner Start ***/
+/*** Sinner Start ***/
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -26,6 +26,7 @@
     z-index: 99;
 }
 /*** Spinner End ***/
+
 
 
 /*** Button Start ***/
@@ -120,7 +121,8 @@
 .navbar .navbar-nav .nav-link {
     padding: 10px 15px;
     font-size: 16px;
-    transition: .5s;
+    transition: .3s;
+    font-weight: bold;
 }
 
 .navbar {
@@ -128,12 +130,13 @@
     border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active,
-.fixed-top.bg-white .navbar .navbar-nav .nav-link:hover,
-.fixed-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
-}
+    .navbar .navbar-nav .nav-link:hover,
+    .navbar .navbar-nav .nav-link.active,
+    .fixed-top.bg-white .navbar .navbar-nav .nav-link:hover,
+    .fixed-top.bg-white .navbar .navbar-nav .nav-link.active {
+        color: var(--bs-primary);
+        transform: translateY(-5px);
+    }
 
 .navbar .dropdown-toggle::after {
     border: none;
@@ -158,18 +161,30 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-secondary);
+    background: rgba(12, 117, 22,0.3);
     color: var(--bs-primary);
 }
-
+/*** Navbar Start ***/
 .navbar .nav-item:hover .dropdown-menu {
     transform: rotateX(0deg);
+    transform: translateX(-20px);
     visibility: visible;
     background: var(--bs-light) !important;
     border-radius: 10px !important;
     transition: .5s;
     opacity: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add box shadow for the dropdown menu */
 }
+
+.navbar .nav-item.dropdown{
+    top: 5px;
+}
+
+.navbar .nav-item.dropdown a{
+    color: #114232 !important;
+}
+
+/*** Navbar End ***/
 
 #searchModal .modal-content {
     background: rgba(255, 255, 255, .8);
@@ -219,10 +234,11 @@
 
 .page-header {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cart-page-header-img.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../image/cart-page-header-img.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 @media (min-width: 992px) {
@@ -252,12 +268,10 @@
     content: "";
     width: 35px;
     height: 35px;
-    background: var(--bs-secondary);
     position: absolute;
     bottom: -10px;
     transform: translate(-50%);
     transform: rotate(45deg);
-    background: var(--bs-secondary);
     
 }
 /*** featurs End ***/
@@ -311,6 +325,8 @@
     overflow: hidden;
     transition: 0.5s;
     border-radius: 10px 10px 0 0;
+    object-fit: cover;
+
 }
 .fruite-item .p-4 {
     height: 200px; /* Adjust the height as needed */
@@ -319,11 +335,11 @@
     transition: 0.5s;
 }
 
+
 .fruite .fruite-item .fruite-img img:hover {
     transform: scale(1.3);
 }
 /*** Fruits End ***/
-
 
 /*** vesitable Start ***/
 .vesitable .vesitable-item {
