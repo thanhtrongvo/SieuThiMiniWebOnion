@@ -14,20 +14,23 @@ public class ChiTietHDController : Controller
         _hangHoaService = hangHoaService;
     }
 
-    // Hiển thị danh sách chi tiết hóa đơn
+    // Hiển thị danh sách chi tiết hóa đơn của một hóa đơn cụ thể
     public async Task<IActionResult> Details(int id)
     {
         var chiTietHDs = await _chiTietHDService.GetAllChiTietHDAsync();
-        return View(chiTietHDs);
+        var chiTietHoaDon = chiTietHDs.Where(c => c.MaHD == id).ToList(); // Lọc theo MaHD
+        return View(chiTietHoaDon);
     }
 
     // Hiển thị form thêm chi tiết hóa đơn mới
     [HttpGet]
     public async Task<IActionResult> Create()
     {
+        // Tải danh sách hàng hóa và hóa đơn
         ViewBag.HangHoas = await _hangHoaService.GetAll();
         return View();
     }
+
 
     // Xử lý thêm chi tiết hóa đơn mới
     [HttpPost]
@@ -36,11 +39,14 @@ public class ChiTietHDController : Controller
         if (ModelState.IsValid)
         {
             await _chiTietHDService.CreateChiTietHDAsync(chiTietHD);
-            return RedirectToAction("Index");
+            return RedirectToAction("Details", "HoaDon", new { id = chiTietHD.MaHD });  // Quay lại trang chi tiết hóa đơn
         }
+
         ViewBag.HangHoas = await _hangHoaService.GetAll();
         return View(chiTietHD);
     }
+
+
 
     // Hiển thị form chỉnh sửa chi tiết hóa đơn
     [HttpGet]
@@ -51,24 +57,26 @@ public class ChiTietHDController : Controller
         {
             return NotFound();
         }
+
         ViewBag.HangHoas = await _hangHoaService.GetAll();
         return View(chiTietHD);
     }
 
-    // Xử lý chỉnh sửa chi tiết hóa đơn
+
     [HttpPost]
     public async Task<IActionResult> Edit(ChiTietHD chiTietHD)
     {
         if (ModelState.IsValid)
         {
             await _chiTietHDService.UpdateChiTietHDAsync(chiTietHD);
-            return RedirectToAction("Index");
+            return RedirectToAction("Details", "HoaDon", new { id = chiTietHD.MaHD });
         }
+
         ViewBag.HangHoas = await _hangHoaService.GetAll();
         return View(chiTietHD);
     }
 
-    // Hiển thị form xóa chi tiết hóa đơn
+    // Xóa chi tiết hóa đơn
     [HttpGet]
     public async Task<IActionResult> Delete(int id)
     {
@@ -80,11 +88,10 @@ public class ChiTietHDController : Controller
         return View(chiTietHD);
     }
 
-    // Xử lý xóa chi tiết hóa đơn
     [HttpPost, ActionName("Delete")]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
         await _chiTietHDService.DeleteChiTietHDAsync(id);
-        return RedirectToAction("Index");
+        return RedirectToAction("Index", "HoaDon");
     }
 }
