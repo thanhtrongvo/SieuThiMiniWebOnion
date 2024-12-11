@@ -59,14 +59,24 @@ This repository contains a Mini Supermarket web application built using **ASP.NE
 
 ```
 MiniSupermarket/
-├── Controllers/         # Handle HTTP requests
-├── Models/              # Define the application data
-├── Views/               # Razor views for UI
-├── wwwroot/             # Static files (CSS, JS, images)
-├── Data/                # Database context and seed data
-├── Services/            # Business logic
-└── appsettings.json     # Configuration settings
+├── MiniSupermarket.Presentation/  # Presentation layer for Controllers and Views
+├── MiniSupermarket.Application/   # Application layer for business logic
+├── MiniSupermarket.Domain/        # Domain layer for core entities and interfaces
+├── MiniSupermarket.Infrastructure/ # Infrastructure layer for data access
+├── wwwroot/                       # Static files (CSS, JS, images)
+├── appsettings.json               # Configuration settings
 ```
+
+### Onion Architecture Layers
+
+1. **Domain**:
+   - Contains the core entities, interfaces, and domain logic.
+2. **Application**:
+   - Implements business logic and application services.
+3. **Infrastructure**:
+   - Handles database interactions and external dependencies.
+4. **Presentation**:
+   - Manages the user interface and interaction logic.
 
 ## Screenshots
 
