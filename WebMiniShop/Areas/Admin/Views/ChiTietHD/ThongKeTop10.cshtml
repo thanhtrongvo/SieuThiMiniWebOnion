@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Thống Kê Top 10 Sản Phẩm Bán Chạy";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Vùng chứa biểu đồ -->
+<canvas id="topSanPhamChart" width="400" height="200"></canvas>
+
+<!-- Nút Xuất Excel -->
+<div style="margin-top: 20px;">
+    <a href="@Url.Action("ExportTop10ToExcel", "ChiTietHD")" class="btn btn-success">Xuất Excel</a>
+</div>
+
+<!-- Thêm thư viện Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Lấy dữ liệu từ API
+    fetch('@Url.Action("Top10SanPhamBanChay", "ChiTietHD")')
+        .then(response => response.json())
+        .then(data => {
+            if (data.length === 0) {
+                alert("Không có dữ liệu để hiển thị thống kê.");
+                return;
+            }
+
+            // Chuẩn bị dữ liệu cho biểu đồ
+            const labels = data.map(item => item.tenHH || "Chưa xác định");
+            const quantities = data.map(item => item.tongSoLuong);
+
+            // Tạo biểu đồ
+            const ctx = document.getElementById('topSanPhamChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar', // Biểu đồ cột
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Số lượng bán',
+                        data: quantities,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                        tooltip: {
+                            enabled: true
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        })
+        .catch(error => console.error('Lỗi khi tải dữ liệu:', error));
+</script>

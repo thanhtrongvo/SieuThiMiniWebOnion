@@ -18,20 +18,7 @@ namespace Persistence.Repositories
             _context = context;
         }
 
-        //public async Task<IEnumerable<ChiTietHD>> GetAllChiTietHDAsync()
-        //{
-        //    return await _context.ChiTietHDs
-        //        .Select(c => new ChiTietHD
-        //        {
-        //            MaCT = c.MaCT,
-        //            MaHD = c.MaHD,
-        //            MaHH = c.MaHH,
-        //            DonGia = c.DonGia,
-        //            SoLuong = c.SoLuong,
-        //            GiamGia = c.GiamGia
-        //        })
-        //        .ToListAsync();
-        //}
+      
         public async Task<IEnumerable<ChiTietHD>> GetAllChiTietHDAsync()
         {
             return await _context.ChiTietHDs
@@ -40,21 +27,7 @@ namespace Persistence.Repositories
                 .ToListAsync();
         }
 
-        //public async Task<ChiTietHD> GetChiTietHDByIdAsync(int id)
-        //{
-        //    var chiTietHD = await _context.ChiTietHDs.FindAsync(id);
-        //    if (chiTietHD == null) return null;
-
-        //    return new ChiTietHD
-        //    {
-        //        MaCT = chiTietHD.MaCT,
-        //        MaHD = chiTietHD.MaHD,
-        //        MaHH = chiTietHD.MaHH,
-        //        DonGia = chiTietHD.DonGia,
-        //        SoLuong = chiTietHD.SoLuong,
-        //        GiamGia = chiTietHD.GiamGia
-        //    };
-        //}
+     
         public async Task<ChiTietHD> GetChiTietHDByIdAsync(int id)
         {
             return await _context.ChiTietHDs

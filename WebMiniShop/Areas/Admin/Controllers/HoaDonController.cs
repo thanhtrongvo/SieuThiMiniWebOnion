@@ -2,6 +2,7 @@
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+
 [Area("Admin")]
 public class HoaDonController : Controller
 {
@@ -10,7 +11,11 @@ public class HoaDonController : Controller
     private readonly IUserService _userService;
     private readonly ITrangThaiService _trangThaiService;
 
-    public HoaDonController(IHoaDonService hoaDonService, IChiTietHDService chiTietHDService, IUserService userService, ITrangThaiService trangThaiService)
+    public HoaDonController(
+        IHoaDonService hoaDonService,
+        IChiTietHDService chiTietHDService,
+        IUserService userService,
+        ITrangThaiService trangThaiService)
     {
         _hoaDonService = hoaDonService;
         _chiTietHDService = chiTietHDService;
@@ -18,11 +23,26 @@ public class HoaDonController : Controller
         _trangThaiService = trangThaiService;
     }
 
-    // Hiển thị danh sách hóa đơn và chi tiết hóa đơn
+    // Hiển thị danh sách hóa đơn
     public async Task<IActionResult> Index()
     {
         var hoaDons = await _hoaDonService.GetAll();
         return View(hoaDons);
+    }
+
+    // Hiển thị chi tiết hóa đơn (bao gồm danh sách chi tiết hóa đơn)
+    public async Task<IActionResult> Details(int id)
+    {
+        var hoaDon = await _hoaDonService.GetById(id);
+        if (hoaDon == null)
+        {
+            return NotFound();
+        }
+
+        var chiTietHDs = await _chiTietHDService.GetAllChiTietHDAsync();
+        ViewBag.ChiTietHDs = chiTietHDs.Where(ct => ct.MaHD == id).ToList();
+
+        return View(hoaDon);
     }
 
     // Hiển thị form thêm hóa đơn mới
@@ -43,6 +63,7 @@ public class HoaDonController : Controller
             await _hoaDonService.Add(hoaDon);
             return RedirectToAction("Index");
         }
+
         ViewBag.Users = await _userService.GetAll();
         ViewBag.TrangThais = await _trangThaiService.GetAllTrangThaiAsync();
         return View(hoaDon);
@@ -57,6 +78,7 @@ public class HoaDonController : Controller
         {
             return NotFound();
         }
+
         ViewBag.Users = await _userService.GetAll();
         ViewBag.TrangThais = await _trangThaiService.GetAllTrangThaiAsync();
         return View(hoaDon);
@@ -71,6 +93,7 @@ public class HoaDonController : Controller
             await _hoaDonService.Update(hoaDon);
             return RedirectToAction("Index");
         }
+
         ViewBag.Users = await _userService.GetAll();
         ViewBag.TrangThais = await _trangThaiService.GetAllTrangThaiAsync();
         return View(hoaDon);
@@ -85,6 +108,7 @@ public class HoaDonController : Controller
         {
             return NotFound();
         }
+
         return View(hoaDon);
     }
 
@@ -95,4 +119,31 @@ public class HoaDonController : Controller
         await _hoaDonService.Delete(id);
         return RedirectToAction("Index");
     }
+
+    // Thống kê top 10 sản phẩm bán chạy
+    public IActionResult ThongKeTop10()
+    {
+        return RedirectToAction("ThongKeTop10", "ChiTietHD");
+    }
+    [HttpPost]
+    public async Task<IActionResult> ProcessOrder(int id)
+    {
+        var hoaDon = await _hoaDonService.GetById(id);
+        if (hoaDon == null)
+        {
+            return NotFound();
+        }
+
+        if (hoaDon.MaTrangThai < 4)
+        {
+            hoaDon.MaTrangThai++;
+            await _hoaDonService.Update(hoaDon);
+            return Ok();
+        }
+        else
+        {
+            return BadRequest("Hóa đơn đã hoàn tất.");
+        }
+    }
+
 }
