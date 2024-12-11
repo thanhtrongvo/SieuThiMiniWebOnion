@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Xác Nhận OTP";
+}
+<link rel="stylesheet" href="~/css/login.css" />
+<link rel="stylesheet" href="~/css/style.css" />
+<style>
+    .container {
+        display: flex;
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        align-items: flex-end; /* Căn dưới theo chiều dọc */
+        height: 100%;
+        padding-bottom: 50px; /* Để có khoảng cách phía dưới */
+    }
+
+    form {
+        background: #fff; /* Màu nền cho form */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px; /* Đặt chiều rộng tối đa của form */
+    }
+</style>
+
+<div class="container">
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.Message
+        </div>
+    }
+
+    <form asp-action="VerifyOtp" method="post">
+        <input type="hidden" name="email" value="@TempData["Email"]" />
+
+        <div class="wrap-input100 validate-input" data-validate="OTP is required">
+            <input class="input100" type="text" name="otp" placeholder="Enter OTP" required />
+            <span class="focus-input100"></span>
+            <span class="symbol-input100"><i class="fa fa-lock" aria-hidden="true"></i></span>
+        </div>
+
+        <div class="container-login100-form-btn">
+            <button type="submit" class="login100-form-btn">Verify OTP</button>
+        </div>
+    </form>
+
+    <div class="text-center p-t-136">
+        <a href="@Url.Action("RequestOtp", "Account")" class="txt2">Resend OTP</a>
+    </div>
+</div>

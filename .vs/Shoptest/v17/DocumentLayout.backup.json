@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\hanghoa\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\hanghoa\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\shopdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\shopdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\hanghoa\\_hanghoaitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\hanghoa\\_hanghoaitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\shared\\_layouthanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\shared\\_layouthanghoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\shared\\components\\loai\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\shared\\components\\loai\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\webminishop\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\webminishop\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|c:\\xampp\\htdocs\\sieuthiminiwebonion\\webminishop\\areas\\client\\views\\hanghoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{67AA30DF-E05A-4E7D-89FA-4D9D209E2917}|WebMiniShop\\WebMiniShop.csproj|solutionrelative:webminishop\\areas\\client\\views\\hanghoa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 20,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_HangHoaItem.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\HangHoa\\_HangHoaItem.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\HangHoa\\_HangHoaItem.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\HangHoa\\_HangHoaItem.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\HangHoa\\_HangHoaItem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:31:03.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutHangHoa.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Shared\\_LayoutHangHoa.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Shared\\_LayoutHangHoa.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Shared\\_LayoutHangHoa.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\Shared\\_LayoutHangHoa.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAHUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:30:15.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\ShopDetail\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\ShopDetail\\Index.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\ShopDetail\\Index.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\ShopDetail\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABkAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:28:12.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\HangHoa\\Detail.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\HangHoa\\Detail.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\HangHoa\\Detail.cshtml*",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\HangHoa\\Detail.cshtml*",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAqwCABAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:31:24.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "WebMiniShop\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "WebMiniShop\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAADYBAAAAAAAAAAAAAEkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-07T14:02:00.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Shared\\Components\\Loai\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Shared\\Components\\Loai\\Default.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Shared\\Components\\Loai\\Default.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\Shared\\Components\\Loai\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:42:21.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "WebMiniShop\\wwwroot\\css\\bootstrap.min.css",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeToolTip": "WebMiniShop\\wwwroot\\css\\bootstrap.min.css",
+              "ViewState": "AgIAAFkLAAAAAAAAAAAAAGILAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T02:22:34.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\HangHoa\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\HangHoa\\Index.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\HangHoa\\Index.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\HangHoa\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:31:05.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebMiniShop\\Areas\\Client\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\SieuThiMiniWebOnion\\WebMiniShop\\Areas\\Client\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebMiniShop\\Areas\\Client\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T03:36:58.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 20,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

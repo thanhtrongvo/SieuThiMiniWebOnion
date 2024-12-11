@@ -2,6 +2,7 @@
 using Domain.Entities;
 using Application.Features.Interface; // Thêm đường dẫn đến interface của service
 using System.Threading.Tasks;
+using WebMiniShop.Areas.Client.Helper;
 [Area("Admin")]
 public class HangHoaController : Controller
 {
@@ -29,18 +30,25 @@ public class HangHoaController : Controller
         return View();
     }
 
-    // Xử lý thêm hàng hóa mới
-    [HttpPost]
-    public async Task<IActionResult> Create(HangHoa hangHoa)
+     [HttpPost]
+    public async Task<IActionResult> Create(HangHoa hangHoa, IFormFile Hinh)
     {
         if (ModelState.IsValid)
         {
-            await _hangHoaService.Add(hangHoa); // Thêm vào cơ sở dữ liệu
+            if (Hinh != null)
+            {
+                var fileName = MyUtil.UploadHinh(Hinh, "HangHoa");
+                hangHoa.Hinh = fileName;
+            }
+
+            await _hangHoaService.Add(hangHoa);
             return RedirectToAction("Index");
         }
-        ViewBag.Loai = await _loaiService.GetAll(); // Trả lại danh sách loại nếu thêm thất bại
+
+        ViewBag.Loai = await _loaiService.GetAll();
         return View(hangHoa);
     }
+
 
     // Hiển thị form chỉnh sửa hàng hóa
     [HttpGet]
@@ -57,14 +65,21 @@ public class HangHoaController : Controller
 
     // Xử lý chỉnh sửa hàng hóa
     [HttpPost]
-    public async Task<IActionResult> Edit(HangHoa hangHoa)
+    public async Task<IActionResult> Edit(HangHoa hangHoa, IFormFile NewHinh)
     {
         if (ModelState.IsValid)
         {
-            await _hangHoaService.Update(hangHoa); // Cập nhật dữ liệu
+            if (NewHinh != null)
+            {
+                var fileName = MyUtil.UploadHinh(NewHinh, "HangHoa");
+                hangHoa.Hinh = fileName;
+            }
+
+            await _hangHoaService.Update(hangHoa);
             return RedirectToAction("Index");
         }
-        ViewBag.Loai = await _loaiService.GetAll(); // Trả lại danh sách loại nếu chỉnh sửa thất bại
+
+        ViewBag.Loai = await _loaiService.GetAll();
         return View(hangHoa);
     }
 

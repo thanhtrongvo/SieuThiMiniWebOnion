@@ -7,8 +7,60 @@
   </PropertyGroup>
 
   <ItemGroup>
+   
+    <PackageReference Include="EPPlus" Version="7.5.2" />
+    <PackageReference Include="Azure.Identity" Version="1.10.3" />
+   
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.1" />
+   
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+   
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+   
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="8.0.10" />
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="8.0.10" />
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.10" />
+    <PackageReference Include="Azure.Identity" Version="1.10.3" />
+   
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.1" />
+   
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+   
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+
+    <PackageReference Include="EPPlus" Version="7.5.2" />
+
+   
     <PackageReference Include="Microsoft.DotNet.PlatformAbstractions" Version="3.1.6" />
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="8.0.10" />
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="8.0.10" />
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+   
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
       <PrivateAssets>all</PrivateAssets>
@@ -23,7 +75,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Client\Controllers" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\ForgotPassword.cshtml" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\Login.cshtml" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\Register.cshtml" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\RequestOtp.cshtml" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\ResetPasswordForm.cshtml" />
+    <AdditionalFiles Include="Areas\Client\Views\Account\VerifyOtpForm.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Client\Views\Checkout" />
   </ItemGroup>
 
 </Project>

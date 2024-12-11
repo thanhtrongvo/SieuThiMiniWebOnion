@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Thống Kê Doanh Thu Theo Sản Phẩm";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Biểu đồ sẽ hiển thị ở đây -->
+<canvas id="myChart" width="400" height="200"></canvas>
+
+<!-- Chart.js Script -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // Gọi API để lấy dữ liệu từ controller
+    fetch('/Admin/ThongKe/DoanhThuTheoSanPham')
+        .then(response => response.json())
+        .then(data => {
+            // Chuẩn bị dữ liệu cho biểu đồ
+            const productNames = data.map(item => item.ProductName);
+            const revenues = data.map(item => item.TotalRevenue);
+
+            // Vẽ biểu đồ
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar', // Chọn loại biểu đồ (Bar chart, Line chart, etc.)
+                data: {
+                    labels: productNames, // Các nhãn (tên sản phẩm)
+                    datasets: [{
+                        label: 'Doanh Thu',
+                        data: revenues, // Dữ liệu doanh thu
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)', // Màu nền cho các thanh
+                        borderColor: 'rgba(54, 162, 235, 1)', // Màu viền cho các thanh
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true // Đảm bảo trục y bắt đầu từ 0
+                        }
+                    }
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching data: ', error));
+</script>

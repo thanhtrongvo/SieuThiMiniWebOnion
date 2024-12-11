@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Khách Hàng Mua Nhiều Nhất";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Biểu đồ sẽ hiển thị ở đây -->
+<canvas id="customerChart" width="400" height="200"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    fetch('/Admin/ThongKe/KhachHangMuaNhieuNhat')
+        .then(response => response.json())
+        .then(data => {
+            const customerNames = data.map(item => item.CustomerName);
+            const totalAmounts = data.map(item => item.TotalAmount);
+
+            var ctx = document.getElementById('customerChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar', // Loại biểu đồ (Bar chart)
+                data: {
+                    labels: customerNames, // Các nhãn (tên khách hàng)
+                    datasets: [{
+                        label: 'Tổng Tiền Mua Hàng',
+                        data: totalAmounts, // Dữ liệu tổng tiền của khách hàng
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)', // Màu nền cho các thanh
+                        borderColor: 'rgba(75, 192, 192, 1)', // Màu viền cho các thanh
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true // Đảm bảo trục y bắt đầu từ 0
+                        }
+                    }
+                }
+            });
+        })
+        .catch(error => console.error('Error fetching data: ', error));
+</script>

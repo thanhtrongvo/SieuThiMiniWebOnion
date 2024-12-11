@@ -1,0 +1,62 @@
+@model WebMiniShop.Models.UserInfoVM
+
+
+<div class="container-fluid page-header py-5 bg-primary">
+    <h1 class="text-center text-white display-6">User Info</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item">
+            <a class="text-white" asp-controller="Home">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a class="text-white" asp-controller="Page">User Info</a>
+        </li>
+        <li class="breadcrumb-item active text-white">Edit Info</li>
+    </ol>
+</div>
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">Edit User Information</h3>
+        </div>
+        <div class="card-body">
+            <form asp-controller="Account" asp-action="EditInfo" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                <div class="form-group">
+                    <label for="FullName">Full Name</label>
+                    <input type="text" class="form-control" id="FullName" name="FullName" value="@Model.FullName" required />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" required />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="PhoneNumber">Phone Number</label>
+                    <input type="text" class="form-control" id="PhoneNumber" name="PhoneNumber" value="@Model.PhoneNumber" required />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Address">Address</label>
+                    <input type="text" class="form-control" id="Address" name="Address" value="@Model.Address" required />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="NewPassword">New Password</label>
+                    <input type="password" class="form-control" id="NewPassword" name="NewPassword" value="" required />
+                    <span asp-validation-for="NewPassword" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="ConfirmPassword">Confirm Password</label>
+                    <input type="password" class="form-control" id="ConfirmPassword" name="ConfirmPassword" value="" required />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

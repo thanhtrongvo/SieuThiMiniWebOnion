@@ -20,7 +20,7 @@ namespace Domain.Entities
 
         [Required]
         public int MaHH { get; set; }
-        public  HangHoa? HangHoa { get; set; }
+        public HangHoa? HangHoa { get; set; }
 
         [Required]
         [Display(Name = "Ngày Nhập")]

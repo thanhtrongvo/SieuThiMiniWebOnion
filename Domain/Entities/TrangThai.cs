@@ -17,7 +17,7 @@ namespace Domain.Entities
         [Required]
         [StringLength(255)]
         [Display(Name = "Tên Trạng Thái")]
-        public  string TenTrangThai { get; set; }
+        public string TenTrangThai { get; set; }
 
         [StringLength(255)]
         [Display(Name = "Mô Tả")]

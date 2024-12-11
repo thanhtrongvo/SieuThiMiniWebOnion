@@ -1,0 +1,141 @@
+﻿@model IEnumerable<FoodShop.Models.CartItem>
+
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content rounded-0">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex align-items-center">
+                <div class="input-group w-75 mx-auto">
+                    <input type="search" class="form-control p-3" placeholder="keywords"
+                        aria-describedby="search-icon-1">
+                    <span id="search-icon-1" class="input-group-text p-3">
+                        <i class="fa fa-search"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Search End -->
+
+<!-- Single Page Header start -->
+<div class="container-fluid page-header py-5 bg-primary text-white text-center">
+    <h1 class="display-6">Checkout</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item">
+            <a asp-controller="Home" class="text-white">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a asp-controller="Pages" class="text-white">Pages</a>
+        </li>
+        <li class="breadcrumb-item active text-white">Checkout</li>
+    </ol>
+</div>
+<!-- Single Page Header End -->
+
+<!-- Checkout Page Start -->
+<div class="container-fluid py-5 bg-light">
+    <div class="container py-5">
+        <h1 class="mb-4">Chi tiết hóa đơn</h1>
+        <div class="row g-5">
+            <div class="col-md-12 col-lg-6 col-xl-7">
+                <form asp-action="ThanhToan" asp-controller="Cart">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class="mb-3">
+                                <label class="form-label">Người nhận hàng<sup>*</sup></label>
+                                <input type="text" name="HoTen" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Địa chỉ nhận hàng<sup>*</sup></label>
+                        <input type="text" name="DiaChi" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Số điện thoại <sup>*</sup></label>
+                        <input type="text" name="SoDienThoai" class="form-control" placeholder="Number Phone">
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="sameinfo" name="sameinfo" value="0">
+                        <label class="form-check-label" for="sameinfo">Sử dụng thông tin người dùng</label>
+                    </div>
+                    <hr>
+                    <div class="mb-3">
+                        <textarea name="GhiChu" class="form-control" spellcheck="false" cols="30" rows="5"
+                            placeholder="Ghi chú (Optional)"></textarea>
+                    </div>
+                    <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                        <input type="submit" name="payment" class="btn btn-primary py-3 px-4 text-uppercase w-100"
+                            value="Đặt hàng (COD)">
+                    </div>
+                    <div class="row g-4 text-center align-items-center justify-content-center pt-4">
+                        <input type="submit" value="Thanh Toán VNPay" name="payment"
+                            class="btn btn-primary py-3 px-4 text-uppercase w-100">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-12 col-lg-6 col-xl-5">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover table-striped">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">Products</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-flex align-items-center mt-2">
+                                            <img src="~/image/HangHoa/@item.Hinh" class="img-fluid rounded-circle"
+                                                style="width: 90px; height: 90px;" alt="">
+                                        </div>
+                                    </th>
+                                    <td class="align-middle">@item.TenHH</td>
+                                    <td class="align-middle">@item.DonGia.ToString("N0").Replace(",", ".")đ</td>
+                                    <td class="align-middle">@item.SoLuong</td>
+                                    <td class="align-middle">@item.ThanhTien.ToString("N0").Replace(",", ".")đ</td>
+                                </tr>
+                            }
+                            <tr>
+                                <th scope="row"></th>
+                                <td></td>
+                                <td></td>
+                                <td class="align-middle">
+                                    <p class="mb-0">Tổng cộng</p>
+                                </td>
+                                <td class="align-middle">
+                                    <div class="py-3 border-bottom border-top">
+                                        <p class="mb-0">@Model.Sum(p => p.ThanhTien).ToString("N0").Replace(",", ".")đ</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td class="align-middle">
+                                    <p class="mb-0 text-uppercase">TOTAL</p>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td class="align-middle">
+                                    <div class="py-3 border-bottom border-top">
+                                        <p class="mb-0">@Model.Sum(p => p.ThanhTien).ToString("N0").Replace(",", ".")đ</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

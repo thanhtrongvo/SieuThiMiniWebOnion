@@ -1,0 +1,6 @@
+@model FoodShop.Models.CartModel
+
+<a asp-controller="Cart" asp-action="Index" class="position-relative me-4 my-auto" title="View Cart">
+    <i class="fa fa-shopping-bag fa-2x text-dark"></i>
+    <span class="position-absolute rounded-circle d-flex align-items-center justify-content-center bg-danger text-white px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px;">@Model.Quantity</span>
+</a>

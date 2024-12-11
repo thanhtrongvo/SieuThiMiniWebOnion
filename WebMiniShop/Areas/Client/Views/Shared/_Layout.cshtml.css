@@ -46,3 +46,118 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+
+/* custom.css */
+
+/* Style for the product items */
+.fruite-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.fruite-item:hover {
+  transform: scale(1.05);
+}
+
+.fruite-img img {
+  border-radius: 15px 15px 0 0;
+}
+
+.fruite-img .bg-primary,
+.fruite-img .bg-danger {
+  border-radius: 10px;
+}
+
+.fruite-img .bg-primary {
+  background-color: #007bff !important;
+}
+
+.fruite-img .bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.fruite-item .p-4 {
+  background-color: #f8f9fa !important;
+  border-radius: 0 0 15px 15px;
+}
+
+.fruite-item h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.fruite-item p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.fruite-item .btn-outline-primary {
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+}
+
+.fruite-item .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style for the price range input */
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Style for the featured products */
+.featured-product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.featured-product img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.featured-product h6 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.featured-product .price {
+  display: flex;
+  align-items: center;
+}
+
+.featured-product .price h5 {
+  margin-right: 0.5rem;
+}
+
+.featured-product .price .text-danger {
+  text-decoration: line-through;
+}

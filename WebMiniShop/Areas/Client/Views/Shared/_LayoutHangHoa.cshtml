@@ -1,0 +1,63 @@
+@{
+    Layout = "_Layout";
+}
+
+
+<!-- Modal Search End -->
+<!-- Single Page Header start -->
+@RenderSection("BreadCum", false)
+
+<!-- Single Page Header End -->
+<!-- Fruits Shop Start-->
+<div class="container-fluid fruite py-5 bg-white">
+    <div class="container py-5">
+        <h1 class="mb-4">Siêu Thị Tiện Lợi</h1>
+        <div class="row g-4">
+            <div class="col-lg-12">
+                <div class="row g-4">
+                    <div class="col-xl-3">
+                        @await Html.PartialAsync("_SearchPannel")
+                    </div>
+                    <div class="col-6"></div>
+                    <div class="col-xl-3">
+                        <div class="bg-light ps-3 py-3 rounded d-flex justify-content-around mb-4">
+                            <label for="fruits">Sắp xếp:</label>
+                            <select id="fruits" name="fruitlist" class="border-0 form-select-sm bg-light me-3" form="fruitform" onchange="location = this.value;" style="outline: none;">
+                                <option value="@Url.Action("Index", new { sortOrder = "" })">Mặc định</option>
+                                <option value="@Url.Action("Index", new { sortOrder = "price_asc" })">Giá từ thấp tới cao</option>
+                                <option value="@Url.Action("Index", new { sortOrder = "price_desc" })">Giá từ cao tới thấp</option>
+                                <option value="@Url.Action("Index", new { sortOrder = "discount" })">Đang Giảm Giá</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3">
+                        <div class="row g-4">
+                            @await Component.InvokeAsync("Loai")
+
+
+                            <div class="col-lg-12">
+                                <div class="position-relative">
+                                    <img src="~/image/banner-fruits.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="position-absolute"
+                                         style="top: 50%; right: 10px; transform: translateY(-50%);">
+                                        <h3 class="text-secondary fw-bold">Fresh <br> Fruits <br> Banner</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row g-4 justify-content-around">
+                            @RenderBody()
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+@RenderSection("Scripts", false)

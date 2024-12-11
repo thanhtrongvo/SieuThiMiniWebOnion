@@ -1,18 +1,19 @@
-﻿using Application.Features.Interface;
+﻿using Application.Features.Configuration;
+using Application.Features.Interface;
+using Domain.Entities;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 using Persistence.Repositories;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Identity;
-using Domain.Entities;
-
-using Application.Features.Configuration; // Đảm bảo namespace chứa User
+using WebMiniShop.Areas.Client.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Cấu hình DbContext
 builder.Services.AddDbContext<Hshop2023Context>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
 
 // Đăng ký repository cho các interface
 builder.Services.AddScoped<ILoaiService, LoaiRepository>();
@@ -29,19 +30,33 @@ builder.Services.AddScoped<IPhanQuyenService, PhanQuyenRepository>();
 builder.Services.AddScoped<ITrangThaiService, TrangThaiRepository>();
 builder.Services.AddScoped<IUserService, UserRepository>();
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
+
 // Đăng ký PasswordHasher cho User entity
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 
 // Cấu hình dịch vụ xác thực
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+builder
+    .Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/Admin/Account/Login"; // Đường dẫn đến trang đăng nhập
-        options.LogoutPath = "/Admin/Account/Logout";
+        options.LoginPath = "/Client/Account/Login";
+        options.LogoutPath = "/Client/Account/Logout";
+    })
+    .AddGoogle(options =>
+    {
+        IConfigurationSection googleAuthNSection = builder.Configuration.GetSection(
+            "Authentication:Google"
+        );
+
+        options.ClientId = googleAuthNSection["ClientId"];
+        options.ClientSecret = googleAuthNSection["ClientSecret"];
+        options.CallbackPath = "/signin-google";
     });
 
+builder.Services.AddSingleton<IVnPayService, VnPayService>();
+
 // Cấu hình Session
-builder.Services.AddDistributedMemoryCache(); // Cần thiết để lưu trữ Session trong bộ nhớ
+builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(10); // Thời gian hết hạn của Session (10 phút)
@@ -70,22 +85,13 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-
-
 app.UseAuthentication(); // Thêm middleware xác thực
 app.UseAuthorization();
 
 app.UseSession(); // Thêm middleware cho Session
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{area=Client}/{controller=Home}/{action=Index}/{id?}"
-);
+app.MapControllerRoute("default", "{area=Client}/{controller=Home}/{action=Index}/{id?}");
 
-app.MapControllerRoute(
-    name: "areas",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-);
-
+app.MapControllerRoute("areas", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

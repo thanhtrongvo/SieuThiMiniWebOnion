@@ -1,12 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
+build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnforceExtendedAnalyzerRules = 
 build_property.RootNamespace = WebMiniShop
 build_property.RootNamespace = WebMiniShop
 build_property.ProjectDir = /Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/
@@ -17,6 +24,42 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop
 build_property._RazorSourceGeneratorDebug = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/RequestOtp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvUmVxdWVzdE90cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/ResetPasswordForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvUmVzZXRQYXNzd29yZEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/VerifyOtpForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvVmVyaWZ5T3RwRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/Component.razor]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9Db21wb25lbnQucmF6b3I=
@@ -46,12 +89,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWNjb3VudC9WZXJpZnlPdHBGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/ChiTietHD/ChiTietHD.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2hpVGlldEhEL0NoaVRpZXRIRC5jc2h0bWw=
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/ChiTietHD/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2hpVGlldEhEL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/ChiTietHD/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2hpVGlldEhEL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/ChiTietHD/ThongKeTop10.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2hpVGlldEhEL1Rob25nS2VUb3AxMC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/Dashboard/Index.cshtml]
@@ -206,6 +253,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/ThongKe/DoanhThuTheoSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGhvbmdLZS9Eb2FuaFRodVRoZW9TYW5QaGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/ThongKe/DoanhThuTheoThoiGian.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGhvbmdLZS9Eb2FuaFRodVRoZW9UaG9pR2lhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/ThongKe/KhachHangMuaNhieuNhat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGhvbmdLZS9LaGFjaEhhbmdNdWFOaGlldU5oYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/ThongKe/TongSoHoaDon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGhvbmdLZS9Ub25nU29Ib2FEb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/TonKho/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVG9uS2hvL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -220,6 +283,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/TonKho/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVG9uS2hvL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/TonKho/Stats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVG9uS2hvL1N0YXRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/TrangThai/Create.cshtml]
@@ -262,16 +329,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/EditInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvRWRpdEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvSW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0NhcnQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Checkout/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0NoZWNrb3V0L0luZGV4LmNzaHRtbA==
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Cart/PaymentSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0NhcnQvUGF5bWVudFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Cart/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0NhcnQvU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Cart/ThanhToan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0NhcnQvVGhhbmhUb2FuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0NvbnRhY3QvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/HangHoa/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0hhbmdIb2EvRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/HangHoa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0hhbmdIb2EvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/HangHoa/_HangHoaItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0hhbmdIb2EvX0hhbmdIb2FJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Home/Index.cshtml]
@@ -286,8 +385,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0xvZ2luL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/Components/Cart/_CartPannel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9Db21wb25lbnRzL0NhcnQvX0NhcnRQYW5uZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/Components/Loai/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9Db21wb25lbnRzL0xvYWkvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/Components/Paginate/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9Db21wb25lbnRzL1BhZ2luYXRlL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/Error.cshtml]
@@ -302,8 +409,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9fRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/_HangHoaListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9fSGFuZ0hvYUxpc3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9fSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/_LayoutHangHoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9fTGF5b3V0SGFuZ0hvYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/_SearchPannel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9fU2VhcmNoUGFubmVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/_Testimonial.cshtml]
@@ -312,10 +431,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1NoYXJlZC9fVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Shop/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL1Nob3AvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/ShopDetail/Index.cshtml]

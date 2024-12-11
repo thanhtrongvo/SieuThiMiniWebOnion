@@ -1,51 +1,87 @@
-﻿using Domain.Entities;
+﻿using System;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Persistence
+namespace Persistence;
+
+public class Hshop2023Context : DbContext
 {
-    public class Hshop2023Context : DbContext
+    public Hshop2023Context(DbContextOptions<Hshop2023Context> options)
+        : base(options)
     {
-        public Hshop2023Context(DbContextOptions<Hshop2023Context> options)
-            : base(options)
-        {
-        }
+        Users = Set<User>();
+        TrangThais = Set<TrangThai>();
+        Loais = Set<Loai>();
+        NhaCungCaps = Set<NhaCungCap>();
+        KhuyenMais = Set<KhuyenMai>();
+        KhachHangs = Set<KhachHang>();
+        HangHoas = Set<HangHoa>();
+        HoaDons = Set<HoaDon>();
+        ChiTietHDs = Set<ChiTietHD>();
+        NhapKhos = Set<NhapKho>();
+        TonKhos = Set<TonKho>();
+        ChiTietKhuyenMais = Set<ChiTietKhuyenMai>();
+        PhanQuyens = Set<PhanQuyen>();
+        LichSuGiaoDiches = Set<LichSuGiaoDich>();
+    }
 
-        // Các DbSet đại diện cho các bảng trong cơ sở dữ liệu
-        public DbSet<User> Users { get; set; }
+    // Các DbSet đại diện cho các bảng trong cơ sở dữ liệu
+    public DbSet<User> Users { get; set; } = null!;
+    public DbSet<TrangThai> TrangThais { get; set; } = null!;
+    public DbSet<Loai> Loais { get; set; } = null!;
+    public DbSet<NhaCungCap> NhaCungCaps { get; set; } = null!;
+    public DbSet<KhuyenMai> KhuyenMais { get; set; } = null!;
+    public DbSet<KhachHang> KhachHangs { get; set; } = null!;
+    public DbSet<HangHoa> HangHoas { get; set; } = null!;
+    public DbSet<HoaDon> HoaDons { get; set; } = null!;
+    public DbSet<ChiTietHD> ChiTietHDs { get; set; } = null!;
+    public DbSet<NhapKho> NhapKhos { get; set; } = null!;
+    public DbSet<TonKho> TonKhos { get; set; } = null!;
+    public DbSet<ChiTietKhuyenMai> ChiTietKhuyenMais { get; set; } = null!;
+    public DbSet<PhanQuyen> PhanQuyens { get; set; } = null!;
+    public DbSet<LichSuGiaoDich> LichSuGiaoDiches { get; set; } = null!;
 
-        public DbSet<TrangThai> TrangThais { get; set; }
-        public DbSet<Loai> Loais { get; set; }
-        public DbSet<NhaCungCap> NhaCungCaps { get; set; }
-        public DbSet<KhuyenMai> KhuyenMais { get; set; }
-  
-        public DbSet<KhachHang> KhachHangs { get; set; }
-        public DbSet<HangHoa> HangHoas { get; set; }
-        public DbSet<HoaDon> HoaDons { get; set; }
-        public DbSet<ChiTietHD> ChiTietHDs { get; set; }
-        public DbSet<NhapKho> NhapKhos { get; set; }
-        public DbSet<TonKho> TonKhos { get; set; }
-        public DbSet<ChiTietKhuyenMai> ChiTietKhuyenMais { get; set; }
-        public DbSet<PhanQuyen> PhanQuyens { get; set; }
-        public DbSet<LichSuGiaoDich> LichSuGiaoDiches { get; set; }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
 
-        // Bạn có thể thêm các cấu hình khác cho DbContext tại đây nếu cần thiết.
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
+        // Định nghĩa khóa chính tổng hợp cho thực thể ChiTietKhuyenMai
+        modelBuilder.Entity<ChiTietKhuyenMai>().HasKey(ct => new { ct.MaKM, ct.MaHH });
 
-            // Định nghĩa khóa chính tổng hợp cho thực thể ChiTietKhuyenMai
-            modelBuilder.Entity<ChiTietKhuyenMai>()
-                .HasKey(ct => new { ct.MaKM, ct.MaHH });
-
-            modelBuilder.Entity<HangHoa>()
+        modelBuilder
+            .Entity<HangHoa>()
             .HasOne(h => h.Loai)
             .WithMany(l => l.HangHoas)
             .HasForeignKey(h => h.MaLoai);
-        }
+
+        // Define relationship between ChiTietHD and HangHoa
+        modelBuilder
+            .Entity<ChiTietHD>()
+            .HasOne(ct => ct.HangHoa) // Navigation property
+            .WithMany(h => h.ChiTietHDs) // Navigation property
+            .HasForeignKey(ct => ct.MaHH) // Foreign key in ChiTietHD
+            .OnDelete(DeleteBehavior.Restrict); // Prevent cascading delete if required
+
+        modelBuilder
+            .Entity<ChiTietHD>()
+            .HasOne(ct => ct.HoaDon) // Navigation property in ChiTietHD
+            .WithMany(hd => hd.ChiTietHDs) // Navigation property in HoaDon
+            .HasForeignKey(ct => ct.MaHD) // Foreign key in ChiTietHD
+            .OnDelete(DeleteBehavior.Restrict); // Adjust DeleteBehavior as needed
+
+        modelBuilder
+            .Entity<TonKho>()
+            .HasOne(tk => tk.HangHoa)
+            .WithMany(hh => hh.TonKhos)
+            .HasForeignKey(tk => tk.MaHH)
+            .OnDelete(DeleteBehavior.Cascade); // Adjust DeleteBehavior as needed
+
+        // Define relationship between HoaDon and TrangThai
+        modelBuilder
+            .Entity<HoaDon>()
+            .HasOne(hd => hd.TrangThai)
+            .WithMany(tt => tt.HoaDons)
+            .HasForeignKey(hd => hd.MaTrangThai)
+            .OnDelete(DeleteBehavior.Restrict);
     }
 }

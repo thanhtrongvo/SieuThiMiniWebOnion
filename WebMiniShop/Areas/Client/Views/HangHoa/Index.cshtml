@@ -1,0 +1,61 @@
+﻿@model PaginatedList<HangHoaVM>
+
+@{
+    ViewData["Title"] = "Shop";
+    Layout = "_LayoutHangHoa";
+}
+
+
+<!-- Modal Search End -->
+<!-- Single Page Header start -->
+
+@section BreadCum {
+    <div class="container-fluid page-header py-5 bg-primary">
+        <h1 class="text-center text-white display-6">Shop</h1>
+        <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item">
+                <a asp-controller="Home" class="text-white">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a asp-controller="HangHoa" asp-action="Index" class="text-white ">Sản phẩm</a>
+            </li>
+        </ol>
+    </div>
+}
+
+@await Html.PartialAsync("_HangHoaItem", Model)
+
+
+<div class="pagination-container">
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            @for (var i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                    <a class="page-link" href="#" data-page="@i">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.pagination').on('click', 'a', function (e) {
+                e.preventDefault();
+                var page = $(this).data('page');
+                $.ajax({
+                    url: '@Url.Action("Paginate", "HangHoa")',
+                    data: { page: page },
+                    success: function (result) {
+                        $('#hangHoaContainer').html(result);
+                    }
+                });
+            });
+        });
+    </script>
+}
+
+<!-- Single Page Header End -->
+<!-- Fruits Shop Start-->

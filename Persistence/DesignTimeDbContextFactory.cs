@@ -21,6 +21,8 @@ namespace Persistence
 
             optionsBuilder.UseSqlServer(connectionString);
 
+
+            optionsBuilder.UseSqlServer(connectionString, options => options.EnableRetryOnFailure());
             return new Hshop2023Context(optionsBuilder.Options);
         }
     }
