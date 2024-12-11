@@ -3,7 +3,7 @@
 @foreach (var item in Model)
 {
     <div class="col-md-6 col-lg-6 col-xl-4">
-        <div class="rounded-3 position-relative fruite-item shadow-lg">
+        <div class="rounded-3 position-relative fruite-item box-shadow">
             <div class="fruite-img position-relative">
                 <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHH">
                     <img src="~/image/HangHoa/@item.Hinh" class="card-img-top" alt="">
@@ -22,13 +22,14 @@
                 
                 <div class="d-flex justify-content-between align-items-center">
                     <p class="text-dark fs-5 fw-bold mb-0">@item.DonGia.ToString("N0").Replace(",", ".")đ</p>
-                    <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.MaHH" class="btn btn-outline-primary rounded-pill px-3">
-                        <i
-                            class="fa fa-shopping-bag me-2">
-                        </i> Add to cart
-                    </a>
                 </div>
+                <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.MaHH" class="btn btn-outline-primary rounded-pill px-3">
+                    <i
+                        class="fa fa-shopping-bag me-2">
+                    </i> Thêm vào giỏ hàng
+                </a>
             </div>
         </div>
     </div>
 }
+

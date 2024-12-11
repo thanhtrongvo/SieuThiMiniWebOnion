@@ -7,10 +7,10 @@
     <h1 class="text-center text-white display-6">Shop Detail</h1>
     <ol class="breadcrumb justify-content-center mb-0">
         <li class="breadcrumb-item">
-            <a asp-controller="Home">Home</a>
+            <a asp-controller="Home" class="text-white">Home</a>
         </li>
         <li class="breadcrumb-item">
-            <a asp-controller="HangHoa">Hàng Hóa</a>
+            <a asp-controller="HangHoa" class="text-white">Hàng Hóa</a>
         </li>
         <li class="breadcrumb-item active text-white">Chi tiết sản phẩm</li>
     </ol>
@@ -51,8 +51,8 @@
                                 </div>
                             </div>
                             <button asp-action="AddToCart" asp-controller="Cart" asp-route-id="@Model.MaHH"
-                                class="btn border border-secondary rounded-pill px-4 py-2 mb-4 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</button>
+                                    class="btn btn-outline-primary rounded-pill px-3">
+                                <i class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ hàng</button>
                         </form>
                         @if (TempData["Error"] != null)
                         {
@@ -65,7 +65,7 @@
                                 <button class="nav-link active border-white border-bottom-0" type="button" role="tab"
                                     id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about"
                                     aria-controls="nav-about" aria-selected="true">
-                                    Mô tả hàng hóa
+                                    Mô tả
                                 </button>
                                 <button class="nav-link border-white border-bottom-0" type="button" role="tab"
                                     id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission"
@@ -129,28 +129,27 @@
                         </div>
                     </div>
                     <form action="#">
-                        <h4 class="mb-5 fw-bold">Leave a Reply</h4>
+                        <h4 class="mb-5 fw-bold">Thêm đánh giá cho sản phẩm</h4>
                         <div class="row g-4">
                             <div class="col-lg-6">
                                 <div class="border-bottom rounded">
-                                    <input type="text" class="form-control border-0 me-4" placeholder="Yur Name *">
+                                    <input type="text" class="form-control border-0 me-4" placeholder="Họ tên *">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="border-bottom rounded">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email *">
+                                    <input type="email" class="form-control border-0" placeholder="Email *">
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="border-bottom rounded my-4">
-                                    <textarea name="" id="" class="form-control border-0" cols="30" rows="8"
-                                        placeholder="Your Review *" spellcheck="false"></textarea>
+                                    <textarea name="" id="" class="form-control border-0" cols="30" rows="8" placeholder="Bình luận về sản phẩm *" spellcheck="false"></textarea>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="d-flex justify-content-between py-3 mb-5">
                                     <div class="d-flex align-items-center">
-                                        <p class="mb-0 me-3">Please rate:</p>
+                                        <p class="mb-0 me-3">Đánh giá:</p>
                                         <div class="d-flex align-items-center" style="font-size: 12px;">
                                             <i class="fa fa-star text-muted"></i>
                                             <i class="fa fa-star"></i>
@@ -159,8 +158,7 @@
                                             <i class="fa fa-star"></i>
                                         </div>
                                     </div>
-                                    <a href="#" class="btn border border-secondary text-primary rounded-pill px-4 py-3">
-                                        Post Comment</a>
+                                    <a href="#" class="btn btn-outline-primary rounded-pill px-3"> Đánh giá</a>
                                 </div>
                             </div>
                         </div>
@@ -291,8 +289,8 @@
                         </div>
                         <div class="d-flex justify-content-center my-4">
                             <a href="#"
-                                class="btn border border-secondary px-4 py-3 rounded-pill text-primary w-100">Vew
-                                More</a>
+                               class="btn btn-outline-primary rounded-pill px-4 py-3 w-100">
+                                View More</a>
                         </div>
                     </div>
                     <div class="col-lg-12">
@@ -322,7 +320,7 @@
                             <p class="text-dark fs-5 fw-bold">$4.99 / kg</p>
                             <a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@Model.MaHH"
                                 class="btn border border-secondary rounded-pill px-3 py-1 mb-4 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ hàng</a>
                         </div>
                     </div>
                 </div>
@@ -338,7 +336,7 @@
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold">$4.99 / kg</p>
                             <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ hàng</a>
                         </div>
                     </div>
                 </div>
@@ -354,7 +352,7 @@
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold">$7.99 / kg</p>
                             <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ hàng</a>
                         </div>
                     </div>
                 </div>
@@ -370,7 +368,7 @@
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold">$7.99 / kg</p>
                             <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ hàng</a>
                         </div>
                     </div>
                 </div>
@@ -386,7 +384,7 @@
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold">$7.99 / kg</p>
                             <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ hàng</a>
                         </div>
                     </div>
                 </div>
@@ -402,7 +400,7 @@
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold">$7.99 / kg</p>
                             <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ hàng</a>
                         </div>
                     </div>
                 </div>
@@ -418,7 +416,7 @@
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold">$7.99 / kg</p>
                             <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ hàng</a>
                         </div>
                     </div>
                 </div>
@@ -434,7 +432,7 @@
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold">$7.99 / kg</p>
                             <a href="#" class="btn border border-secondary rounded-pill px-3 py-1 mb-4 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    class="fa fa-shopping-bag me-2 text-primary"></i> Thêm vào giỏ hàng\</a>
                         </div>
                     </div>
                 </div>
