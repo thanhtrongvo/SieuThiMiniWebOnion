@@ -4,8 +4,18 @@
     ViewData["Title"] = "Danh Sách Tồn Kho";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
+<div class="action-buttons">
+    <a href="@Url.Action("Create", "TonKho")" class="btn btn-primary">Thêm Tồn Kho</a>
+    <a href="@Url.Action("Stats", "TonKho")" class="btn btn-success">Thống Kê</a>
+</div>
+<style>
+    .action-buttons {
+        display: flex;
+        gap: 10px; /* Khoảng cách giữa các nút */
+        margin-bottom: 15px; /* Khoảng cách phía dưới */
+    }
+</style>
 
-<a href="@Url.Action("Create", "TonKho")" class="btn btn-primary">Thêm Tồn Kho</a>
 <div class="container-fluid px-4">
     <div class="card mb-4">
         <div class="card-header">

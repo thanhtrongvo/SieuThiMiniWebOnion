@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Domain.Entities.TonKho>
+
+@{
+    ViewData["Title"] = "Thống Kê Tồn Kho - Biểu Đồ";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Thêm phần canvas cho biểu đồ -->
+<canvas id="tonKhoChart" width="400" height="200"></canvas>
+
+<!-- Nút xuất Excel -->
+<div class="mt-4">
+    <a href="@Url.Action("ExportToExcel", "TonKho")" class="btn btn-success">
+        Xuất Excel
+    </a>
+</div>
+
+<!-- Thêm script để tải dữ liệu và hiển thị biểu đồ -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    fetch('@Url.Action("GetTonKhoData", "TonKho")')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data); // In dữ liệu ra console để kiểm tra
+
+            // Đọc dữ liệu đúng theo JSON trả về
+            const labels = data.map(item => item.maHH); // Dùng 'maHH' thay vì 'MaHH'
+            const quantities = data.map(item => item.soLuongTon); // Dùng 'soLuongTon' thay vì 'SoLuongTon'
+
+            // Tạo biểu đồ
+            const ctx = document.getElementById('tonKhoChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar', // Loại biểu đồ: cột
+                data: {
+                    labels: labels, // Trục X là mã hàng hóa
+                    datasets: [{
+                        label: 'Số lượng tồn kho',
+                        data: quantities, // Trục Y là số lượng tồn
+                        backgroundColor: 'rgba(54, 162, 235, 0.5)', // Màu cột
+                        borderColor: 'rgba(54, 162, 235, 1)', // Màu viền
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                        tooltip: {
+                            enabled: true
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true // Bắt đầu trục Y từ 0
+                        }
+                    }
+                }
+            });
+        })
+        .catch(error => console.error('Lỗi khi tải dữ liệu tồn kho:', error));
+</script>

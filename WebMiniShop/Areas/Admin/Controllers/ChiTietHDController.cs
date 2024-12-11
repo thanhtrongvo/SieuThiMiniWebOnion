@@ -94,4 +94,24 @@ public class ChiTietHDController : Controller
         await _chiTietHDService.DeleteChiTietHDAsync(id);
         return RedirectToAction("Index", "HoaDon");
     }
+    [HttpGet]
+    public async Task<IActionResult> Top10SanPhamBanChay()
+    {
+        var chiTietHDs = await _chiTietHDService.GetAllChiTietHDAsync();
+        var topSanPham = chiTietHDs
+            .GroupBy(c => new { c.MaHH, c.HangHoa.TenHH })
+            .Select(g => new
+            {
+                maHH = g.Key.MaHH,
+                tenHH = g.Key.TenHH,
+                tongSoLuong = g.Sum(c => c.SoLuong)
+            })
+            .OrderByDescending(x => x.tongSoLuong)
+            .Take(10)
+            .ToList();
+
+        return Json(topSanPham);
+    }
+
+
 }

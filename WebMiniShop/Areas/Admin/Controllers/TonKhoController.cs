@@ -2,6 +2,7 @@
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using OfficeOpenXml;
 using System.Threading.Tasks;
 [Area("Admin")]
 public class TonKhoController : Controller
@@ -115,4 +116,64 @@ public class TonKhoController : Controller
         await _tonKhoService.DeleteTonKhoAsync(id);
         return RedirectToAction("Index");
     }
+    [HttpGet]
+    public async Task<IActionResult> Stats()
+    {
+        // Lấy tất cả thông tin về tồn kho
+        var tonKhos = await _tonKhoService.GetAllTonKhoAsync();
+
+        // Trả về view với danh sách tồn kho
+        return View(tonKhos);
+    }
+    public async Task<IActionResult> ExportToExcel()
+    {
+        // Thiết lập LicenseContext
+        ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
+        // Lấy dữ liệu tồn kho
+        var tonKhos = await _tonKhoService.GetAllTonKhoAsync();
+
+        using (var package = new ExcelPackage())
+        {
+            var worksheet = package.Workbook.Worksheets.Add("Thống Kê Tồn Kho");
+
+            // Thêm tiêu đề cột
+            worksheet.Cells[1, 1].Value = "Mã Hàng Hóa";
+
+            worksheet.Cells[1, 2].Value = "Số Lượng Tồn";
+            worksheet.Cells[1, 3].Value = "Ngày Cập Nhật";
+
+            // Thêm dữ liệu vào các dòng
+            for (int i = 0; i < tonKhos.Count(); i++)
+            {
+                var tonKho = tonKhos.ElementAt(i);
+                worksheet.Cells[i + 2, 1].Value = tonKho.MaHH;
+              
+                worksheet.Cells[i + 2, 2].Value = tonKho.SoLuongTon;
+                worksheet.Cells[i + 2, 3].Value = tonKho.NgayCapNhat?.ToString("dd/MM/yyyy");
+            }
+
+            // Xuất file Excel
+            var fileContent = package.GetAsByteArray();
+            return File(fileContent, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "TonKho.xlsx");
+        }
+    }
+    [HttpGet]
+    public async Task<JsonResult> GetTonKhoData()
+    {
+        var tonKhos = await _tonKhoService.GetAllTonKhoAsync();
+
+        // Tạo dữ liệu cho biểu đồ
+        var data = tonKhos.Select(t => new
+        {
+            MaHH = t.MaHH, // Mã hàng hóa
+            SoLuongTon = t.SoLuongTon ?? 0 // Số lượng tồn kho
+        });
+
+        return Json(data);
+    }
+
+
+
+
 }
