@@ -31,8 +31,8 @@ This repository contains a Mini Supermarket web application built using **ASP.NE
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/mini-supermarket.git
-   cd mini-supermarket
+   git clone https://github.com/thanhtrongvo/SieuThiMiniWebOnion.git
+   cd WebShopMini
    ```
 
 2. **Set Up Database**:
@@ -53,7 +53,7 @@ This repository contains a Mini Supermarket web application built using **ASP.NE
    dotnet run
    ```
 
-5. Open your browser and navigate to `https://localhost:5001`.
+5. Open your browser and navigate to `https://localhost:5159`.
 
 ## Project Structure
 
@@ -92,4 +92,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-For any inquiries or issues, feel free to contact [your-email@example.com].
+For any inquiries or issues, feel free to contact [votrong1471@gmail.com].
