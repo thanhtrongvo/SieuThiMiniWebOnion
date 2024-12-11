@@ -1,38 +1,44 @@
-﻿@model IEnumerable<Domain.Entities.ChiTietHD>
-@{
-    ViewData["Title"] = "Top 10 Sản Phẩm Bán Chạy";
-    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+﻿@{
+    ViewData["Title"] = "Thống Kê Top 10 Sản Phẩm Bán Chạy";
 }
 
 <h2>@ViewData["Title"]</h2>
 
-<!-- Biểu đồ -->
+<!-- Vùng chứa biểu đồ -->
 <canvas id="topSanPhamChart" width="400" height="200"></canvas>
 
-<!-- Thêm Chart.js -->
+<!-- Nút Xuất Excel -->
+<div style="margin-top: 20px;">
+    <a href="@Url.Action("ExportTop10ToExcel", "ChiTietHD")" class="btn btn-success">Xuất Excel</a>
+</div>
+
+<!-- Thêm thư viện Chart.js -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-    // Gọi API để lấy dữ liệu thống kê
+    // Lấy dữ liệu từ API
     fetch('@Url.Action("Top10SanPhamBanChay", "ChiTietHD")')
         .then(response => response.json())
         .then(data => {
-            console.log(data); // Kiểm tra JSON trả về
+            if (data.length === 0) {
+                alert("Không có dữ liệu để hiển thị thống kê.");
+                return;
+            }
 
-            // Lấy dữ liệu từ JSON
-            const labels = data.map(item => item.tenHH); // Dùng thuộc tính 'tenHH' cho tên sản phẩm
-            const quantities = data.map(item => item.tongSoLuong); // Dùng 'tongSoLuong' cho số lượng bán
+            // Chuẩn bị dữ liệu cho biểu đồ
+            const labels = data.map(item => item.tenHH || "Chưa xác định");
+            const quantities = data.map(item => item.tongSoLuong);
 
             // Tạo biểu đồ
             const ctx = document.getElementById('topSanPhamChart').getContext('2d');
             new Chart(ctx, {
-                type: 'bar', // Loại biểu đồ: cột
+                type: 'bar', // Biểu đồ cột
                 data: {
-                    labels: labels, // Gắn nhãn trục X bằng tên sản phẩm
+                    labels: labels,
                     datasets: [{
                         label: 'Số lượng bán',
-                        data: quantities, // Dữ liệu trục Y là số lượng bán
-                        backgroundColor: 'rgba(75, 192, 192, 0.2)', // Màu nền cột
-                        borderColor: 'rgba(75, 192, 192, 1)', // Màu viền
+                        data: quantities,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
                         borderWidth: 1
                     }]
                 },
@@ -49,7 +55,7 @@
                     },
                     scales: {
                         y: {
-                            beginAtZero: true // Trục Y bắt đầu từ 0
+                            beginAtZero: true
                         }
                     }
                 }
@@ -57,5 +63,3 @@
         })
         .catch(error => console.error('Lỗi khi tải dữ liệu:', error));
 </script>
-
-
