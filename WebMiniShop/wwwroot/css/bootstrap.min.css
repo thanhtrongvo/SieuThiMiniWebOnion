@@ -1320,7 +1320,8 @@ progress {
 
     .col-lg-9 {
         flex: 0 0 auto;
-        width: 75%
+        width: 75%;
+        padding-left: 80px;
     }
 
     .col-lg-10 {
@@ -2910,7 +2911,8 @@ textarea.form-control-lg {
 }
 
 .btn:hover {
-    color: #747d88
+    color: #747d88;
+    background-color: #5ccb3c;
 }
 
 .btn-check:focus + .btn, .btn:focus {
@@ -4717,11 +4719,13 @@ textarea.form-control-lg {
     color: #6c757d
 }
 
+
 .pagination {
     display: flex;
     padding-left: 0;
     list-style: none
 }
+
 
 .page-link {
     position: relative;

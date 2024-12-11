@@ -9,423 +9,423 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebMiniShop
 build_property.RootNamespace = WebMiniShop
-build_property.ProjectDir = C:\Users\dangk\OneDrive\Desktop\cm\SieuThiMiniWebOnion\WebMiniShop\
+build_property.ProjectDir = C:\xampp\htdocs\SieuThiMiniWebOnion\WebMiniShop\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\dangk\OneDrive\Desktop\cm\SieuThiMiniWebOnion\WebMiniShop
+build_property.MSBuildProjectDirectory = C:\xampp\htdocs\SieuThiMiniWebOnion\WebMiniShop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/ForgotPassword.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEFjY291bnRcRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/Login.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEFjY291bnRcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/Register.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEFjY291bnRcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/RequestOtp.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/RequestOtp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEFjY291bnRcUmVxdWVzdE90cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/ResetPasswordForm.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/ResetPasswordForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEFjY291bnRcUmVzZXRQYXNzd29yZEZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/VerifyOtpForm.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Account/VerifyOtpForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEFjY291bnRcVmVyaWZ5T3RwRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/Component.razor]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/Component.razor]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/ForgotPassword.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/Login.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/Register.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/RequestOtp.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/RequestOtp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxSZXF1ZXN0T3RwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/ResetPasswordForm.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/ResetPasswordForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/VerifyOtpForm.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Account/VerifyOtpForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxWZXJpZnlPdHBGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ChiTietHD/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ChiTietHD/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpVGlldEhEXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ChiTietHD/Details.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ChiTietHD/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpVGlldEhEXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Dashboard/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HangHoa/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HangHoa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGFuZ0hvYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HangHoa/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HangHoa/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGFuZ0hvYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HangHoa/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HangHoa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGFuZ0hvYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HangHoa/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HangHoa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGFuZ0hvYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HoaDon/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HoaDon/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HoaDon/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HoaDon/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HoaDon/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HoaDon/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HoaDon/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/HoaDon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Home/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Home/Privacy.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhachHang/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhachHang/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hhY2hIYW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhachHang/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhachHang/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hhY2hIYW5nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhachHang/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhachHang/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hhY2hIYW5nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhachHang/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhachHang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2hhY2hIYW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhuyenMai/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhuyenMai/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2h1eWVuTWFpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhuyenMai/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhuyenMai/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2h1eWVuTWFpXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhuyenMai/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhuyenMai/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2h1eWVuTWFpXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhuyenMai/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/KhuyenMai/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS2h1eWVuTWFpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/LichSuGiaoDich/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/LichSuGiaoDich/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGljaFN1R2lhb0RpY2hcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/LichSuGiaoDich/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/LichSuGiaoDich/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGljaFN1R2lhb0RpY2hcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/LichSuGiaoDich/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/LichSuGiaoDich/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGljaFN1R2lhb0RpY2hcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/LichSuGiaoDich/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/LichSuGiaoDich/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGljaFN1R2lhb0RpY2hcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Loai/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Loai/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Loai/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Loai/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Loai/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Loai/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Loai/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Loai/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Login/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhaCungCap/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhaCungCap/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhQ3VuZ0NhcFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhaCungCap/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhaCungCap/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhQ3VuZ0NhcFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhaCungCap/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhaCungCap/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhQ3VuZ0NhcFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhaCungCap/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhaCungCap/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhQ3VuZ0NhcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhapKho/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhapKho/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhcEtob1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhapKho/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhapKho/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhcEtob1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhapKho/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhapKho/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhcEtob1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhapKho/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/NhapKho/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhcEtob1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Shared/Error.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ThongKe/DoanhThuTheoSanPham.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ThongKe/DoanhThuTheoSanPham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVxEb2FuaFRodVRoZW9TYW5QaGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ThongKe/DoanhThuTheoThoiGian.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ThongKe/DoanhThuTheoThoiGian.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVxEb2FuaFRodVRoZW9UaG9pR2lhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ThongKe/KhachHangMuaNhieuNhat.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ThongKe/KhachHangMuaNhieuNhat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVxLaGFjaEhhbmdNdWFOaGlldU5oYXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ThongKe/TongSoHoaDon.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/ThongKe/TongSoHoaDon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGhvbmdLZVxUb25nU29Ib2FEb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TonKho/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TonKho/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG9uS2hvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TonKho/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TonKho/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG9uS2hvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TonKho/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TonKho/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG9uS2hvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TonKho/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TonKho/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVG9uS2hvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TrangThai/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TrangThai/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbmdUaGFpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TrangThai/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TrangThai/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbmdUaGFpXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TrangThai/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TrangThai/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbmdUaGFpXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TrangThai/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/TrangThai/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbmdUaGFpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/User/Create.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/User/Delete.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/User/Edit.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/User/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Cart/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXENhcnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Cart/PaymentSuccess.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Cart/PaymentSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXENhcnRcUGF5bWVudFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Cart/Success.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Cart/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXENhcnRcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Cart/ThanhToan.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Cart/ThanhToan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXENhcnRcVGhhbmhUb2FuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Contact/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXENvbnRhY3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/HangHoa/Detail.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/HangHoa/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEhhbmdIb2FcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/HangHoa/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/HangHoa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEhhbmdIb2FcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/HangHoa/_HangHoaItem.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/HangHoa/_HangHoaItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEhhbmdIb2FcX0hhbmdIb2FJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Home/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Home/Privacy.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Login/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXExvZ2luXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/Components/Cart/_CartPannel.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/Components/Cart/_CartPannel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXENhcnRcX0NhcnRQYW5uZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/Components/Loai/Default.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/Components/Loai/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXExvYWlcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/Components/Paginate/Default.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/Components/Paginate/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFBhZ2luYXRlXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/Error.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_BreadCrumbAndBanner.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_BreadCrumbAndBanner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfQnJlYWRDcnVtYkFuZEJhbm5lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_Footer.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_HangHoaListPartial.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_HangHoaListPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfSGFuZ0hvYUxpc3RQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_Header.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfSGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_LayoutHangHoa.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_LayoutHangHoa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfTGF5b3V0SGFuZ0hvYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_SearchPannel.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_SearchPannel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfU2VhcmNoUGFubmVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_Testimonial.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_Testimonial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfVGVzdGltb25pYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/ShopDetail/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/ShopDetail/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNob3BEZXRhaWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Testimonial/Index.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Testimonial/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFRlc3RpbW9uaWFsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/_ViewImports.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/_ViewStart.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-43h9qql96n
 
-[C:/Users/dangk/OneDrive/Desktop/cm/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_Layout.cshtml]
+[C:/xampp/htdocs/SieuThiMiniWebOnion/WebMiniShop/Areas/Client/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50XFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-qqhklo6sku
