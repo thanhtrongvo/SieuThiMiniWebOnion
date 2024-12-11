@@ -10,8 +10,10 @@
             <div class="modal-body d-flex align-items-center">
                 <div class="input-group w-75 mx-auto d-flex">
                     <input type="search" class="form-control p-3" placeholder="keywords"
-                        aria-describedby="search-icon-1">
-                    <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                           aria-describedby="search-icon-1">
+                    <span id="search-icon-1" class="input-group-text p-3">
+                        <i class="fa fa-search"></i>
+                    </span>
                 </div>
             </div>
         </div>
@@ -23,15 +25,15 @@
     <div class="container py-5">
         <div class="row g-5 align-items-center">
             <div class="col-md-12 col-lg-7">
-                <h4 class="mb-3 text-secondary">100% Organic Foods</h4>
-                <h1 class="mb-5 display-3 text-primary">Organic Veggies & Fruits Foods</h1>
+                <h4 class="mb-3 text-secondary">100% Sản Phẩm Chất Lượng</h4>
+                <h1 class="mb-5 display-3 text-primary">Rau Củ Sạch & Thịt Tưoi Sống</h1>
             </div>
             <div class="col-md-12 col-lg-5">
                 <div id="carouselId" class="carousel slide position-relative" data-bs-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active rounded">
                             <img src="~/image/hero-img-1.png" class="img-fluid w-100 h-100 bg-secondary rounded"
-                                alt="First slide">
+                                 alt="First slide">
                             <a href="#" class="btn px-4 py-2 text-white rounded">Fruites</a>
                         </div>
                         <div class="carousel-item rounded">
@@ -40,12 +42,12 @@
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
-                        data-bs-slide="prev">
+                            data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselId"
-                        data-bs-slide="next">
+                            data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -115,14 +117,14 @@
                 <div class="col-lg-4 text-start">
                     <h1>Các sản phẩm nổi bật</h1>
                 </div>
-                
+
             </div>
             <div class="tab-content">
                 <div id="tab-all" class="tab-pane fade show p-0 active">
                     <div class="row g-4">
                         <div class="col-lg-12">
                             <div class="row g-4">
-                               @foreach (var loai in Model)
+                                @foreach (var loai in Model)
                                 {
                                     @foreach (var hangHoa in loai.HangHoas.Take(6))
                                     {
@@ -208,15 +210,17 @@
                 <div class="py-4">
                     <h1 class="display-3 text-dark">Fresh Exotic Fruits</h1>
                     <p class="fw-normal display-3 text-dark mb-4">in Our Store</p>
-                    <p class="mb-4 text-dark">The generated Lorem Ipsum is therefore always free from repetition
-                        injected humour, or non-characteristic words etc.</p>
+                    <p class="mb-4 text-dark">
+                        The generated Lorem Ipsum is therefore always free from repetition
+                        injected humour, or non-characteristic words etc.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="position-relative">
                     <img src="~/image/baner-1.png" class="img-fluid w-100 rounded" alt="">
                     <div class="d-flex align-items-center justify-content-center bg-white rounded-circle position-absolute"
-                        style="width: 140px; height: 140px; top: 0; left: 0;">
+                         style="width: 140px; height: 140px; top: 0; left: 0;">
                         <h1 style="font-size: 100px;">1</h1>
                         <div class="d-flex flex-column">
                             <span class="h2 mb-0">50$</span>

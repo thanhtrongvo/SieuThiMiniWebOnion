@@ -97,6 +97,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2hpVGlldEhEL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/ChiTietHD/ThongKeTop10.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2hpVGlldEhEL1Rob25nS2VUb3AxMC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -279,6 +283,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/TonKho/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVG9uS2hvL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/TonKho/Stats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVG9uS2hvL1N0YXRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Admin/Views/TrangThai/Create.cshtml]

@@ -444,6 +444,10 @@
               "target": "Package",
               "version": "[1.10.3, )"
             },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.5.2, )"
+            },
             "Microsoft.AspNetCore.Authentication.Google": {
               "target": "Package",
               "version": "[8.0.1, )"

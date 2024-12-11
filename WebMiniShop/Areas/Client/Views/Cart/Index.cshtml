@@ -12,9 +12,9 @@
             <a asp-controller="Home">Home</a>
         </li>
         <li class="breadcrumb-item">
-            <a asp-controller="Pages">Pages</a>
+            <a asp-controller="Cart" asp-action="Index">Giỏ Hàng</a>
         </li>
-        <li class="breadcrumb-item active text-white">Cart</li>
+
     </ol>
 </div>
 <!-- Single Page Header End -->
@@ -51,13 +51,13 @@
                         <td>
                             <div class="input-group quantity mt-4" style="width: 100px;">
                                 <div class="input-group-btn">
-                                    <button  class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border">
                                         <i class="fa fa-minus"></i>
                                     </button>
                                 </div>
                                 <input type="text" class="form-control form-control-sm text-center border-0" value="@item.SoLuong">
                                 <div class="input-group-btn">
-                                    <button  class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border">
                                         <i class="fa fa-plus"></i>
                                     </button>
                                 </div>
@@ -79,7 +79,7 @@
                 </tbody>
             </table>
         </div>
-        
+
         <div class="row g-4 justify-content-end">
             <div class="col-8"></div>
             <div class="col-sm-8 col-md-7 col-lg-6 col-xl-4">
@@ -90,7 +90,7 @@
                             <h5 class="mb-0 me-4">Subtotal:</h5>
                             <p class="mb-0">@Model.Sum(p => p.ThanhTien).ToString("N0").Replace(",", ".")đ</p>
                         </div>
-                        
+
                     </div>
                     <div class="py-4 mb-4 border-top border-bottom d-flex justify-content-between">
                         <h5 class="mb-0 ps-4 me-4">Total</h5>

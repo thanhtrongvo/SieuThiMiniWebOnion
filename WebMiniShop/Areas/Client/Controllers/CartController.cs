@@ -34,16 +34,13 @@ public class CartController : Controller
     {
         var hangHoa = db.HangHoas.Include(h => h.TonKhos).SingleOrDefault(h => h.MaHH == id);
 
-        if (hangHoa == null)
-        {
-            return NotFound();
-        }
+        if (hangHoa == null) return NotFound();
 
         var stockQuantity = hangHoa.TonKhos?.FirstOrDefault()?.SoLuongTon ?? 0;
 
         if (quantity > stockQuantity)
         {
-            TempData["Error"] = "The quantity exceeds the available stock.";
+            TempData["Error"] = "Sản phẩm không đủ số lượng trong kho.";
             return RedirectToAction("Detail", "HangHoa", new { id });
         }
 
@@ -51,11 +48,8 @@ public class CartController : Controller
         var item = cart.FirstOrDefault(i => i.MaHH == id);
 
         if (item != null)
-        {
             item.SoLuong += quantity;
-        }
         else
-        {
             cart.Add(
                 new CartItem
                 {
@@ -63,10 +57,9 @@ public class CartController : Controller
                     TenHH = hangHoa.TenHH,
                     Hinh = hangHoa.Hinh,
                     DonGia = hangHoa.DonGia ?? 0,
-                    SoLuong = quantity,
+                    SoLuong = quantity
                 }
             );
-        }
 
         HttpContext.Session.Set(Setting.CARTKEY, cart);
         return RedirectToAction("Index");
@@ -81,6 +74,7 @@ public class CartController : Controller
             cartItem.Remove(item);
             HttpContext.Session.Set(Setting.CARTKEY, cartItem);
         }
+
         return RedirectToAction("Index");
     }
 
@@ -110,7 +104,7 @@ public class CartController : Controller
                 CreatedDate = DateTime.Now,
                 Description = "Thanh toán đơn hàng",
                 FullName = model.HoTen,
-                OrderId = new Random().Next(1000, 100000),
+                OrderId = new Random().Next(1000, 100000)
             };
             if (payment == "Thanh Toán VNPay")
                 return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnpaymodel));
@@ -133,7 +127,7 @@ public class CartController : Controller
                 PhiVanChuyen = 15000,
                 MaTrangThai = 1,
                 GhiChu = model.GhiChu,
-                SoDienThoai = model.SoDienThoai,
+                SoDienThoai = model.SoDienThoai
             };
 
             using (var transaction = db.Database.BeginTransaction())
@@ -153,7 +147,7 @@ public class CartController : Controller
                                 MaHH = item.MaHH,
                                 SoLuong = item.SoLuong,
                                 DonGia = item.DonGia,
-                                GiamGia = 0,
+                                GiamGia = 0
                             }
                         );
                         var tonKho = db.TonKhos.SingleOrDefault(tk => tk.MaHH == item.MaHH);
@@ -163,6 +157,7 @@ public class CartController : Controller
                             db.TonKhos.Update(tonKho);
                         }
                     }
+
                     db.AddRange(cthd);
                     db.SaveChanges();
 
@@ -203,7 +198,7 @@ public class CartController : Controller
 
             MaTrangThai = 1,
             GhiChu = "Thanh toán VNPay thành công",
-            SoDienThoai = user.DienThoai,
+            SoDienThoai = user.DienThoai
         };
 
         using (var transaction = db.Database.BeginTransaction())
@@ -223,7 +218,7 @@ public class CartController : Controller
                             MaHH = item.MaHH,
                             SoLuong = item.SoLuong,
                             DonGia = item.DonGia,
-                            GiamGia = 0,
+                            GiamGia = 0
                         }
                     );
                     var tonKho = db.TonKhos.SingleOrDefault(tk => tk.MaHH == item.MaHH);
@@ -263,17 +258,14 @@ public class CartController : Controller
     {
         var order = db.HoaDons.Include(o => o.ChiTietHDs).FirstOrDefault(o => o.MaHD == orderId);
 
-        if (order == null)
-        {
-            return NotFound();
-        }
+        if (order == null) return NotFound();
 
         var paymentSuccessVM = new PaymentSuccessVM
         {
             OrderId = order.MaHD,
             TotalPrice = order.ChiTietHDs.Sum(i => i.SoLuong * i.DonGia) + order.PhiVanChuyen,
             PaymentTime = order.NgayDat,
-            TransactionId = order.MaHD.ToString(), // Assuming the order ID is used as the transaction ID
+            TransactionId = order.MaHD.ToString() // Assuming the order ID is used as the transaction ID
         };
 
         return View(paymentSuccessVM);

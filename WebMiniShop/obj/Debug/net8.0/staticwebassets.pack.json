@@ -57,6 +57,22 @@
       "PackagePath": "staticwebassets/image/HangHoa/bia-4.jpg"
     },
     {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/botgagion.webp",
+      "PackagePath": "staticwebassets/image/HangHoa/botgagion.webp"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/botgung.webp",
+      "PackagePath": "staticwebassets/image/HangHoa/botgung.webp"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/bothucvat.webp",
+      "PackagePath": "staticwebassets/image/HangHoa/bothucvat.webp"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/chaobongmai.webp",
+      "PackagePath": "staticwebassets/image/HangHoa/chaobongmai.webp"
+    },
+    {
       "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/cu-1.jpg",
       "PackagePath": "staticwebassets/image/HangHoa/cu-1.jpg"
     },
@@ -71,6 +87,18 @@
     {
       "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/cu-4.jpg",
       "PackagePath": "staticwebassets/image/HangHoa/cu-4.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/daudua.webp",
+      "PackagePath": "staticwebassets/image/HangHoa/daudua.webp"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/daulightneptune.webp",
+      "PackagePath": "staticwebassets/image/HangHoa/daulightneptune.webp"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/dausimply.webp",
+      "PackagePath": "staticwebassets/image/HangHoa/dausimply.webp"
     },
     {
       "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/f-1.jpg",
@@ -111,6 +139,10 @@
     {
       "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/mi-khoai-tay-omachi-tom-chua-cay-thai-goi-80g-clone-202303020029488426_300x300.jpg",
       "PackagePath": "staticwebassets/image/HangHoa/mi-khoai-tay-omachi-tom-chua-cay-thai-goi-80g-clone-202303020029488426_300x300.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/muoihaohao.webp",
+      "PackagePath": "staticwebassets/image/HangHoa/muoihaohao.webp"
     },
     {
       "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/my-1.jpg",
