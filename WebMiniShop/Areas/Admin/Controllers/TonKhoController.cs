@@ -1,8 +1,9 @@
-﻿using Application.Features.Interface;
+﻿using System.Threading.Tasks;
+using Application.Features.Interface;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System.Threading.Tasks;
+
 [Area("Admin")]
 public class TonKhoController : Controller
 {
@@ -31,11 +32,9 @@ public class TonKhoController : Controller
         // Kiểm tra nếu danh sách hàng hóa không null và không trống
         if (hangHoas != null)
         {
-            ViewBag.HangHoas = hangHoas.Select(h => new SelectListItem
-            {
-                Value = h.MaHH.ToString(),
-                Text = h.TenHH
-            }).ToList();
+            ViewBag.HangHoas = hangHoas
+                .Select(h => new SelectListItem { Value = h.MaHH.ToString(), Text = h.TenHH })
+                .ToList();
         }
         else
         {
@@ -45,7 +44,7 @@ public class TonKhoController : Controller
         // Khởi tạo đối tượng TonKho với giá trị mặc định
         var tonKho = new TonKho
         {
-            SoLuongTon = 0 // Set mặc định số lượng tồn là 0
+            SoLuongTon = 0, // Set mặc định số lượng tồn là 0
         };
 
         return View(tonKho);
@@ -56,7 +55,6 @@ public class TonKhoController : Controller
     {
         if (ModelState.IsValid)
         {
-            // Kiểm tra xem hàng hóa đã có trong tồn kho chưa
             var existingTonKho = await _tonKhoService.GetTonKhoByMaHHAsync(tonKho.MaHH);
             if (existingTonKho != null)
             {
@@ -65,16 +63,12 @@ public class TonKhoController : Controller
                 return View(tonKho);
             }
             tonKho.MaHH = 0;
-            // Nếu không tồn tại, tiếp tục thêm mới
+
             await _tonKhoService.CreateTonKhoAsync(tonKho);
             return RedirectToAction("Index");
         }
         return View(tonKho);
     }
-
-
-   
-
 
     [HttpGet]
     public async Task<IActionResult> Edit(int id)

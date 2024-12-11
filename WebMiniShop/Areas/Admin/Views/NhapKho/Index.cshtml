@@ -39,8 +39,8 @@
                             <td>@item.SoLuong</td>
                             <td>@item.GiaNhap</td>
                             <td>
-                                <button class="btn btn-warning" onclick="editNhapKho(@item.MaNK)">Sửa</button>
-                                <button class="btn btn-danger" onclick="deleteNhapKho(@item.MaNK)">Xóa</button>
+                                <a asp-action="Edit" asp-controller="NhapKho" asp-route-id="@item.MaNK" class="btn btn-warning">Sửa</a>
+                                <a asp-action="Delete" asp-controller="NhapKho" asp-route-id="@item.MaNK" class="btn btn-danger">Xóa</a>
                             </td>
 
                         </tr>

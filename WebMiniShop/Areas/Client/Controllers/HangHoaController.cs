@@ -20,7 +20,8 @@ public class HangHoaController : Controller
         string currentFilter,
         string searchString,
         int? pageNumber,
-        int? loai)
+        int? loai
+    )
     {
         ViewData["CurrentSort"] = sortOrder;
         ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
@@ -39,8 +40,7 @@ public class HangHoaController : Controller
 
         ViewData["CurrentFilter"] = searchString;
 
-        var hanghoas = from h in db.HangHoas.Include(h => h.Loai)
-                       select h;
+        var hanghoas = from h in db.HangHoas.Include(h => h.Loai) select h;
 
         if (loai.HasValue)
         {
@@ -79,60 +79,99 @@ public class HangHoaController : Controller
 
         int pageSize = 10;
         var paginatedList = await PaginatedList<HangHoaVM>.CreateAsync(
-            hanghoas.Select(p => new HangHoaVM
-            {
-                MaHH = p.MaHH,
-                TenHH = p.TenHH,
-                Hinh = p.Hinh ?? "",
-                NgaySX = p.NgaySX,
-                DonGia = p.DonGia.HasValue ? p.DonGia.Value * (1 - p.GiamGia / 100) : 0,
-                MoTa = p.MoTa,
-                GiamGia = p.GiamGia,
-                SoLanXem = p.SoLanXem,
-                MaLoai = p.MaLoai,
-                TenLoai = p.Loai.TenLoai,
-                DonGiaChuaGiam = p.DonGia ?? 0
-            }).AsNoTracking(), pageNumber ?? 1, pageSize);
+            hanghoas
+                .Select(p => new HangHoaVM
+                {
+                    MaHH = p.MaHH,
+                    TenHH = p.TenHH,
+                    Hinh = p.Hinh ?? "",
+                    NgaySX = p.NgaySX,
+                    DonGia = p.DonGia.HasValue ? p.DonGia.Value * (1 - p.GiamGia / 100) : 0,
+                    MoTa = p.MoTa,
+                    GiamGia = p.GiamGia,
+                    SoLanXem = p.SoLanXem,
+                    MaLoai = p.MaLoai,
+                    TenLoai = p.Loai.TenLoai,
+                    DonGiaChuaGiam = p.DonGia ?? 0,
+                })
+                .AsNoTracking(),
+            pageNumber ?? 1,
+            pageSize
+        );
 
         return View(paginatedList);
     }
-  
 
-    public async Task<IActionResult> Search(string? keyword, int? pageNumber)
-{
-    var hanghoas = db.HangHoas.Include(h => h.Loai).AsQueryable();
-
-    if (!string.IsNullOrEmpty(keyword))
+    public async Task<IActionResult> Paginate(int page)
     {
-        hanghoas = hanghoas.Where(p => p.TenHH.Contains(keyword));
+        int pageSize = 10;
+        var hanghoas = db.HangHoas.Include(h => h.Loai).AsQueryable();
+
+        var paginatedList = await PaginatedList<HangHoaVM>.CreateAsync(
+            hanghoas
+                .Select(p => new HangHoaVM
+                {
+                    MaHH = p.MaHH,
+                    TenHH = p.TenHH,
+                    Hinh = p.Hinh ?? "",
+                    NgaySX = p.NgaySX,
+                    DonGia = p.DonGia ?? 0,
+                    MoTa = p.MoTa,
+                    GiamGia = p.GiamGia,
+                    SoLanXem = p.SoLanXem,
+                    MaLoai = p.MaLoai,
+                    TenLoai = p.Loai.TenLoai,
+                    DonGiaChuaGiam = p.DonGia ?? 0,
+                })
+                .AsNoTracking(),
+            page,
+            pageSize
+        );
+
+        return PartialView("_HangHoaItem", paginatedList);
     }
 
-    var hanghoaVMs = hanghoas.Select(p => new HangHoaVM
+    public async Task<IActionResult> Search(string? keyword, int? pageNumber)
     {
-        MaHH = p.MaHH,
-        TenHH = p.TenHH,
-        Hinh = p.Hinh ?? "",
-        NgaySX = p.NgaySX,
-        DonGia = p.DonGia ?? 0,
-        MoTa = p.MoTa,
-        GiamGia = p.GiamGia,
-        SoLanXem = p.SoLanXem,
-        MaLoai = p.MaLoai,
-        TenLoai = p.Loai.TenLoai
-    });
+        var hanghoas = db.HangHoas.Include(h => h.Loai).AsQueryable();
 
-    int pageSize = 10;
-    var paginatedList = await PaginatedList<HangHoaVM>.CreateAsync(hanghoaVMs.AsNoTracking(), pageNumber ?? 1, pageSize);
+        if (!string.IsNullOrEmpty(keyword))
+        {
+            hanghoas = hanghoas.Where(p => p.TenHH.Contains(keyword));
+        }
 
-    return View("Index", paginatedList);
-}
+        var hanghoaVMs = hanghoas.Select(p => new HangHoaVM
+        {
+            MaHH = p.MaHH,
+            TenHH = p.TenHH,
+            Hinh = p.Hinh ?? "",
+            NgaySX = p.NgaySX,
+            DonGia = p.DonGia ?? 0,
+            MoTa = p.MoTa,
+            GiamGia = p.GiamGia,
+            SoLanXem = p.SoLanXem,
+            MaLoai = p.MaLoai,
+            TenLoai = p.Loai.TenLoai,
+        });
+
+        int pageSize = 10;
+        var paginatedList = await PaginatedList<HangHoaVM>.CreateAsync(
+            hanghoaVMs.AsNoTracking(),
+            pageNumber ?? 1,
+            pageSize
+        );
+
+        return View("Index", paginatedList);
+    }
 
     public IActionResult Detail(int id)
     {
-        var data = db.HangHoas
-            .Include(p => p.Loai)
+        var data = db
+            .HangHoas.Include(p => p.Loai)
+            .Include(p => p.TonKhos)
             .SingleOrDefault(p => p.MaHH == id);
-        if (data == null) return NotFound();
+        if (data == null)
+            return NotFound();
         data.SoLanXem++;
         db.SaveChanges();
         var result = new ChiTietHangHoaVM
@@ -146,8 +185,8 @@ public class HangHoaController : Controller
             GiamGia = data.GiamGia,
             MaLoai = data.MaLoai,
             TenLoai = data.Loai.TenLoai,
-            SoLuong = 10,
-            DanhGia = 5
+            SoLuongTon = data.TonKhos?.FirstOrDefault()?.SoLuongTon ?? 0,
+            DanhGia = 5,
         };
         return View(result);
     }

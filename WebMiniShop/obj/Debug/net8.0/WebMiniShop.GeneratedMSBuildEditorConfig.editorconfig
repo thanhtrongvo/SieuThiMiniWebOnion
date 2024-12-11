@@ -321,6 +321,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/EditInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvRWRpdEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvSW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Account/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0FjY291bnQvT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/Areas/Client/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50L1ZpZXdzL0NhcnQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

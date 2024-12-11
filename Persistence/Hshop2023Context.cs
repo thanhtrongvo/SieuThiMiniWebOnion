@@ -41,7 +41,6 @@ public class Hshop2023Context : DbContext
     public DbSet<PhanQuyen> PhanQuyens { get; set; } = null!;
     public DbSet<LichSuGiaoDich> LichSuGiaoDiches { get; set; } = null!;
 
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -69,5 +68,20 @@ public class Hshop2023Context : DbContext
             .WithMany(hd => hd.ChiTietHDs) // Navigation property in HoaDon
             .HasForeignKey(ct => ct.MaHD) // Foreign key in ChiTietHD
             .OnDelete(DeleteBehavior.Restrict); // Adjust DeleteBehavior as needed
+
+        modelBuilder
+            .Entity<TonKho>()
+            .HasOne(tk => tk.HangHoa)
+            .WithMany(hh => hh.TonKhos)
+            .HasForeignKey(tk => tk.MaHH)
+            .OnDelete(DeleteBehavior.Cascade); // Adjust DeleteBehavior as needed
+
+        // Define relationship between HoaDon and TrangThai
+        modelBuilder
+            .Entity<HoaDon>()
+            .HasOne(hd => hd.TrangThai)
+            .WithMany(tt => tt.HoaDons)
+            .HasForeignKey(hd => hd.MaTrangThai)
+            .OnDelete(DeleteBehavior.Restrict);
     }
 }

@@ -1,4 +1,4 @@
-@model IEnumerable<HangHoaVM>
+@model PaginatedList<HangHoaVM>
 
 @foreach (var item in Model)
 {
@@ -6,7 +6,7 @@
         <div class="rounded-3 position-relative fruite-item shadow-lg">
             <div class="fruite-img position-relative">
                 <a asp-action="Detail" asp-controller="HangHoa" asp-route-id="@item.MaHH">
-                    <img src="~/image/@item.Hinh" class="card-img-top" alt="">
+                    <img src="~/image/HangHoa/@item.Hinh" class="card-img-top" alt="">
                 </a>
                 <div class="text-white bg-primary px-3 py-1 rounded position-absolute"
                      style="top: 10px; left: 10px;">

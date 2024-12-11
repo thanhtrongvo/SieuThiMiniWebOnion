@@ -41,22 +41,6 @@
       "PackagePath": "staticwebassets/image/6-lon-bia-sai-gon-chill-330ml-202201211121225228.jpg"
     },
     {
-      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/1.jpg",
-      "PackagePath": "staticwebassets/image/HangHoa/1.jpg"
-    },
-    {
-      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/6-lon-bia-sai-gon-chill-330ml-202201211121225228.jpg",
-      "PackagePath": "staticwebassets/image/HangHoa/6-lon-bia-sai-gon-chill-330ml-202201211121225228.jpg"
-    },
-    {
-      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/INDOOR-ANHTHU5329.jpg",
-      "PackagePath": "staticwebassets/image/HangHoa/INDOOR-ANHTHU5329.jpg"
-    },
-    {
-      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/banh-gao-cat-lat-tokpokki-matamun-goi-600g-202010311338517634.jpg",
-      "PackagePath": "staticwebassets/image/HangHoa/banh-gao-cat-lat-tokpokki-matamun-goi-600g-202010311338517634.jpg"
-    },
-    {
       "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/bia-1.jpg",
       "PackagePath": "staticwebassets/image/HangHoa/bia-1.jpg"
     },
@@ -65,16 +49,132 @@
       "PackagePath": "staticwebassets/image/HangHoa/bia-2.jpg"
     },
     {
-      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/nuoc-giat-izi-home-trang-sach-ngat-huong-can-346-lit-202304211127275293.jpg",
-      "PackagePath": "staticwebassets/image/HangHoa/nuoc-giat-izi-home-trang-sach-ngat-huong-can-346-lit-202304211127275293.jpg"
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/bia-3.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/bia-3.jpg"
     },
     {
-      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/program_1.jpg",
-      "PackagePath": "staticwebassets/image/HangHoa/program_1.jpg"
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/bia-4.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/bia-4.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/cu-1.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/cu-1.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/cu-2.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/cu-2.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/cu-3.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/cu-3.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/cu-4.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/cu-4.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/f-1.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/f-1.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/f-2.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/f-2.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/f-3.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/f-3.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/f-4.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/f-4.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/f-5.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/f-5.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/gg-1.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/gg-1.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/gg-2.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/gg-2.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/gg-3.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/gg-3.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/gg-4.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/gg-4.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/mi-khoai-tay-omachi-tom-chua-cay-thai-goi-80g-clone-202303020029488426_300x300.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/mi-khoai-tay-omachi-tom-chua-cay-thai-goi-80g-clone-202303020029488426_300x300.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/my-1.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/my-1.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/my-2.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/my-2.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/my-3.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/my-3.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/my-4.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/my-4.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/rau-1.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/rau-1.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/rau-2.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/rau-2.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/rau-3.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/rau-3.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/rau-5.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/rau-5.jpg"
     },
     {
       "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/sua-1.jpg",
       "PackagePath": "staticwebassets/image/HangHoa/sua-1.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/sua-2.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/sua-2.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/sua-3.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/sua-3.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/sua-4.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/sua-4.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/sua-5.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/sua-5.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/t-1.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/t-1.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/t-2.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/t-2.jpg"
+    },
+    {
+      "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/thung-24-ly-mi-modern-lau-thai-tom-65g-202205171454334430_300x300.jpg",
+      "PackagePath": "staticwebassets/image/HangHoa/thung-24-ly-mi-modern-lau-thai-tom-65g-202205171454334430_300x300.jpg"
     },
     {
       "Id": "/Users/thanhtrongvo/Desktop/Workspace/SieuThiMiniWeb/WebMiniShop/wwwroot/image/HangHoa/thung-30-goi-mi-hao-hao-tom-chua-cay-75g-202205161558511020_300x300.jpg",

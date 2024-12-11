@@ -161,9 +161,6 @@ namespace Persistence.Migrations
                     b.Property<string>("SoDienThoai")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("TrangThaiMaTrangThai")
-                        .HasColumnType("int");
-
                     b.Property<int?>("UserMaUser")
                         .HasColumnType("int");
 
@@ -171,7 +168,7 @@ namespace Persistence.Migrations
 
                     b.HasIndex("KhachHangMaKH");
 
-                    b.HasIndex("TrangThaiMaTrangThai");
+                    b.HasIndex("MaTrangThai");
 
                     b.HasIndex("UserMaUser");
 
@@ -428,12 +425,6 @@ namespace Persistence.Migrations
             modelBuilder.Entity("Domain.Entities.TonKho", b =>
                 {
                     b.Property<int>("MaHH")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaHH"));
-
-                    b.Property<int?>("HangHoaMaHH")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("NgayCapNhat")
@@ -444,8 +435,6 @@ namespace Persistence.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("MaHH");
-
-                    b.HasIndex("HangHoaMaHH");
 
                     b.ToTable("TonKho");
                 });
@@ -570,7 +559,9 @@ namespace Persistence.Migrations
 
                     b.HasOne("Domain.Entities.TrangThai", "TrangThai")
                         .WithMany("HoaDons")
-                        .HasForeignKey("TrangThaiMaTrangThai");
+                        .HasForeignKey("MaTrangThai")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.HasOne("Domain.Entities.User", "User")
                         .WithMany("HoaDons")
@@ -622,7 +613,9 @@ namespace Persistence.Migrations
                 {
                     b.HasOne("Domain.Entities.HangHoa", "HangHoa")
                         .WithMany("TonKhos")
-                        .HasForeignKey("HangHoaMaHH");
+                        .HasForeignKey("MaHH")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("HangHoa");
                 });

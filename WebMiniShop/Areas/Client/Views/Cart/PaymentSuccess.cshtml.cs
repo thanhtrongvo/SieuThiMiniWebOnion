@@ -4,8 +4,5 @@ namespace WebMiniShop.Areas.Client.Views.Cart;
 
 public class PaymentSuccess : PageModel
 {
-    public void OnGet()
-    {
-        
-    }
+    public void OnGet() { }
 }

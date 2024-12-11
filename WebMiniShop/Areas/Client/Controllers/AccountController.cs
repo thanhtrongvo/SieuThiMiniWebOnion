@@ -1,22 +1,21 @@
-using WebMiniShop.Models;
+using System;
+using System.Collections.Generic;
+using System.Security.Claims;
+using System.Threading.Tasks;
 using Application.Features.Interface;
 using Domain.Entities;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using WebMiniShop.Areas.Client.Helper;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
-using Microsoft.AspNetCore.Identity;
-
+using WebMiniShop.Areas.Client.Helper;
+using WebMiniShop.Models;
 
 namespace WebMiniShop.Areas.Admin.Controllers;
 
@@ -27,7 +26,11 @@ public class AccountController : Controller
     private readonly IPasswordHasher<User> _passwordHasher;
     private readonly Hshop2023Context _context;
 
-    public AccountController(IUserService userService, IPasswordHasher<User> passwordHasher,Hshop2023Context context)
+    public AccountController(
+        IUserService userService,
+        IPasswordHasher<User> passwordHasher,
+        Hshop2023Context context
+    )
     {
         _userService = userService;
         _passwordHasher = passwordHasher;
@@ -45,8 +48,9 @@ public class AccountController : Controller
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Register(
-        [Bind("HoTen,Email,MatKhau,DienThoai,VaiTro,GioiTinh,NgaySinh,DiaChi")]
-        User user, string ConfirmMatKhau)
+        [Bind("HoTen,Email,MatKhau,DienThoai,VaiTro,GioiTinh,NgaySinh,DiaChi")] User user,
+        string ConfirmMatKhau
+    )
     {
         if (ModelState.IsValid)
         {
@@ -90,15 +94,21 @@ public class AccountController : Controller
                 {
                     new(ClaimTypes.Name, user.Email),
                     new(ClaimTypes.NameIdentifier, user.MaUser.ToString()),
-                    new("CustomerId" , user.MaUser.ToString()),
-                    new(ClaimTypes.Role, user.VaiTro == 1 ? "Admin" : "User")
+                    new("CustomerId", user.MaUser.ToString()),
+                    new(ClaimTypes.Role, user.VaiTro == 1 ? "Admin" : "User"),
                 };
 
-                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var claimsIdentity = new ClaimsIdentity(
+                    claims,
+                    CookieAuthenticationDefaults.AuthenticationScheme
+                );
                 var authProperties = new AuthenticationProperties { IsPersistent = true };
 
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                    new ClaimsPrincipal(claimsIdentity), authProperties);
+                await HttpContext.SignInAsync(
+                    CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(claimsIdentity),
+                    authProperties
+                );
 
                 // Điều hướng dựa trên vai trò của người dùng
                 if (user.VaiTro == 1) // Admin
@@ -159,8 +169,6 @@ public class AccountController : Controller
         return RedirectToAction("VerifyOtpForm");
     }
 
-
-
     // Hiển thị trang xác nhận OTP
     [HttpGet]
     public IActionResult VerifyOtpForm()
@@ -181,7 +189,11 @@ public class AccountController : Controller
         var otpExpiry = HttpContext.Session.GetString("OtpExpiry");
 
         // Kiểm tra nếu không có thông tin OTP hoặc email trong session
-        if (string.IsNullOrEmpty(sessionEmail) || string.IsNullOrEmpty(sessionOtp) || string.IsNullOrEmpty(otpExpiry))
+        if (
+            string.IsNullOrEmpty(sessionEmail)
+            || string.IsNullOrEmpty(sessionOtp)
+            || string.IsNullOrEmpty(otpExpiry)
+        )
         {
             ViewBag.Message = "Có lỗi xảy ra, vui lòng thử lại.";
             return View("VerifyOtpForm");
@@ -209,10 +221,9 @@ public class AccountController : Controller
         HttpContext.Session.Remove("OTPEmail");
         HttpContext.Session.Remove("OtpExpiry");
 
-        TempData["Email"] = email;  // Lưu email để truyền cho ResetPassword
+        TempData["Email"] = email; // Lưu email để truyền cho ResetPassword
         return RedirectToAction("ResetPasswordForm");
     }
-
 
     // Hiển thị form đặt lại mật khẩu
     // Hiển thị trang đặt lại mật khẩu
@@ -232,7 +243,11 @@ public class AccountController : Controller
     // Xử lý đặt lại mật khẩu
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> ResetPassword(string email, string newPassword, string confirmPassword)
+    public async Task<IActionResult> ResetPassword(
+        string email,
+        string newPassword,
+        string confirmPassword
+    )
     {
         if (newPassword != confirmPassword)
         {
@@ -258,12 +273,6 @@ public class AccountController : Controller
         TempData["Message"] = "Mật khẩu đã được thay đổi thành công.";
         return RedirectToAction("Login");
     }
-
-
-
-
-
-
 
     private string GenerateOtp()
     {
@@ -341,5 +350,120 @@ public class AccountController : Controller
         }
 
         return RedirectToAction("Login");
+    }
+
+    public async Task<ActionResult> Info()
+    {
+        var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (!int.TryParse(userIdString, out int userId))
+        {
+            return BadRequest("Invalid user ID.");
+        }
+
+        var user = await _userService.GetById(userId);
+
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var userInfoVM = new UserInfoVM
+        {
+            Email = user.Email,
+            PhoneNumber = user.DienThoai, // Assuming PhoneNumber is the correct property
+            Address = user.DiaChi, // Assuming Address is the correct property
+            FullName = user.HoTen, // Assuming FullName is the correct property
+            Password = user.MatKhau, // Assuming PasswordHash is the correct property
+        };
+
+        return View(userInfoVM);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> EditInfo()
+    {
+        var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (!int.TryParse(userIdString, out int userId))
+        {
+            return BadRequest("Invalid user ID.");
+        }
+
+        var user = await _userService.GetById(userId);
+
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var userInfoVM = new UserInfoVM
+        {
+            Email = user.Email,
+            PhoneNumber = user.DienThoai,
+            Address = user.DiaChi,
+            FullName = user.HoTen,
+        };
+
+        return View(userInfoVM);
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> EditInfo(UserInfoVM model)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View(model);
+        }
+
+        if (model.NewPassword != model.ConfirmPassword)
+        {
+            ModelState.AddModelError(string.Empty, "Passwords do not match.");
+            return View(model);
+        }
+
+        var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (!int.TryParse(userIdString, out int userId))
+        {
+            return BadRequest("Invalid user ID.");
+        }
+
+        var user = await _userService.GetById(userId);
+
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        user.HoTen = model.FullName;
+        user.Email = model.Email;
+        user.DienThoai = model.PhoneNumber;
+        user.DiaChi = model.Address;
+
+        if (model.Password != user.MatKhau)
+        {
+            user.MatKhau = _passwordHasher.HashPassword(user, model.NewPassword);
+        }
+
+        _context.Users.Update(user);
+        await _context.SaveChangesAsync();
+
+        return RedirectToAction("Info");
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> Orders()
+    {
+        var userIdString = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (!int.TryParse(userIdString, out int userId))
+        {
+            return BadRequest("Invalid user ID.");
+        }
+
+        var orders = await _context
+            .HoaDons.Where(h => h.MaUser == userId)
+            .Include(h => h.TrangThai)
+            .ToListAsync();
+
+        return View(orders);
     }
 }

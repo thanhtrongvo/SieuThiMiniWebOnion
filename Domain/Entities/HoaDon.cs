@@ -8,9 +8,11 @@ namespace Domain.Entities;
 [Table("HoaDon")]
 public class HoaDon
 {
-    [Key] public int MaHD { get; set; }
+    [Key]
+    public int MaHD { get; set; }
 
-    [Required] public int MaUser { get; set; }
+    [Required]
+    public int MaUser { get; set; }
 
     public User? User { get; set; }
 
@@ -21,11 +23,15 @@ public class HoaDon
     public DateTime? NgayCan { get; set; }
     public DateTime? NgayGiao { get; set; }
 
-    [Required] [StringLength(255)] public string? DiaChiGiao { get; set; }
+    [Required]
+    [StringLength(255)]
+    public string? DiaChiGiao { get; set; }
 
-    [Required] public float PhiVanChuyen { get; set; }
+    [Required]
+    public float PhiVanChuyen { get; set; }
 
-    [Required] public int MaTrangThai { get; set; }
+    [Required]
+    public int MaTrangThai { get; set; }
 
     public TrangThai? TrangThai { get; set; }
 

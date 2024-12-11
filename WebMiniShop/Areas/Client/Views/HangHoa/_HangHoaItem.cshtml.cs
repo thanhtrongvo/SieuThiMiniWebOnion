@@ -4,8 +4,5 @@ namespace WebMiniShop.Areas.Client.Views.HangHoa;
 
 public class _HangHoaItem : PageModel
 {
-    public void OnGet()
-    {
-        
-    }
+    public void OnGet() { }
 }

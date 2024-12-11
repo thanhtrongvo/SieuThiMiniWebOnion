@@ -17,8 +17,7 @@ namespace Domain.Entities
         [Required]
         [StringLength(255)]
         [Display(Name = "Tên Hàng Hóa")]
-
-        public  string? TenHH { get; set; }
+        public string? TenHH { get; set; }
 
         public int MaLoai { get; set; }
         public Loai? Loai { get; set; }
@@ -27,7 +26,7 @@ namespace Domain.Entities
 
         [StringLength(255)]
         [Display(Name = "Hình Ảnh")]
-        public  string? Hinh { get; set; }
+        public string? Hinh { get; set; }
 
         [Required]
         [Display(Name = "Ngày Sản Xuất")]
@@ -38,12 +37,11 @@ namespace Domain.Entities
 
         [Required]
         public int SoLanXem { get; set; }
-  
-        public  string? MoTa { get; set; }
+
+        public string? MoTa { get; set; }
 
         // Navigation Properties
-        public  ICollection<ChiTietHD>? ChiTietHDs { get; set; }
+        public ICollection<ChiTietHD>? ChiTietHDs { get; set; }
         public ICollection<TonKho>? TonKhos { get; set; }
-
     }
 }

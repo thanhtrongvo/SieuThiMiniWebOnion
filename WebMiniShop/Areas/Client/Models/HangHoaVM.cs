@@ -26,7 +26,6 @@ public class ChiTietHangHoaVM
     public float GiamGia { get; set; }
     public int MaLoai { get; set; }
     public string TenLoai { get; set; }
-    public int SoLuong { get; set; }
+    public int SoLuongTon { get; set; }
     public int DanhGia { get; set; }
 }
-   

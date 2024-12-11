@@ -1,7 +1,7 @@
-﻿using Application.Features.Interface;
+﻿using System.Threading.Tasks;
+using Application.Features.Interface;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 
 namespace WebMiniShop.Controllers
 {
@@ -13,7 +13,12 @@ namespace WebMiniShop.Controllers
         private readonly INhaCungCapService _nhaCungCapService;
         private readonly ITonKhoService _tonKhoService;
 
-        public NhapKhoController(INhapKhoService nhapKhoService, IHangHoaService hangHoaService, INhaCungCapService nhaCungCapService, ITonKhoService tonKhoService)
+        public NhapKhoController(
+            INhapKhoService nhapKhoService,
+            IHangHoaService hangHoaService,
+            INhaCungCapService nhaCungCapService,
+            ITonKhoService tonKhoService
+        )
         {
             _nhapKhoService = nhapKhoService;
             _hangHoaService = hangHoaService;
@@ -64,7 +69,7 @@ namespace WebMiniShop.Controllers
                     {
                         MaHH = nhapKho.MaHH,
                         SoLuongTon = nhapKho.SoLuong, // Số lượng nhập kho là số lượng tồn kho ban đầu
-                        NgayCapNhat = DateTime.Now
+                        NgayCapNhat = DateTime.Now,
                     };
                     await _tonKhoService.CreateTonKhoAsync(newTonKho); // Thêm mới tồn kho
                 }
@@ -77,7 +82,6 @@ namespace WebMiniShop.Controllers
             ViewBag.NhaCungCaps = await _nhaCungCapService.GetAllAsync();
             return View(nhapKho);
         }
-
 
         // Hiển thị form chỉnh sửa
         [HttpGet]

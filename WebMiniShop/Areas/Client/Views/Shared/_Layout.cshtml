@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Fruitables - Vegetable Website Template</title>
+    <title>@ViewData["title"]</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -27,6 +27,9 @@
 
     <!-- Template Stylesheet -->
     <link href="~/css/style.css" rel="stylesheet">
+    <style>
+        @RenderSection("Styles", required: false)
+    </style>
 </head>
 
 <body>
@@ -51,6 +54,9 @@
 </a>
 
 
+<script>
+    @RenderSection("Scripts", required: false)
+</script>
 <!-- JavaScript Libraries -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -64,7 +70,8 @@
 
 <!-- Template Javascript -->
 <script src="~/js/main.js"></script>
-    @RenderSection("Scripts", required: false)
+
+
     
 </body>
 

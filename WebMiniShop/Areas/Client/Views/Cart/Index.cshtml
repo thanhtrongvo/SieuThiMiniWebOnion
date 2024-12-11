@@ -1,5 +1,8 @@
 ﻿@model IEnumerable<FoodShop.Models.CartItem>
 
+@{
+    ViewData["Title"] = "Cart";
+}
 <!-- Modal Search End -->
 <!-- Single Page Header start -->
 <div class="container-fluid page-header py-5 bg-primary">
@@ -36,7 +39,7 @@
                     <tr>
                         <th scope="row">
                             <div class="d-flex align-items-center">
-                                <img src="~/image/@item.Hinh" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
+                                <img src="~/image/HangHoa/@item.Hinh" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
                             </div>
                         </th>
                         <td>

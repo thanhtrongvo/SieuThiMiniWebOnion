@@ -4,8 +4,5 @@ namespace WebMiniShop.Areas.Client.Views.Cart;
 
 public class Success : PageModel
 {
-    public void OnGet()
-    {
-        
-    }
+    public void OnGet() { }
 }
